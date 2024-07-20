@@ -31,7 +31,7 @@ function Nav() {
             </ul>
           </li>
           <li className="p-3 xl:p-6 relative">
-            <NavLink to="/features" activeClassName="active">
+            <NavLink to="/about" activeClassName="active">
               <span>About</span>
             </NavLink>
             <ul className="submenu">
@@ -55,7 +55,7 @@ function Nav() {
             </ul>
           </li>
           <li className="p-3 xl:p-6 relative">
-            <NavLink to="/analytics" activeClassName="active">
+            <NavLink to="/contact" activeClassName="active">
               <span>Contact Us</span>
             </NavLink>
             <ul className="submenu">
