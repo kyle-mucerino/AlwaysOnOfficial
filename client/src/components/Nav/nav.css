@@ -1,0 +1,128 @@
+/* Existing CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+header {
+  background: #ece9e6; 
+  background: -webkit-linear-gradient(to left, #ffffff, #ece9e6); 
+  background: linear-gradient(to left, #ffffff, #ece9e6); 
+  color: black;
+  padding: 2rem; 
+}
+
+.header-links li span {
+  position: relative;
+  z-index: 0;
+}
+
+.header-links li span::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  bottom: 2px;
+  left: -4px;
+  right: -4px;
+  display: block;
+  height: 6px;
+}
+
+.header-links .active span::before {
+  background-color: #fcae04;
+}
+
+.header-links li:not(.active):hover span::before {
+  background-color: #BDBDBD ;
+}
+
+nav ul {
+  text-align: center;
+  display: flex;
+  gap: 1rem; /* Add space between navigation links */
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative; 
+}
+
+nav ul li a {
+  padding: 18px;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fading {
+  animation: fadeInOut 2s infinite;
+}
+
+.button {
+  transition: all 0.5s;
+  background-color: transparent;
+  background: linear-gradient(to bottom, #f7b733, #fc4a1a);
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Submenu CSS */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.submenu li {
+  padding: 10px 20px;
+}
+
+.submenu li a {
+  white-space: nowrap;
+}
+
+li:hover > .submenu {
+  display: block;
+}

@@ -408,6 +408,68 @@ function Platform() {
           </div>
         </div>
       </div>
+
+      {/* SECTION 6 */}
+      <div className="section section-6 flex flex-col">
+        <div className="text-center p-2">
+          <h1 className="text-7xl alata-regular">Testimonials</h1>
+          <p className="text-3xl italic mt-4 text-center">
+            100+ schools & districts in 13 states enhance their schools online
+            presence with AlwaysOn
+          </p>
+        </div>
+        <div className="testimonials flex flex-row p-8 justify-center">
+          <figure class="snip1533">
+            <figcaption>
+              <blockquote>
+                <p>
+                  If you do the job badly enough, sometimes you don't get asked
+                  to do it again.
+                </p>
+              </blockquote>
+              <h3>Wisteria Ravenclaw</h3>
+              <h4>Google Inc.</h4>
+            </figcaption>
+          </figure>
+          <figure class="snip1533">
+            <figcaption>
+              <blockquote>
+                <p>
+                  I'm killing time while I wait for life to shower me with
+                  meaning and happiness.
+                </p>
+              </blockquote>
+              <h3>Ursula Gurnmeister</h3>
+              <h4>Facebook</h4>
+            </figcaption>
+          </figure>
+          <figure class="snip1533">
+            <figcaption>
+              <blockquote>
+                <p>
+                  The only skills I have the patience to learn are those that
+                  have no real application in life.{" "}
+                </p>
+              </blockquote>
+              <h3>Ingredia Nutrisha</h3>
+              <h4>Twitter</h4>
+            </figcaption>
+          </figure>
+        </div>
+        <div className="content-container-1 text-center">
+          <h1 className="text-6xl alata-regular p-12">
+            See all you can accomplish with AlwaysOn
+          </h1>
+          <div className="free-trial flex-row">
+            <button className="border-2 border-white bg-white text-black rounded-lg p-4 freeman-regular uppercase mx-4">
+              <span>Get started</span>
+            </button>
+            <button className="border-2 border-white bg-white text-black rounded-lg p-4 freeman-regular uppercase">
+              <span>contact us</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
