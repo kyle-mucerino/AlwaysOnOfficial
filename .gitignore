@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+
+# Build output
+build/
+dist/
+out/
+
+# Environment variables
+.env
+.env.local
+
+# Coverage directory
+coverage/
+
+# macOS system files
+.DS_Store
+
+# IDE/Editor settings
+.vscode/
+.idea/
