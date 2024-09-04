@@ -1,12 +1,15 @@
+body {
+  background: linear-gradient(to bottom, #FF6600, #fc4a1a);
+}
+
 .section {
   padding: 2rem 0;
   color: #17202A; /* Adjust padding as needed */
 }
 .section-1 {
   min-height: 120vh;
-  background: linear-gradient(to bottom, #f7b733, #fc4a1a);
 }
-.section-2 {
+/* .section-2 {
   background: linear-gradient(to top, #f7b733, #fc4a1a);
 }
 
@@ -24,7 +27,7 @@
 
 .section-6 {
   background: linear-gradient(to top, #f7b733, #fc4a1a);
-}
+} */
 
 /* SECTION 1 */
 /* GIF BUBBLE SECTION-1 */
@@ -98,7 +101,7 @@
 
 /* Speech Bubbles */
 .speech-bubble2 {
-  margin: .25em auto;
+  margin: 1.5em auto;
   padding: 1em;
   border-radius: .25em;
   transform: rotate(-4deg) rotateY(15deg);
@@ -108,7 +111,7 @@
 
 .speech-bubble-right2 {
   position: relative;
-  margin: .25em auto;
+  margin: 1.5em auto;
   padding: 1em;
   border-radius: .25em;
   transform: rotate(1deg) rotateY(15deg);
@@ -377,3 +380,42 @@
   margin: 0 0 0.5rem;
 }
 /* TESTIMONIALS */
+
+/* ROI Calc */
+/* Slider Track (the bar the thumb moves along) */
+#student-slider {
+  -webkit-appearance: none; /* Hides default appearance */
+  width: 50%; /* Full width */
+  height: 8px; /* Slider height */
+  background: dodgerblue; /* Track color */
+  transition: opacity .15s ease-in-out; /* Smooth transition */
+  border-radius: 5px; /* Rounded corners */
+  border-color: #000;
+}
+
+/* Slider Thumb */
+#student-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Removes default thumb styling */
+  width: 30px; /* Thumb width */
+  height: 30px; /* Thumb height */
+  background: dodgerblue; /* Thumb color */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 25px; /* Rounded corners */
+}
+
+#student-slider::-moz-range-thumb {
+  width: 30px; /* Thumb width */
+  height: 30px; /* Thumb height */
+  background: dodgerblue; /* Thumb color */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 25px; /* Rounded corners */
+}
+
+#student-slider::-ms-thumb {
+  width: 30px; /* Thumb width */
+  height: 30px; /* Thumb height */
+  background: dodgerblue; /* Thumb color */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 25px; /* Rounded corners */
+}
+

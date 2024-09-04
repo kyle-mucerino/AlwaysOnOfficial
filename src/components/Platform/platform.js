@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./platform.css";
 import { ReactComponent as Map } from "../../assets/map2.svg";
 import gif from "../../assets/homegif.gif";
@@ -32,6 +32,32 @@ function Platform() {
     image7: gif8,
     image8: gif9
   };
+
+    const studentSliderRef = useRef(null);
+    const studentCountRef = useRef(null);
+    const questionCountRef = useRef(null);
+
+    useEffect(() => {
+      const slider = studentSliderRef.current;
+      const studentCount = studentCountRef.current;
+      const questionCount = questionCountRef.current;
+
+      if (slider && studentCount && questionCount) {
+        const updateCounts = () => {
+          const studentValue = slider.value;
+          studentCount.textContent = studentValue;
+          const questionValue = (studentValue * 3).toFixed(); // Example calculation
+          questionCount.textContent = questionValue;
+        };
+
+        slider.addEventListener("input", updateCounts);
+        updateCounts(); // Initial update
+
+        return () => {
+          slider.removeEventListener("input", updateCounts);
+        };
+      }
+    }, []);
 
   return (
     <>
@@ -75,15 +101,15 @@ function Platform() {
 
       {/* SECTION 2 */}
       <div className="section section-2">
-        <div className="flex flex-row justify-evenly items-center p-8">
+        <div className="flex flex-row justify-evenly items-center">
           <div className="flex flex-col w-1/3">
-            <h1 className="text-4xl alata-regular speech-bubble2 mb-12">
+            <h1 className="text-4xl alata-regular speech-bubble2">
               Why AI Chatbots?{" "}
               <i className="fa-solid fa-robot text-4xl">
                 <span className="sr-only">robot</span>
               </i>{" "}
             </h1>
-            <p className="text-2xl saira-regular speech-bubble2 mt-12">
+            <p className="text-2xl saira-regular speech-bubble2">
               AI chatbots improve website efficiency by providing instant and
               personalized responses, reducing manual support efforts, and
               enhancing the user experience.
@@ -468,6 +494,27 @@ function Platform() {
               <span>contact us</span>
             </button>
           </div>
+        </div>
+        {/* ROI CALCULATOR SECTION */}
+        <div
+          id="roi-calculator"
+          className="my-8 text-center flex flex-col justify-center items-center alata-regular"
+        >
+          <label htmlFor="student-slider" className="text-5xl">
+            Number of Students: <span ref={studentCountRef}>500</span>
+          </label>
+          <input
+            type="range"
+            id="student-slider"
+            min="100"
+            max="5000"
+            defaultValue="2500"
+            ref={studentSliderRef}
+            className="my-8"
+          />
+          <p className="text-5xl">
+            Estimated Questions Answered: <span ref={questionCountRef}>3000</span>
+          </p>
         </div>
       </div>
     </>
