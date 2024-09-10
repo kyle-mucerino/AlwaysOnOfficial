@@ -67,7 +67,7 @@ function Platform() {
           <div className="headline mb-4">
             <h1 className="text-7xl alata-regular">
               AlwaysOn{" "}
-              <i className="hidden custom:block fa-solid fa-bolt">
+              <i className="fa-solid fa-bolt">
                 <span className="sr-only">Lightning Bolt</span>
               </i>
             </h1>
