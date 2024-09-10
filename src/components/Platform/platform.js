@@ -67,7 +67,7 @@ function Platform() {
           <div className="headline mb-4">
             <h1 className="text-7xl alata-regular">
               AlwaysOn{" "}
-              <i className="fa-solid fa-bolt">
+              <i className="hidden custom:block fa-solid fa-bolt">
                 <span className="sr-only">Lightning Bolt</span>
               </i>
             </h1>
@@ -101,7 +101,7 @@ function Platform() {
 
       {/* SECTION 2 */}
       <div className="section section-2">
-        <div className="flex flex-row justify-evenly items-center">
+        <div className="hidden custom:flex flex-row justify-evenly items-center">
           <div className="flex flex-col w-1/3">
             <h1 className="text-4xl alata-regular speech-bubble2">
               Why AI Chatbots?{" "}
@@ -135,7 +135,7 @@ function Platform() {
 
       <div className="section section-3">
         <div className="ag-format-container p-4">
-          <div className="ag-courses_box saira-regular grid grid-cols-8">
+          <div className="ag-courses_box saira-regular hidden custom:grid grid-cols-8">
             <div className="ag-courses_item col-start-1 col-span-3">
               <a href="/features" className="ag-courses-item_link">
                 <div className="ag-courses-item_bg"></div>
@@ -288,7 +288,7 @@ function Platform() {
       </div>
 
       {/* SECTION 4 */}
-      <div className="section section-4 flex flex-col">
+      <div className="section section-4 hidden custom:flex flex-col">
         <div className="flex flex-row p-8">
           <div className="flex w-1/2">
             <figure className="implement">
@@ -405,7 +405,7 @@ function Platform() {
         </div>
         <div className="flex flex-row text-center">
           <div className="flex flex-col mt-4 w-1/2 mx-auto">
-            <div className="flex flex-col my-12">
+            <div className="hidden custom:flex flex-col my-12">
               <Map />
               <div className="flex flex-row mt-8 italic">
                 <a href="https://commons.wikimedia.org/wiki/File:Blank_US_Map_(states_only).svg">
@@ -415,7 +415,7 @@ function Platform() {
               </div>
             </div>
           </div>
-          <div className="sm:grid grid-cols-1 mx-auto my-auto hidden">
+          <div className="custom:grid grid-cols-1 mx-auto my-auto hidden">
             <ul className="saira-regular text-2xl">
               <li>California</li>
               <li>Texas</li>
@@ -444,7 +444,7 @@ function Platform() {
             presence with AlwaysOn
           </p>
         </div>
-        <div className="testimonials flex flex-row p-8 justify-center">
+        <div className="testimonials hidden custom:flex flex-row p-8 justify-center">
           <figure class="snip1533">
             <figcaption>
               <blockquote>
@@ -482,7 +482,7 @@ function Platform() {
             </figcaption>
           </figure>
         </div>
-        <div className="content-container-1 text-center">
+        <div className="hidden custom:block content-container-1 text-center">
           <h1 className="text-6xl alata-regular p-12">
             See all you can accomplish with AlwaysOn
           </h1>
@@ -513,7 +513,8 @@ function Platform() {
             className="my-8"
           />
           <p className="text-5xl">
-            Estimated Questions Answered: <span ref={questionCountRef}>3000</span>
+            Estimated Questions Answered:{" "}
+            <span ref={questionCountRef}>3000</span>
           </p>
         </div>
       </div>
