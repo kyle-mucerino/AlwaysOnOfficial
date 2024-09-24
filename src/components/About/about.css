@@ -405,3 +405,64 @@
 .button-shadow:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
+
+/* Speech Bubbles */
+.speech-bubble2 {
+  margin: 1.5em auto;
+  padding: 1em;
+  border-radius: .25em;
+  transform: rotate(-4deg) rotateY(15deg);
+  background: #212F3D;
+  text-align: center;
+}
+
+.speech-bubble-right2 {
+  position: relative;
+  margin: 1.5em auto;
+  padding: 1em;
+  border-radius: .25em;
+  transform: rotate(1deg) rotateY(15deg);
+  background: #212F3D;
+  text-align: center;
+}
+
+.speech-bubble2:before, .speech-bubble2:after,
+.speech-bubble-right2:before, .speech-bubble-right2:after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+}
+
+.speech-bubble2:after, .speech-bubble-right2:after {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+  transform: rotate(2deg) translate(.45em, -.15em) scale(1.02);
+  background: #f4fbfe;
+}
+
+/* Left-aligned speech bubble */
+.speech-bubble2:before {
+  border: solid 0 transparent;
+  border-right: solid 3.5em #f4fbfe;
+  border-bottom: solid .25em #629bdd;
+  bottom: .25em;
+  left: 1.25em;
+  width: 0;
+  height: 0.9em;
+  transform: rotate(45deg) skewX(75deg);
+}
+
+/* Right-aligned speech bubble */
+.speech-bubble-right2:before {
+  border: solid 0 transparent;
+  border-left: solid 3.5em #f4fbfe;
+  border-bottom: solid .25em black;
+  bottom: .25em;
+  right: 1.25em;
+  width: 0;
+  height: 0.75em;
+  transform: rotate(-45deg) skewX(-75deg);
+}

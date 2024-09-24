@@ -92,38 +92,26 @@ function Platform() {
       </div>
 
       {/* SECTION 2 */}
-      <div className="section section-2">
-        <div className="hidden custom:flex flex-row justify-evenly items-center">
-          <div className="flex flex-col w-1/3">
-            <h1 className="text-4xl alata-regular speech-bubble2">
-              Why AI Chatbots?{" "}
-              <i className="fa-solid fa-robot text-4xl">
-                <span className="sr-only">robot</span>
-              </i>{" "}
-            </h1>
-            <p className="text-2xl saira-regular speech-bubble2">
-              AI chatbots improve website efficiency by providing instant and
-              personalized responses, reducing manual support efforts, and
-              enhancing the user experience.
-            </p>
-          </div>
-          <div className="flex flex-col w-1/3">
-            <h1 className="text-4xl alata-regular speech-bubble-right2 mb-12">
-              Why AlwaysOn?{" "}
-              <i className="fa-solid fa-bolt">
-                <span className="sr-only">Lightning Bolt</span>
-              </i>
-            </h1>
-            <p className="text-2xl saira-regular speech-bubble-right2 mt-12">
-              Education is what we do! At AlwaysOn our mission is to help
-              stakeholders on your school webstie get answers, find information,
-              and feel supported <b>24/7/365</b>.
-            </p>
-          </div>
+      <div className="section section-2 flex flex-row">
+        <div className="flex flex-col">
+          <h1 className="alata-regular text-4xl mb-4">Website Chatbot</h1>
+          <img
+            src={chatBot}
+            alt="gif"
+            className="w-1/2 rounded-lg mx-auto drop-shadow-2xl"
+          />
+        </div>
+        <div className="flex flex-col">
+          <h1 className="alata-regular text-4xl mb-4">
+            Internal Document Chatbot
+          </h1>
+          <img
+            src={chatBot}
+            alt="gif"
+            className="w-1/2 rounded-lg mx-auto drop-shadow-2xl"
+          />
         </div>
       </div>
-
-      {/* SECTION 3 */}
 
       {/* SECTION 4 */}
       <div className="section section-4 hidden custom:flex flex-col">
@@ -192,15 +180,15 @@ function Platform() {
           <div className="flex items-center w-1/2">
             <div className="flex flex-col">
               <h1 className="text-5xl font-extrabold alata-regular">
-                Survey Tool
+                Contact Us Routing
               </h1>
               <h2 className="text-3xl font-extrabold alata-regular my-4">
-                Capture Feedback
+                Lorum Ipsum
               </h2>
               <p className="text-3xl saira-regular">
-                In addition to the ChatBot, AlwaysOn's extensive Survey Tool
-                will give you further insights into the questions and comments
-                most prevalent on your school's website.
+                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco.
               </p>
               <div className="mt-4 flex">
                 <button
@@ -224,6 +212,58 @@ function Platform() {
                 <button
                   className="text-3xl saira-regular button-shadow ml-4"
                   onClick={() => setSelectedImage2("image8")}
+                >
+                  Feature 4
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-row p-8">
+          <div className="flex w-1/2">
+            <figure className="implement">
+              <img
+                className="w-5/6 mx-auto"
+                src={images[selectedImage]}
+                alt="gif"
+              />
+            </figure>
+          </div>
+          <div className="flex items-center w-1/2">
+            <div className="flex flex-col">
+              <h1 className="text-5xl font-extrabold alata-regular">
+                Professional Services
+              </h1>
+              <h2 className="text-3xl font-extrabold alata-regular my-4">
+                Lorem Ipsum
+              </h2>
+              <p className="text-3xl saira-regular">
+                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco.
+              </p>
+              <div className="mt-4 flex">
+                <button
+                  className="text-3xl saira-regular button-shadow"
+                  onClick={() => setSelectedImage("image1")}
+                >
+                  Feature 1
+                </button>
+                <button
+                  className="text-3xl saira-regular button-shadow ml-4"
+                  onClick={() => setSelectedImage("image2")}
+                >
+                  Feature 2
+                </button>
+                <button
+                  className="text-3xl saira-regular button-shadow ml-4"
+                  onClick={() => setSelectedImage("image3")}
+                >
+                  Feature 3
+                </button>
+                <button
+                  className="text-3xl saira-regular button-shadow ml-4"
+                  onClick={() => setSelectedImage("image4")}
                 >
                   Feature 4
                 </button>
@@ -322,7 +362,7 @@ function Platform() {
         </div>
         <div className="hidden custom:block content-container-1 text-center">
           <h1 className="text-6xl alata-regular p-12">
-            See all you can accomplish with AlwaysOn
+            See what you can accomplish with AlwaysOn
           </h1>
           <div className="free-trial flex-row">
             <button className="border-2 border-white bg-white text-black rounded-lg p-4 freeman-regular uppercase mx-4">
@@ -338,7 +378,7 @@ function Platform() {
           id="roi-calculator"
           className="my-8 text-center flex flex-col justify-center items-center alata-regular"
         >
-          <label htmlFor="student-slider" className="text-5xl">
+          <label htmlFor="student-slider" className="text-3xl">
             Number of Students: <span ref={studentCountRef}>500</span>
           </label>
           <input
@@ -350,7 +390,7 @@ function Platform() {
             ref={studentSliderRef}
             className="my-8"
           />
-          <p className="text-5xl">
+          <p className="text-3xl">
             Estimated Questions Answered:{" "}
             <span ref={questionCountRef}>3000</span>
           </p>

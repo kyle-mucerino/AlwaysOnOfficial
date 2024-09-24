@@ -283,6 +283,38 @@ function About() {
           See the Chat Bot in action!
         </p>
       </div>
+            
+            {/* SPEECH BUBBLES WHITE/BLACK */}
+      <div className="section section-2">
+        <div className="hidden custom:flex flex-row justify-evenly items-center">
+          <div className="flex flex-col w-1/3">
+            <h1 className="text-4xl alata-regular speech-bubble2">
+              Why AI Chatbots?{" "}
+              <i className="fa-solid fa-robot text-4xl">
+                <span className="sr-only">robot</span>
+              </i>{" "}
+            </h1>
+            <p className="text-2xl saira-regular speech-bubble2">
+              AI chatbots improve website efficiency by providing instant and
+              personalized responses, reducing manual support efforts, and
+              enhancing the user experience.
+            </p>
+          </div>
+          <div className="flex flex-col w-1/3">
+            <h1 className="text-4xl alata-regular speech-bubble-right2 mb-12">
+              Why AlwaysOn?{" "}
+              <i className="fa-solid fa-bolt">
+                <span className="sr-only">Lightning Bolt</span>
+              </i>
+            </h1>
+            <p className="text-2xl saira-regular speech-bubble-right2 mt-12">
+              Education is what we do! At AlwaysOn our mission is to help
+              stakeholders on your school webstie get answers, find information,
+              and feel supported <b>24/7/365</b>.
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
