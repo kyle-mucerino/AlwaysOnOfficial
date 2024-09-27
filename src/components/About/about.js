@@ -15,19 +15,17 @@ import gif9 from "../../assets/blackboard.gif";
 import gif10 from "../../assets/teacher2.gif";
 
 function About() {
-  const [activeImage, setActiveImage] = useState("image1");
+  const [selectedBot, setSelectedBot] = useState("website"); // Default to "website" bot
 
-  const handleMouseOver = (imageId) => {
-    setActiveImage(imageId);
-  };
   return (
     <>
+      {/* SECTION 1 */}
       <div className="section section-01 flex">
         <div className="container">
-          <div className="box">
+          <div className="box" onClick={() => setSelectedBot("website")}>
             <span></span>
             <div className="content">
-              <h2>Product Benefit 1</h2>
+              <h2>Website Bot</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -35,21 +33,10 @@ function About() {
               <a href="#top">Read More</a>
             </div>
           </div>
-          <div className="box">
+          <div className="box" onClick={() => setSelectedBot("document")}>
             <span></span>
             <div className="content">
-              <h2>Product Benefit 2</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <a href="#top">Read More</a>
-            </div>
-          </div>
-          <div className="box">
-            <span></span>
-            <div className="content">
-              <h2>Product Benefit 3</h2>
+              <h2>Document Bot</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -61,62 +48,17 @@ function About() {
       </div>
 
       {/* SECTION 2 */}
-      <div className="section section-02 flex flex-row items-center justify-center">
-        <div className="flex flex-row container-1 items-center mx-auto">
-          <div className="left-container">
-            <img
-              src={Image1}
-              className={activeImage === "image1" ? "active" : ""}
-              id="image1"
-              alt="Mission Focused"
-            />
-            <img
-              src={Image2}
-              className={activeImage === "image2" ? "active" : ""}
-              id="image2"
-              alt="Customer Centric"
-            />
-            <img
-              src={Image4}
-              className={activeImage === "image3" ? "active" : ""}
-              id="image3"
-              alt="User Friendly"
-            />
-            <img
-              src={Image2}
-              className={activeImage === "image4" ? "active" : ""}
-              id="image4"
-              alt=""
-            />
+      <div className="section section-02 flex flex-col items-center justify-center">
+        {selectedBot === "website" && (
+          <div className="website text-4xl alata-regular">
+            A powerful AI chatbot in the center of a customer service platform
           </div>
-          <div className="right-container saira-regular mx-auto my-auto">
-            <h1 className="text-6xl mb-8">Product Overview</h1>
-            <p className="text-2xl">
-              Whatever words you want to emphasize, you
-              <span
-                className="highlight"
-                onMouseOver={() => handleMouseOver("image1")}
-              >
-                &nbsp;highlight,
-              </span>
-              &nbsp;or&nbsp;
-              <span
-                className="highlight"
-                onMouseOver={() => handleMouseOver("image2")}
-              >
-                this one,&nbsp;
-              </span>
-              and whenever the user hovers over or clicks that word, it will
-              change&nbsp;
-              <span
-                className="highlight"
-                onMouseOver={() => handleMouseOver("image3")}
-              >
-                images.
-              </span>
-            </p>
+        )}
+        {selectedBot === "document" && (
+          <div className="document text-4xl alata-regular">
+            Document based internal chatbot
           </div>
-        </div>
+        )}
       </div>
 
       {/* SECTION 3 */}
@@ -283,9 +225,9 @@ function About() {
           See the Chat Bot in action!
         </p>
       </div>
-            
-            {/* SPEECH BUBBLES WHITE/BLACK */}
-      <div className="section section-2">
+
+      {/* SPEECH BUBBLES WHITE/BLACK */}
+      <div className="section">
         <div className="hidden custom:flex flex-row justify-evenly items-center">
           <div className="flex flex-col w-1/3">
             <h1 className="text-4xl alata-regular speech-bubble2">

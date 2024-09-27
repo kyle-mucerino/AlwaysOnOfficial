@@ -374,7 +374,7 @@ function Platform() {
           </div>
         </div>
         {/* ROI CALCULATOR SECTION */}
-        <div
+        {/* <div
           id="roi-calculator"
           className="my-8 text-center flex flex-col justify-center items-center alata-regular"
         >
@@ -394,7 +394,7 @@ function Platform() {
             Estimated Questions Answered:{" "}
             <span ref={questionCountRef}>3000</span>
           </p>
-        </div>
+        </div> */}
       </div>
     </>
   );
