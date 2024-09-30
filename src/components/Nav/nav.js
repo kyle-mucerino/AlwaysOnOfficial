@@ -20,7 +20,7 @@ function Nav() {
             </NavLink>
             <ul className="submenu">
               <li>
-                <NavLink to="/ai-chatbot">AI Chatbot</NavLink>
+                <NavLink to="/chatbot">AI Chatbot</NavLink>
               </li>
               <li>
                 <NavLink to="/survey-tool">Survey Tool</NavLink>

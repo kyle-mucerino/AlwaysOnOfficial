@@ -6,6 +6,8 @@ import About from "./components/About/about.js";
 import Login from "./components/Login/login.js";
 import Contact from "./components/Contact/contact.js";
 import Footer from "./components/Footer/footer.js";
+import Chatbot from "./components/Chatbot/chatbot.js";
+import SurveyTool from "./components/SurveyTool/surveyTool.js";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/chatbot" element={<Chatbot />} />
+          <Route path="/survey-tool" element={<SurveyTool/>} />
         </Routes>
         <Footer />
       </div>
