@@ -63,7 +63,7 @@ function Platform() {
   return (
     <>
       {/* SECTION 1 */}
-      <div className="section section-1 flex flex-row">
+      <div className="section section-1 flex flex-row border-b-2 border-black">
         <div className="flex flex-col justify-evenly text-left ml-12">
           <div className="headline mb-4">
             <h1 className="text-8xl alata-regular">
@@ -92,7 +92,7 @@ function Platform() {
       </div>
 
       {/* SECTION 2 */}
-      <div className="section section-2 flex flex-row">
+      <div className="section section-2 flex flex-row border-b-4 border-dotted border-black">
         <div className="flex flex-col">
           <h1 className="alata-regular text-4xl mb-4">Website Chatbot</h1>
           <img
@@ -115,7 +115,7 @@ function Platform() {
 
       {/* SECTION 4 */}
       <div className="section section-4 hidden custom:flex flex-col">
-        <div className="flex flex-row p-8">
+        <div className="flex flex-row">
           <div className="flex w-1/2">
             <figure className="implement">
               <img
@@ -125,7 +125,7 @@ function Platform() {
               />
             </figure>
           </div>
-          <div className="flex items-center w-1/2">
+          <div className="flex items-center w-1/2 p-8">
             <div className="flex flex-col">
               <h1 className="text-5xl font-extrabold alata-regular">
                 Survey Tool
@@ -283,7 +283,7 @@ function Platform() {
         </div>
         <div className="flex flex-row text-center">
           <div className="flex flex-col mt-4 w-1/2 mx-auto">
-            <div className="hidden custom:flex flex-col my-12">
+            <div className="hidden custom:flex flex-col my-12 drop-shadow-2xl">
               <Map />
               <div className="flex flex-row mt-8 italic">
                 <a href="https://commons.wikimedia.org/wiki/File:Blank_US_Map_(states_only).svg">
@@ -294,7 +294,7 @@ function Platform() {
             </div>
           </div>
           <div className="custom:grid grid-cols-1 mx-auto my-auto hidden">
-            <ul className="saira-regular text-2xl">
+            <ul className="saira-regular text-2xl states">
               <li>California</li>
               <li>Texas</li>
               <li>Michigan</li>

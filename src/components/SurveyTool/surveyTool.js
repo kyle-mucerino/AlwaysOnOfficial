@@ -5,7 +5,7 @@ import chatBot from "../../assets/AOChatBot.png";
 function SurveyTool() {
   return (
     <>
-      <div className="section-st-1 flex flex-row justify-evenly items-center">
+      <div className="section-st-1 flex flex-row justify-evenly items-center border-b-2 border-black">
         <div className="flex flex-col justify-evenly text-left ml-12">
           <h1 className="text-8xl alata-regular mb-4">Survey Tool</h1>
           <p className="text-4xl saira-medium">
@@ -18,7 +18,7 @@ function SurveyTool() {
           </div>
         </div>
       </div>
-      <div className="section-st-2 flex justify-center items-center border-b-4 border-black">
+      <div className="section-st-2 flex justify-center items-center border-b-4 border-black border-dotted">
         <div className="flex flex-col justify-center text-center">
           <h1 className="text-7xl alata-regular mb-4">Who's it for?</h1>
           <p className="text-4xl saira-medium">
