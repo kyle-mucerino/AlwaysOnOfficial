@@ -92,7 +92,7 @@ function Platform() {
       </div>
 
       {/* SECTION 2 */}
-      <div className="section section-2 flex flex-row border-b-4 border-dotted border-black">
+      <div className="section section-2 flex flex-row">
         <div className="flex flex-col">
           <h1 className="alata-regular text-4xl mb-4">Website Chatbot</h1>
           <img
@@ -111,6 +111,16 @@ function Platform() {
             className="w-1/2 rounded-lg mx-auto drop-shadow-2xl"
           />
         </div>
+      </div>
+
+      <div className="relative flex justify-center items-center section-3 w-full">
+        <div className="flex-grow h-0 border-t border-gray-400"></div>
+        <img
+          className="fading h-36 mx-4"
+          src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
+          alt="Logo"
+        />
+        <div className="flex-grow h-0 border-t border-gray-400"></div>
       </div>
 
       {/* SECTION 4 */}

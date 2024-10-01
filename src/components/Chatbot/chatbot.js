@@ -18,13 +18,22 @@ function Chatbot() {
           </div>
         </div>
       </div>
-      <div className="section-cb-2 flex justify-center items-center border-b-4 border-black border-dotted">
+      <div className="section-cb-2 flex justify-center items-center">
         <div className="flex flex-col justify-center text-center">
           <h1 className="text-7xl alata-regular mb-4">Who's it for?</h1>
           <p className="text-4xl saira-medium">
             Description of feature value and why the feature is important
           </p>
         </div>
+      </div>
+      <div className="relative flex justify-center items-center w-full bg-white">
+        <div className="flex-grow h-0 border-t border-gray-400"></div>
+        <img
+          className="fading h-36 mx-4"
+          src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
+          alt="Logo"
+        />
+        <div className="flex-grow h-0 border-t border-gray-400"></div>
       </div>
       <div className="section-cb-3 p-4">
         <div className="flex flex-row">
