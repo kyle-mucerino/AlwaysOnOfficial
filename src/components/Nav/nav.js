@@ -8,7 +8,7 @@ function Nav() {
       <nav className="header-links font-semibold text-base lg:text-lg flex items-center w-full px-4 lg:px-6 xl:px-8">
         <NavLink to="/" className="mr-auto px-4 lg:px-6 xl:px-8">
           <img
-            className="fading h-24 py-2"
+            className="h-24 py-2"
             src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
             alt="Logo"
           />
@@ -64,7 +64,7 @@ function Nav() {
               </li>
             </ul>
           </li>
-          <li className="p-3 xl:p-6 relative">
+          {/* <li className="p-3 xl:p-6 relative">
             <NavLink to="/login" activeClassName="active">
               <span>Login</span>
             </NavLink>
@@ -73,7 +73,7 @@ function Nav() {
                 <NavLink to="/platform-login">Link to Platform Login</NavLink>
               </li>
             </ul>
-          </li>
+          </li> */}
         </ul>
         <button className="w-1/5 uppercase button ml-auto rounded-lg font-bold px-4 xl:px-6 py-2 xl:py-3  text-black text-xl">
           <span>Schedule a demo</span>

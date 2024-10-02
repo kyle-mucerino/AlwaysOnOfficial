@@ -66,12 +66,7 @@ function Platform() {
       <div className="section section-1 flex flex-row border-b-2 border-black">
         <div className="flex flex-col justify-evenly text-left ml-12">
           <div className="headline mb-4">
-            <h1 className="text-8xl alata-regular">
-              AlwaysOn{" "}
-              {/* <i className="fa-solid fa-bolt">
-                <span className="sr-only">Lightning Bolt</span>
-              </i> */}
-            </h1>
+            <h1 className="text-8xl alata-regular">AlwaysOn</h1>
           </div>
           <div>
             <p className="text-4xl saira-medium">
@@ -84,16 +79,51 @@ function Platform() {
             </button>
           </div>
         </div>
-        <div className="flex flex-row justify-center items-center">
-          <div>
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+
+        <div className="flex-grow relative feature-container w-full">
+          <div className="center-logo">
+            <img
+              className="h-48 mx-4"
+              src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
+              alt="Logo"
+            />
+          </div>
+          <div className="feature feature-1 w-1/3 text-left">
+            <a href="#webBot">
+              <img src={gif2} alt="Feature 1" className="w-1/2" />
+              <h3>Website Chatbot</h3>
+            </a>
+          </div>
+          <div className="feature feature-2 w-1/3 text-left">
+            <a href="#docBot">
+              <img src={gif3} alt="Feature 2" className="w-1/2" />
+              <h3>Internal Document Chatbot</h3>
+            </a>
+          </div>
+          <div className="feature feature-3 w-1/3 text-left">
+            <a href="#survey">
+              <img src={gif4} alt="Feature 3" className="w-1/2" />
+              <h3>Survey Tool</h3>
+            </a>
+          </div>
+          <div className="feature feature-4 w-1/3 text-left">
+            <a href="#contact">
+              <img src={gif5} alt="Feature 4" className="w-1/2" />
+              <h3>Contact Us Routing</h3>
+            </a>
+          </div>
+          <div className="feature feature-5 w-1/3 text-left">
+            <a href="#professional">
+              <img src={gif6} alt="Feature 5" className="w-1/2" />
+              <h3>Professional Services</h3>
+            </a>
           </div>
         </div>
       </div>
 
       {/* SECTION 2 */}
       <div className="section section-2 flex flex-row">
-        <div className="flex flex-col">
+        <div className="flex flex-col" id="webBot">
           <h1 className="alata-regular text-4xl mb-4">Website Chatbot</h1>
           <img
             src={chatBot}
@@ -101,7 +131,7 @@ function Platform() {
             className="w-1/2 rounded-lg mx-auto drop-shadow-2xl"
           />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col" id="docBot">
           <h1 className="alata-regular text-4xl mb-4">
             Internal Document Chatbot
           </h1>
@@ -116,7 +146,7 @@ function Platform() {
       <div className="relative flex justify-center items-center section-3 w-full">
         <div className="flex-grow h-0 border-t border-gray-400"></div>
         <img
-          className="fading h-36 mx-4"
+          className="h-36 mx-4"
           src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
           alt="Logo"
         />
@@ -136,7 +166,7 @@ function Platform() {
             </figure>
           </div>
           <div className="flex items-center w-1/2 p-8">
-            <div className="flex flex-col">
+            <div className="flex flex-col" id="survey">
               <h1 className="text-5xl font-extrabold alata-regular">
                 Survey Tool
               </h1>
@@ -177,7 +207,7 @@ function Platform() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row-reverse p-8">
+        <div className="flex flex-row-reverse p-8" id="contact">
           <div className="flex w-1/2">
             <figure className="pro">
               <img
@@ -229,7 +259,7 @@ function Platform() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row p-8">
+        <div className="flex flex-row p-8" id="professional">
           <div className="flex w-1/2">
             <figure className="implement">
               <img
