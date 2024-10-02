@@ -12,6 +12,7 @@ import gif8 from "../../assets/teacher.gif";
 import gif9 from "../../assets/blackboard.gif";
 import gif10 from "../../assets/teacher2.gif";
 import chatBot from "../../assets/AOChatBot.png";
+import logo2 from "../../assets/logo2.png";
 
 
 function Platform() {
@@ -90,32 +91,34 @@ function Platform() {
           </div>
           <div className="feature feature-1 w-1/3 text-left">
             <a href="#webBot">
-              <img src={gif2} alt="Feature 1" className="w-1/2" />
-              <h3>Website Chatbot</h3>
+              <h3 className="font-extrabold text-lg">Website Chatbot</h3>
+              <img src={gif2} alt="Feature 1" className="w-1/2 rounded-3xl" />
             </a>
           </div>
           <div className="feature feature-2 w-1/3 text-left">
             <a href="#docBot">
-              <img src={gif3} alt="Feature 2" className="w-1/2" />
-              <h3>Internal Document Chatbot</h3>
+              <h3 className="font-extrabold text-lg">
+                Internal Document Chatbot
+              </h3>
+              <img src={gif3} alt="Feature 2" className="w-1/2 rounded-3xl" />
             </a>
           </div>
           <div className="feature feature-3 w-1/3 text-left">
             <a href="#survey">
-              <img src={gif4} alt="Feature 3" className="w-1/2" />
-              <h3>Survey Tool</h3>
+              <img src={gif4} alt="Feature 3" className="w-1/2 rounded-3xl" />
+              <h3 className="font-extrabold text-lg">Survey Tool</h3>
             </a>
           </div>
           <div className="feature feature-4 w-1/3 text-left">
             <a href="#contact">
-              <img src={gif5} alt="Feature 4" className="w-1/2" />
-              <h3>Contact Us Routing</h3>
+              <img src={gif5} alt="Feature 4" className="w-1/2 rounded-3xl" />
+              <h3 className="font-extrabold text-lg">Contact Us Routing</h3>
             </a>
           </div>
           <div className="feature feature-5 w-1/3 text-left">
             <a href="#professional">
-              <img src={gif6} alt="Feature 5" className="w-1/2" />
-              <h3>Professional Services</h3>
+              <img src={gif6} alt="Feature 5" className="w-1/2 rounded-3xl" />
+              <h3 className="font-extrabold text-lg">Professional Services</h3>
             </a>
           </div>
         </div>

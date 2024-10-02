@@ -9,6 +9,7 @@ import Footer from "./components/Footer/footer.js";
 import Chatbot from "./components/Chatbot/chatbot.js";
 import SurveyTool from "./components/SurveyTool/surveyTool.js";
 
+
 function App() {
   return (
     <Router>
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/chatbot" element={<Chatbot />} />
           <Route path="/survey-tool" element={<SurveyTool/>} />
+          <Route path="/contact-us-routing" element={<Contact />} />
         </Routes>
         <Footer />
       </div>

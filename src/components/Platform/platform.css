@@ -52,12 +52,12 @@ body {
 
 /* Adjust the circle layout for the right side */
 .feature-1 {
-  top: 5%;
-  left: 70%; 
+  top: 3.5%;
+  left: 67%; 
 }
 
 .feature-2 {
-  top: 5%;
+  top: 3%;
   right: 50%; 
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 .feature-4 {
-  top: 50%;
+  top: 48%;
   right: 55%; 
 }
 

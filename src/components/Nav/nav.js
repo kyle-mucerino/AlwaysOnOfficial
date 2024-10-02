@@ -26,7 +26,7 @@ function Nav() {
                 <NavLink to="/survey-tool">Survey Tool</NavLink>
               </li>
               <li>
-                <NavLink to="/contact-us">Contact Us</NavLink>
+                <NavLink to="/contact-us-routing">Contact Us Routing</NavLink>
               </li>
             </ul>
           </li>
