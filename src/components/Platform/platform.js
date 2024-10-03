@@ -12,7 +12,7 @@ import gif8 from "../../assets/teacher.gif";
 import gif9 from "../../assets/blackboard.gif";
 import gif10 from "../../assets/teacher2.gif";
 import chatBot from "../../assets/AOChatBot.png";
-import logo2 from "../../assets/logo2.png";
+import circleLogo from "../../assets/circleLogo2.png";
 
 
 function Platform() {
@@ -82,20 +82,20 @@ function Platform() {
         </div>
 
         <div className="flex-grow relative feature-container w-full">
-          <div className="center-logo">
+          <div className="center-logo z-10">
             <img
-              className="h-48 mx-4"
-              src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
+              className="h-84"
+              src={circleLogo}
               alt="Logo"
             />
           </div>
-          <div className="feature feature-1 w-1/3 text-left">
+          <div className="feature feature-1 w-1/3 text-left z-20">
             <a href="#webBot">
               <h3 className="font-extrabold text-lg">Website Chatbot</h3>
               <img src={gif2} alt="Feature 1" className="w-1/2 rounded-3xl" />
             </a>
           </div>
-          <div className="feature feature-2 w-1/3 text-left">
+          <div className="feature feature-2 w-1/3 text-left z-20">
             <a href="#docBot">
               <h3 className="font-extrabold text-lg">
                 Internal Document Chatbot
@@ -103,19 +103,19 @@ function Platform() {
               <img src={gif3} alt="Feature 2" className="w-1/2 rounded-3xl" />
             </a>
           </div>
-          <div className="feature feature-3 w-1/3 text-left">
+          <div className="feature feature-3 w-1/3 text-left z-20">
             <a href="#survey">
               <img src={gif4} alt="Feature 3" className="w-1/2 rounded-3xl" />
               <h3 className="font-extrabold text-lg">Survey Tool</h3>
             </a>
           </div>
-          <div className="feature feature-4 w-1/3 text-left">
+          <div className="feature feature-4 w-1/3 text-left z-20">
             <a href="#contact">
               <img src={gif5} alt="Feature 4" className="w-1/2 rounded-3xl" />
               <h3 className="font-extrabold text-lg">Contact Us Routing</h3>
             </a>
           </div>
-          <div className="feature feature-5 w-1/3 text-left">
+          <div className="feature feature-5 w-1/3 text-left z-20">
             <a href="#professional">
               <img src={gif6} alt="Feature 5" className="w-1/2 rounded-3xl" />
               <h3 className="font-extrabold text-lg">Professional Services</h3>
