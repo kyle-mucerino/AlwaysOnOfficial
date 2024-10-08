@@ -81,9 +81,35 @@ function Platform() {
           </div>
         </div>
 
-        <div className="flex-grow relative feature-container w-full">
-          <div className="center-logo z-10">
-            <img className="h-84" src={circleLogo} alt="Logo" />
+        <div className="flex justify-center items-center">
+          <img className="rounded-lg w-4/5" src={chatBot} alt="Chat Bot" />
+        </div>
+
+        <div className="flex flex-col feature-container text-center justify-evenly items-center">
+          {" "}
+          <div className="feature w-2/5">
+            <a href="#survey">
+              <h3 className="font-extrabold text-lg">Survey Tool</h3>
+              <img src={gif4} alt="Feature 3" className=" rounded-full" />
+            </a>
+          </div>
+          <div className="feature w-2/5">
+            <a href="#contact">
+              <h3 className="font-extrabold text-lg">Contact Us Routing</h3>
+              <img src={gif5} alt="Feature 4" className="rounded-full" />
+            </a>
+          </div>
+          <div className="feature w-2/5">
+            <a href="#professional">
+              <h3 className="font-extrabold text-lg">Professional Services</h3>
+              <img src={gif6} alt="Feature 5" className="rounded-full" />
+            </a>
+          </div>
+        </div>
+
+        {/* <div className="flex-grow relative feature-container w-full">
+          <div className="center-logo z-10 p-4">
+            <img className="h-full rounded-lg" src={chatBot} alt="Chat Bot" />
           </div>
           <div className="feature feature-1 w-1/3 text-left z-20">
             <a href="#webBot">
@@ -101,23 +127,23 @@ function Platform() {
           </div>
           <div className="feature feature-3 w-1/3 text-left z-20">
             <a href="#survey">
-              <img src={gif4} alt="Feature 3" className="w-1/2 rounded-full" />
               <h3 className="font-extrabold text-lg">Survey Tool</h3>
+              <img src={gif4} alt="Feature 3" className="w-1/2 rounded-full" />
             </a>
           </div>
           <div className="feature feature-4 w-1/3 text-left z-20">
             <a href="#contact">
-              <img src={gif5} alt="Feature 4" className="w-1/2 rounded-full" />
               <h3 className="font-extrabold text-lg">Contact Us Routing</h3>
+              <img src={gif5} alt="Feature 4" className="w-1/2 rounded-full" />
             </a>
           </div>
           <div className="feature feature-5 w-1/3 text-left z-20">
             <a href="#professional">
-              <img src={gif6} alt="Feature 5" className="w-1/2 rounded-full" />
               <h3 className="font-extrabold text-lg">Professional Services</h3>
+              <img src={gif6} alt="Feature 5" className="w-1/2 rounded-full" />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* SECTION 2 */}

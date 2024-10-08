@@ -8,6 +8,7 @@ import Contact from "./components/Contact/contact.js";
 import Footer from "./components/Footer/footer.js";
 import Chatbot from "./components/Chatbot/chatbot.js";
 import SurveyTool from "./components/SurveyTool/surveyTool.js";
+import ProServices from "./components/ProServices/proServices";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/chatbot" element={<Chatbot />} />
           <Route path="/survey-tool" element={<SurveyTool/>} />
           <Route path="/contact-us-routing" element={<Contact />} />
+          <Route path="/professional-services" element={<ProServices />} />
         </Routes>
         <Footer />
       </div>

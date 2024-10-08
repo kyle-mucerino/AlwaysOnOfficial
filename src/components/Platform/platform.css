@@ -33,25 +33,25 @@ body {
 }
 
 /* SECTION 1 */
-.feature-container {
+/* .feature-container {
   position: relative;
-}
+} */
 
 /* Center logo */
 .center-logo {
   position: absolute;
-  top: 45%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
 }
 
-.feature {
+/* .feature {
   position: absolute;
-}
+} */
 
 /* Adjust the circle layout for the right side */
-.feature-1 {
+/* .feature-1 {
   top: 3.5%;
   left: 67%; 
 }
@@ -59,21 +59,21 @@ body {
 .feature-2 {
   top: 3%;
   right: 50%; 
-}
+} */
 
 .feature-3 {
   top: 50%;
-  left: 70%; 
+  left: 75%; 
 }
 
 .feature-4 {
   top: 50%;
-  right: 54%; 
+  right: 57.5%; 
 }
 
 .feature-5 {
-  top: 75%;
-  left: 42%;
+  top: -5%;
+  left: 40.5%;
 }
 
 .feature-container .feature {

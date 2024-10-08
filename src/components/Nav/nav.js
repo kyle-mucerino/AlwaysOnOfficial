@@ -28,6 +28,9 @@ function Nav() {
               <li>
                 <NavLink to="/contact-us-routing">Contact Us Routing</NavLink>
               </li>
+              <li>
+                <NavLink to="/professional-services">Professional Services</NavLink>
+              </li>
             </ul>
           </li>
           <li className="p-3 xl:p-6 relative">
