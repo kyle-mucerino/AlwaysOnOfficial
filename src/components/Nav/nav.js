@@ -42,10 +42,7 @@ function Nav() {
                 <NavLink to="/company">Company</NavLink>
               </li>
               <li>
-                <NavLink to="/materials">Materials</NavLink>
-              </li>
-              <li>
-                <NavLink to="/media">Media</NavLink>
+                <NavLink to="/media">Media & Materials</NavLink>
               </li>
               <li>
                 <NavLink to="/security-accessibility">

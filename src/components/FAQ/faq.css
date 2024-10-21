@@ -1,0 +1,38 @@
+.faq {
+  height: 80vh;
+}
+
+.accordion {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-header {
+  background-color: #f7f7f7;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.accordion-header h3 {
+  margin: 0;
+}
+
+.accordion-body {
+  padding: 15px;
+  background-color: #fff;
+}
+
+.accordion-body p {
+  margin: 0;
+}

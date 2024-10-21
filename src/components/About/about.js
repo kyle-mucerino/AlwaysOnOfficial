@@ -25,23 +25,34 @@ function About() {
           <div className="box" onClick={() => setSelectedBot("website")}>
             <span></span>
             <div className="content">
-              <h2>Website Bot</h2>
+              <h2>Company</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <a href="#top">Read More</a>
+              <a href="/company">Read More</a>
             </div>
           </div>
           <div className="box" onClick={() => setSelectedBot("document")}>
             <span></span>
             <div className="content">
-              <h2>Document Bot</h2>
+              <h2>Media & Materials</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <a href="#top">Read More</a>
+              <a href="/media">Read More</a>
+            </div>
+          </div>
+          <div className="box" onClick={() => setSelectedBot("document")}>
+            <span></span>
+            <div className="content">
+              <h2>FAQ</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="/faq">Read More</a>
             </div>
           </div>
         </div>

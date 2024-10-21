@@ -1,30 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import chatBot from "../../assets/AOChatBot.png";
 import "./chatbot.css";
 
 function Chatbot() {
+  const [selectedBot, setSelectedBot] = useState("website");
   return (
     <>
-      <div className="section-cb-1 flex flex-row justify-evenly items-center border-b-2 border-black">
-        <div className="flex flex-col justify-evenly text-left ml-12">
-          <h1 className="text-8xl alata-regular mb-4">AI-Chatbot </h1>
-          <p className="text-4xl saira-medium">
-            A powerful AI chatbot in the center of a customer service platform
-          </p>
-        </div>
-        <div className="flex flex-row justify-center items-center">
-          <div>
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+      {/* SECTION 1 */}
+      <div className="section section-01 flex">
+        <div className="container">
+          <div className="box" onClick={() => setSelectedBot("website")}>
+            <span></span>
+            <div className="content">
+              <h2>Website Bot</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="#top">Read More</a>
+            </div>
+          </div>
+          <div className="box" onClick={() => setSelectedBot("document")}>
+            <span></span>
+            <div className="content">
+              <h2>Document Bot</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="#top">Read More</a>
+            </div>
           </div>
         </div>
       </div>
-      <div className="section-cb-2 flex justify-center items-center">
-        <div className="flex flex-col justify-center text-center">
-          <h1 className="text-7xl alata-regular mb-4">Who's it for?</h1>
-          <p className="text-4xl saira-medium">
-            Description of feature value and why the feature is important
-          </p>
-        </div>
+
+      {/* SECTION 2 */}
+      <div className="section section-02 flex flex-col items-center justify-center">
+        {selectedBot === "website" && (
+          <div className="website text-4xl alata-regular">
+            A powerful AI chatbot in the center of a customer service platform
+          </div>
+        )}
+        {selectedBot === "document" && (
+          <div className="document text-4xl alata-regular">
+            Document based internal chatbot
+          </div>
+        )}
       </div>
       <div className="relative flex justify-center items-center w-full bg-white">
         <div className="flex-grow h-0 border-t border-gray-400"></div>

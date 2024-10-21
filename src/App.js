@@ -9,7 +9,9 @@ import Footer from "./components/Footer/footer.js";
 import Chatbot from "./components/Chatbot/chatbot.js";
 import SurveyTool from "./components/SurveyTool/surveyTool.js";
 import ProServices from "./components/ProServices/proServices";
-
+import Company from "./components/Company/company.js";
+import Media from "./components/Media/media.js";
+import FAQ from "./components/FAQ/faq.js";
 
 function App() {
   return (
@@ -22,9 +24,12 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/chatbot" element={<Chatbot />} />
-          <Route path="/survey-tool" element={<SurveyTool/>} />
+          <Route path="/survey-tool" element={<SurveyTool />} />
           <Route path="/contact-us-routing" element={<Contact />} />
           <Route path="/professional-services" element={<ProServices />} />
+          <Route path="/company" element={<Company />} />
+          <Route path="/media" element={<Media />} />
+          <Route path="/faq" element={<FAQ />} />
         </Routes>
         <Footer />
       </div>
