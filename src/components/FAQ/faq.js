@@ -8,27 +8,24 @@ const FAQ = () => {
   // FAQ data
   const faqs = [
     {
-      question: "What is React?",
-      answer: "React is a JavaScript library for building user interfaces."
-    },
-    {
-      question: "How does useState work?",
+      question: "Do you collect any data or personal information?",
       answer:
-        "useState is a React hook that lets you add state to a functional component."
+        "Your data is yours. We do not collect, save, or sell the personal information of anyone who uses our product. We only collect general usage data, not personally identifiable information, which we make available to you through analytics."
     },
     {
-      question: "What is JSX?",
+      question: "Is your product WCAG compliant?",
       answer:
-        "JSX stands for JavaScript XML. It allows us to write HTML in React."
+        "Yes, we follow the latest WCAG compliance guidelines and our chatbot is WCAG 2.0 AA compliant. "
     },
     {
-      question: "What is the Virtual DOM?",
+      question: "Does your product work with screen readers?",
       answer:
-        "The Virtual DOM is a lightweight representation of the real DOM, allowing React to update the UI efficiently."
+        "Yes, we have successfully tested our product with various screen readers and it is screen reader compatible."
     },
     {
-      question: "How do I pass data between components?",
-      answer: "You can pass data from parent to child components using props."
+      question: "Is your product secure to integrate and use?",
+      answer:
+        "Our chatbots can be added across your entire website or on specific pages with only a few lines of code (i.e. script). Most website providers have a simple embed feature that makes it easy to implement in a few minutes. We will work with you to embed correctly. There is no complex integration and embedding our code on your website is completely safe and secure."
     }
   ];
 
