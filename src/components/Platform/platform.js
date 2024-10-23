@@ -4,9 +4,9 @@ import { ReactComponent as Map } from "../../assets/map2.svg";
 import gif from "../../assets/homegif.gif";
 import gif2 from "../../assets/school.gif";
 import gif3 from "../../assets/students.gif";
-import gif4 from "../../assets/education.gif";
-import gif5 from "../../assets/secretary.gif";
-import gif6 from "../../assets/bell.gif";
+import gif4 from "../../assets/chat.gif";
+import gif5 from "../../assets/list.gif";
+import gif6 from "../../assets/professional.gif";
 import gif7 from "../../assets/lesson.gif";
 import gif8 from "../../assets/teacher.gif";
 import gif9 from "../../assets/blackboard.gif";
@@ -106,44 +106,6 @@ function Platform() {
             </a>
           </div>
         </div>
-
-        {/* <div className="flex-grow relative feature-container w-full">
-          <div className="center-logo z-10 p-4">
-            <img className="h-full rounded-lg" src={chatBot} alt="Chat Bot" />
-          </div>
-          <div className="feature feature-1 w-1/3 text-left z-20">
-            <a href="#webBot">
-              <h3 className="font-extrabold text-lg">Website Chatbot</h3>
-              <img src={gif2} alt="Feature 1" className="w-1/2 rounded-full" />
-            </a>
-          </div>
-          <div className="feature feature-2 w-1/3 text-left z-20">
-            <a href="#docBot">
-              <h3 className="font-extrabold text-lg">
-                Internal Document Chatbot
-              </h3>
-              <img src={gif3} alt="Feature 2" className="w-1/2 rounded-full" />
-            </a>
-          </div>
-          <div className="feature feature-3 w-1/3 text-left z-20">
-            <a href="#survey">
-              <h3 className="font-extrabold text-lg">Survey Tool</h3>
-              <img src={gif4} alt="Feature 3" className="w-1/2 rounded-full" />
-            </a>
-          </div>
-          <div className="feature feature-4 w-1/3 text-left z-20">
-            <a href="#contact">
-              <h3 className="font-extrabold text-lg">Contact Us Routing</h3>
-              <img src={gif5} alt="Feature 4" className="w-1/2 rounded-full" />
-            </a>
-          </div>
-          <div className="feature feature-5 w-1/3 text-left z-20">
-            <a href="#professional">
-              <h3 className="font-extrabold text-lg">Professional Services</h3>
-              <img src={gif6} alt="Feature 5" className="w-1/2 rounded-full" />
-            </a>
-          </div>
-        </div> */}
       </div>
 
       {/* SECTION 2 */}
@@ -171,7 +133,7 @@ function Platform() {
       <div className="relative flex justify-center items-center section-3 w-full">
         <div className="flex-grow h-0 border-t border-gray-400"></div>
         <img
-          className="h-36 mx-4"
+          className="h-36 mx-4 fading"
           src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
           alt="Logo"
         />
@@ -426,15 +388,12 @@ function Platform() {
           </figure>
         </div>
         <div className="hidden custom:block content-container-1 text-center">
-          <h1 className="text-6xl alata-regular p-12">
+          <h1 className="text-6xl alata-regular p-12 text-white">
             See what you can accomplish with AlwaysOn
           </h1>
           <div className="free-trial flex-row">
             <button className="border-2 border-white bg-white text-black rounded-lg p-4 freeman-regular uppercase mx-4">
               <span>Get started</span>
-            </button>
-            <button className="border-2 border-white bg-white text-black rounded-lg p-4 freeman-regular uppercase">
-              <span>contact us</span>
             </button>
           </div>
         </div>

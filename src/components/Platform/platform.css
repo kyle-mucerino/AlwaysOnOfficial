@@ -299,7 +299,7 @@ body {
 /* SECTION 6 */
 /* Ellipse "SEE ALL U CAN ACCOMPLISH */
 .content-container-1 {
-  background: linear-gradient(to bottom, #FF6600, #fc4a1a);
+  background: black;
   border: none;
   clip-path: ellipse(75% 100% at center top);
   min-height: 300px;

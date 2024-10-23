@@ -14,7 +14,7 @@
 In this example, Kansas, Montana and Pennsylvania are colored blue, and California and Delaware are colored red.
 Place this code in the empty space below. */
 
-.ok, .mo, .wi, .nj, .ca, .ny, .tx, .pa, .mi, .ks, .co, .in, .wa, .il {fill:#0033FF}
+.ok, .mo, .wi, .nj, .ca, .ny, .tx, .pa, .mi, .ks, .co, .in, .wa, .il {fill: #fcae04}
 
 
 </style>
