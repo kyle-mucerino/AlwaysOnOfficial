@@ -7,9 +7,12 @@ function Chatbot() {
   return (
     <>
       {/* SECTION 1 */}
-      <div className="section section-01 flex">
-        <div className="container">
-          <div className="box" onClick={() => setSelectedBot("website")}>
+      <div className="section-cb-01 flex justify-center items-center">
+        <div className="container flex justify-center items-center">
+          <div
+            className="box flex justify-center items-center"
+            onClick={() => setSelectedBot("website")}
+          >
             <span></span>
             <div className="content">
               <h2>Website Bot</h2>
@@ -35,7 +38,7 @@ function Chatbot() {
       </div>
 
       {/* SECTION 2 */}
-      <div className="section section-02 flex flex-col items-center justify-center">
+      <div className="section-02 flex flex-col items-center justify-center">
         {selectedBot === "website" && (
           <div className="website text-4xl alata-regular">
             A powerful AI chatbot in the center of a customer service platform
@@ -50,7 +53,7 @@ function Chatbot() {
       <div className="relative flex justify-center items-center w-full bg-white">
         <div className="flex-grow h-0 border-t border-gray-400"></div>
         <img
-          className="h-36 mx-4"
+          className="h-36 mx-4 mt-4 fading"
           src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
           alt="Logo"
         />

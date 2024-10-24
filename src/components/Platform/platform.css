@@ -299,14 +299,14 @@ body {
 /* SECTION 6 */
 /* Ellipse "SEE ALL U CAN ACCOMPLISH */
 .content-container-1 {
-  background: black;
+  background: linear-gradient(to bottom, #FF6600, #fc4a1a);
   border: none;
   clip-path: ellipse(75% 100% at center top);
   min-height: 300px;
 }
 
 ul.states {
-  background: linear-gradient(to bottom, #FF6600, #fc4a1a);
+  background: linear-gradient(to bottom, #fcae04, #fc4a1a);
   border-radius: 1rem;
   padding: 1rem;
 }

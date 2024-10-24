@@ -388,7 +388,7 @@ function Platform() {
           </figure>
         </div>
         <div className="hidden custom:block content-container-1 text-center">
-          <h1 className="text-6xl alata-regular p-12 text-white">
+          <h1 className="text-6xl alata-regular p-12 text-black">
             See what you can accomplish with AlwaysOn
           </h1>
           <div className="free-trial flex-row">

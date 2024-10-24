@@ -34,7 +34,7 @@ function Nav() {
             </ul>
           </li>
           <li className="p-3 xl:p-6 relative">
-            <NavLink to="/about" activeClassName="active">
+            <NavLink to="" activeClassName="active">
               <span>About</span>
             </NavLink>
             <ul className="submenu">
@@ -54,7 +54,7 @@ function Nav() {
               </li>
             </ul>
           </li>
-          <li className="p-3 xl:p-6 relative">
+          {/* <li className="p-3 xl:p-6 relative">
             <NavLink to="/contact" activeClassName="active">
               <span>Contact Us</span>
             </NavLink>
@@ -63,7 +63,7 @@ function Nav() {
                 <NavLink to="/calendly">Link to Calendly</NavLink>
               </li>
             </ul>
-          </li>
+          </li> */}
           {/* <li className="p-3 xl:p-6 relative">
             <NavLink to="/login" activeClassName="active">
               <span>Login</span>

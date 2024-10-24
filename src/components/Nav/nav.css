@@ -36,7 +36,7 @@ header {
 nav ul {
   text-align: center;
   display: flex;
-  gap: 1rem; /* Add space between navigation links */
+  gap: 5.5rem; /* Add space between navigation links */
 }
 
 nav ul li {
@@ -47,7 +47,7 @@ nav ul li {
 nav ul li a {
   padding: 18px;
   font-family: 'Open Sans';
-  font-size: 18px;
+  font-size: 22px;
   text-decoration: none;
   display: block;
 }

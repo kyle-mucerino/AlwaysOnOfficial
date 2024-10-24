@@ -2,11 +2,6 @@ body {
   background-color: white;
 }
 
-.section-cb-1 {
-  min-height: 60vh;
-  background: linear-gradient(to bottom, #FF6600, #fc4a1a);
-}
-
 .section-cb-2 {
   min-height: 30vh;
   background-color: white;
@@ -17,28 +12,23 @@ body {
 }
 
 /* Section-1 */
-.section-01 {
+.section-cb-01 {
   background-color: #1d061a;
   color: black;
-  padding: 2rem;
 }
-.container
+/* .container
 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-}
+} */
 
 .container .box
 {
   position: relative;
   width: 320px;
   height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 40px 30px;
   transition: 0.5s;
 }
 
