@@ -6,16 +6,16 @@ function Company() {
     <>
       <div className="section-cy-1 flex flex-row justify-evenly items-center border-b-2 border-black">
         <div className="flex flex-col justify-evenly text-left ml-12">
-          <h1 className="text-8xl alata-regular mb-4">Company</h1>
-          <p className="text-4xl saira-medium">
+          <h1 className="text-8xl poppins-bold mb-4">Company</h1>
+          <p className="text-4xl open-sans-light">
             A powerful AI chatbot in the center of a customer service platform
           </p>
         </div>
       </div>
       <div className="section-cy-2 flex justify-center items-center">
         <div className="flex flex-col justify-center text-center">
-          <h1 className="text-7xl alata-regular mb-4">Who's it for?</h1>
-          <p className="text-4xl saira-medium">
+          <h1 className="text-7xl poppins-bold mb-4">Who's it for?</h1>
+          <p className="text-4xl open-sans-light">
             Description of feature value and why the feature is important
           </p>
         </div>
@@ -29,8 +29,7 @@ function Company() {
         />
         <div className="flex-grow h-0 border-t border-gray-400"></div>
       </div>
-      <div className="section-cy-3 p-4">
-      </div>
+      <div className="section-cy-3 p-4"></div>
     </>
   );
 }

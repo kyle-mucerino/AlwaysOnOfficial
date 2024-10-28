@@ -36,7 +36,7 @@ const FAQ = () => {
 
   return (
     <div className="faq alata-regular flex flex-col justify-evenly items-center">
-      <h1 className="text-6xl">Frequently Asked Questions</h1>
+      <h1 className="text-6xl poppins-bold">Frequently Asked Questions</h1>
       <div className="relative flex justify-center items-center w-full">
         <div className="flex-grow h-0 border-t border-gray-400"></div>
         <img
@@ -46,7 +46,7 @@ const FAQ = () => {
         />
         <div className="flex-grow h-0 border-t border-gray-400"></div>
       </div>
-      <div className="accordion w-1/2">
+      <div className="accordion w-1/2 open-sans-light">
         {faqs.map((faq, index) => (
           <div key={index} className="accordion-item">
             <div

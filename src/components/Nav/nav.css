@@ -6,7 +6,7 @@ header {
   background: -webkit-linear-gradient(to left, #ffffff, #ece9e6); 
   background: linear-gradient(to left, #ffffff, #ece9e6); 
   color: black;
-  padding: 2rem; 
+  padding: 2rem;
 }
 
 .header-links li span {
@@ -112,7 +112,7 @@ nav ul li a:hover {
   left: 0;
   background-color: #fff;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  z-index: 10;
+  z-index: 99;
 }
 
 .submenu li {

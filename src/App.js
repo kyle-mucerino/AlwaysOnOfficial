@@ -20,8 +20,8 @@ function App() {
       <div className="App">
         <Nav />
         <Routes>
-          <Route path="/" element={<Platform />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/home" element={<Platform />} />
+          {/* <Route path="" element={<About />} /> */}
           <Route path="/login" element={<Login />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/chatbot" element={<Chatbot />} />

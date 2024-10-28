@@ -17,8 +17,8 @@ function Media() {
         {/* Sections */}
         <div className="section-mm-1 flex flex-row justify-evenly items-center border-b-2 border-black">
           <div className="flex flex-col justify-evenly text-left ml-12">
-            <h1 className="text-8xl alata-regular mb-4">Media & Materials</h1>
-            <p className="text-4xl saira-medium">
+            <h1 className="text-8xl poppins-bold mb-4">Media & Materials</h1>
+            <p className="text-4xl open-sans-light">
               A powerful AI chatbot in the center of a customer service platform
             </p>
           </div>
@@ -33,23 +33,25 @@ function Media() {
             onClick={toggleModal}
           />
           <div className="flex flex-col justify-evenly items-start text-left p-4">
-            <h1 className="text-7xl alata-regular">Why AO Chatbots?</h1>
-            <p className="text-3xl saira-medium">
+            <h1 className="text-7xl poppins-bold">Why AO Chatbots?</h1>
+            <p className="text-3xl open-sans-light">
               AI chatbots improve website efficiency by providing instant and
               personalized responses, reducing manual support efforts, and
               enhancing the user experience.
             </p>
-            <h1 className="text-7xl alata-regular mb-4">Why AlwaysOn?</h1>
-            <p className="text-3xl saira-medium">
+            <h1 className="text-7xl poppins-bold mb-4">Why AlwaysOn?</h1>
+            <p className="text-3xl open-sans-light">
               <b>Mission Focused:</b> Our AI has built-in school expertise and
               is trained only to answer questions sourcing your school website.
             </p>
-            <p className="text-3xl saira-medium">
+            <p className="text-3xl open-sans-light">
               <b>Customer Centric:</b> Customized to support the needs and use
               cases that matter most to your school and stakeholders.
             </p>
-            <p className="text-3xl saira-medium">
-              <b>User Friendly:</b> Chatbot works out-of-the-box, we launch within 24 hours and train your chatbot to improve with every question asked.
+            <p className="text-3xl open-sans-light">
+              <b>User Friendly:</b> Chatbot works out-of-the-box, we launch
+              within 24 hours and train your chatbot to improve with every
+              question asked.
             </p>
           </div>
         </div>

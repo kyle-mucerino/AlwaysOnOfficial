@@ -12,6 +12,7 @@ import gif8 from "../../assets/teacher.gif";
 import gif9 from "../../assets/blackboard.gif";
 import gif10 from "../../assets/teacher2.gif";
 import chatBot from "../../assets/AOChatBot.png";
+import chatBot2 from "../../assets/chatbotph.png";
 import circleLogo from "../../assets/circleLogo2.png";
 
 
@@ -67,10 +68,10 @@ function Platform() {
       <div className="section section-1 flex flex-row border-b-2 border-black">
         <div className="flex flex-col justify-evenly text-left ml-12">
           <div className="headline mb-4">
-            <h1 className="text-8xl alata-regular">AlwaysOn</h1>
+            <h1 className="text-8xl poppins-bold">AlwaysOn</h1>
           </div>
           <div>
-            <p className="text-4xl saira-medium">
+            <p className="text-4xl open-sans-light">
               A powerful AI chatbot in the center of a customer service platform
             </p>
           </div>
@@ -81,28 +82,26 @@ function Platform() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center">
-          <img className="rounded-lg w-4/5" src={chatBot} alt="Chat Bot" />
-        </div>
-
-        <div className="flex flex-col feature-container text-center justify-evenly items-center">
-          {" "}
-          <div className="feature w-2/5">
+        <div className="flex-grow relative feature-container w-full">
+          <div className="center-logo z-10">
+            <img className="h-84" src={chatBot2} alt="Logo" />
+          </div>
+          <div className="feature feature-3 w-1/3 text-left z-20">
             <a href="#survey">
+              <img src={gif4} alt="Feature 3" className="w-1/2 rounded-full" />
               <h3 className="font-extrabold text-lg">Survey Tool</h3>
-              <img src={gif4} alt="Feature 3" className=" rounded-full" />
             </a>
           </div>
-          <div className="feature w-2/5">
+          <div className="feature feature-4 w-1/3 text-left z-20">
             <a href="#contact">
+              <img src={gif5} alt="Feature 4" className="w-1/2 rounded-full" />
               <h3 className="font-extrabold text-lg">Contact Us Routing</h3>
-              <img src={gif5} alt="Feature 4" className="rounded-full" />
             </a>
           </div>
-          <div className="feature w-2/5">
+          <div className="feature feature-5 w-1/3 text-left z-20">
             <a href="#professional">
+              <img src={gif6} alt="Feature 5" className="w-1/2 rounded-full" />
               <h3 className="font-extrabold text-lg">Professional Services</h3>
-              <img src={gif6} alt="Feature 5" className="rounded-full" />
             </a>
           </div>
         </div>
@@ -111,7 +110,7 @@ function Platform() {
       {/* SECTION 2 */}
       <div className="section section-2 flex flex-row">
         <div className="flex flex-col" id="webBot">
-          <h1 className="alata-regular text-4xl mb-4">Website Chatbot</h1>
+          <h1 className="poppins-bold text-4xl mb-4">Website Chatbot</h1>
           <img
             src={chatBot}
             alt="gif"
@@ -119,7 +118,7 @@ function Platform() {
           />
         </div>
         <div className="flex flex-col" id="docBot">
-          <h1 className="alata-regular text-4xl mb-4">
+          <h1 className="poppins-bold text-4xl mb-4">
             Internal Document Chatbot
           </h1>
           <img
@@ -154,38 +153,38 @@ function Platform() {
           </div>
           <div className="flex items-center w-1/2 p-8">
             <div className="flex flex-col" id="survey">
-              <h1 className="text-5xl font-extrabold alata-regular">
+              <h1 className="text-5xl font-extrabold poppins-bold">
                 Survey Tool
               </h1>
-              <h2 className="text-3xl font-extrabold alata-regular my-4">
+              <h2 className="text-3xl font-extrabold poppins-bold my-4">
                 Capture Feedback
               </h2>
-              <p className="text-3xl saira-regular">
+              <p className="text-3xl open-sans-light">
                 In addition to the ChatBot, AlwaysOn's extensive Survey Tool
                 will give you further insights into the questions and comments
                 most prevalent on your school's website.
               </p>
               <div className="mt-4 flex">
                 <button
-                  className="text-3xl saira-regular button-shadow"
+                  className="text-3xl open-sans-light button-shadow"
                   onClick={() => setSelectedImage("image1")}
                 >
                   Feature 1
                 </button>
                 <button
-                  className="text-3xl saira-regular button-shadow ml-4"
+                  className="text-3xl open-sans-light button-shadow ml-4"
                   onClick={() => setSelectedImage("image2")}
                 >
                   Feature 2
                 </button>
                 <button
-                  className="text-3xl saira-regular button-shadow ml-4"
+                  className="text-3xl open-sans-light button-shadow ml-4"
                   onClick={() => setSelectedImage("image3")}
                 >
                   Feature 3
                 </button>
                 <button
-                  className="text-3xl saira-regular button-shadow ml-4"
+                  className="text-3xl open-sans-light button-shadow ml-4"
                   onClick={() => setSelectedImage("image4")}
                 >
                   Feature 4
@@ -206,38 +205,38 @@ function Platform() {
           </div>
           <div className="flex items-center w-1/2">
             <div className="flex flex-col">
-              <h1 className="text-5xl font-extrabold alata-regular">
+              <h1 className="text-5xl font-extrabold poppins-bold">
                 Contact Us Routing
               </h1>
-              <h2 className="text-3xl font-extrabold alata-regular my-4">
+              <h2 className="text-3xl font-extrabold poppins-bold my-4">
                 Lorum Ipsum
               </h2>
-              <p className="text-3xl saira-regular">
+              <p className="text-3xl open-sans-light">
                 lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco.
               </p>
               <div className="mt-4 flex">
                 <button
-                  className="text-3xl saira-regular button-shadow"
+                  className="text-3xl open-sans-light button-shadow"
                   onClick={() => setSelectedImage2("image5")}
                 >
                   Feature 1
                 </button>
                 <button
-                  className="text-3xl saira-regular button-shadow ml-4"
+                  className="text-3xl open-sans-light button-shadow ml-4"
                   onClick={() => setSelectedImage2("image6")}
                 >
                   Feature 2
                 </button>
                 <button
-                  className="text-3xl saira-regular button-shadow ml-4"
+                  className="text-3xl open-sans-light button-shadow ml-4"
                   onClick={() => setSelectedImage2("image7")}
                 >
                   Feature 3
                 </button>
                 <button
-                  className="text-3xl saira-regular button-shadow ml-4"
+                  className="text-3xl open-sans-light button-shadow ml-4"
                   onClick={() => setSelectedImage2("image8")}
                 >
                   Feature 4
@@ -258,38 +257,38 @@ function Platform() {
           </div>
           <div className="flex items-center w-1/2">
             <div className="flex flex-col">
-              <h1 className="text-5xl font-extrabold alata-regular">
+              <h1 className="text-5xl font-extrabold poppins-bold">
                 Professional Services
               </h1>
-              <h2 className="text-3xl font-extrabold alata-regular my-4">
+              <h2 className="text-3xl font-extrabold poppins-bold my-4">
                 Lorem Ipsum
               </h2>
-              <p className="text-3xl saira-regular">
+              <p className="text-3xl open-sans-light">
                 lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco.
               </p>
               <div className="mt-4 flex">
                 <button
-                  className="text-3xl saira-regular button-shadow"
+                  className="text-3xl open-sans-light button-shadow"
                   onClick={() => setSelectedImage("image1")}
                 >
                   Feature 1
                 </button>
                 <button
-                  className="text-3xl saira-regular button-shadow ml-4"
+                  className="text-3xl open-sans-light button-shadow ml-4"
                   onClick={() => setSelectedImage("image2")}
                 >
                   Feature 2
                 </button>
                 <button
-                  className="text-3xl saira-regular button-shadow ml-4"
+                  className="text-3xl open-sans-light button-shadow ml-4"
                   onClick={() => setSelectedImage("image3")}
                 >
                   Feature 3
                 </button>
                 <button
-                  className="text-3xl saira-regular button-shadow ml-4"
+                  className="text-3xl open-sans-light button-shadow ml-4"
                   onClick={() => setSelectedImage("image4")}
                 >
                   Feature 4
@@ -303,20 +302,20 @@ function Platform() {
       {/* SECTION 5 */}
       <div className="section section-5 flex flex-col">
         <div className="text-center">
-          <h1 className="text-7xl font-extrabold alata-regular">Our Clients</h1>
+          <h1 className="text-7xl font-extrabold poppins-bold">Our Clients</h1>
           <p className="text-3xl italic mt-2">
-            AlwaysOn is in 13 states and expanding across the nation!
+            100+ schools & districts in 13 states enhance their schools online
+            presence with AlwaysOn
           </p>
         </div>
         <div className="flex flex-row text-center">
           <div className="flex flex-col mt-4 w-1/2 mx-auto">
             <div className="hidden custom:flex flex-col my-12 drop-shadow-2xl">
               <Map />
-              <div className="flex flex-row mt-8 italic">
+              <div className="flex flex-row mt-8 italic attribution">
                 <a href="https://commons.wikimedia.org/wiki/File:Blank_US_Map_(states_only).svg">
-                  Heitordp
+                  Heitordp, CC0, via Wikimedia Commons
                 </a>
-                , CC0, via Wikimedia Commons
               </div>
             </div>
           </div>
@@ -343,8 +342,8 @@ function Platform() {
       {/* SECTION 6 */}
       <div className="section section-6 flex flex-col">
         <div className="text-center p-2">
-          <h1 className="text-7xl alata-regular">Testimonials</h1>
-          <p className="text-3xl italic mt-4 text-center">
+          <h1 className="text-7xl poppins-bold">Testimonials</h1>
+          <p className="text-3xl open-sans-light mt-4 text-center">
             100+ schools & districts in 13 states enhance their schools online
             presence with AlwaysOn
           </p>
@@ -388,12 +387,12 @@ function Platform() {
           </figure>
         </div>
         <div className="hidden custom:block content-container-1 text-center">
-          <h1 className="text-6xl alata-regular p-12 text-black">
-            See what you can accomplish with AlwaysOn
+          <h1 className="text-6xl uppercase poppins-bold p-12 text-black">
+            Explore the power of AlwaysOn
           </h1>
           <div className="free-trial flex-row">
             <button className="border-2 border-white bg-white text-black rounded-lg p-4 freeman-regular uppercase mx-4">
-              <span>Get started</span>
+              <span>Get started today</span>
             </button>
           </div>
         </div>

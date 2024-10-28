@@ -65,8 +65,8 @@ function Chatbot() {
             <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
           </div>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-7xl alata-regular mb-4">Element Name</h1>
-            <p className="text-4xl saira-medium">
+            <h1 className="text-7xl poppins-bold mb-4">Element Name</h1>
+            <p className="text-4xl open-sans-light">
               Description of element and why the element is important
             </p>
           </div>
@@ -76,8 +76,8 @@ function Chatbot() {
             <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
           </div>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-7xl alata-regular mb-4">Element Name</h1>
-            <p className="text-4xl saira-medium">
+            <h1 className="text-7xl poppins-bold mb-4">Element Name</h1>
+            <p className="text-4xl open-sans-light">
               Description of element and why the element is important
             </p>
           </div>
@@ -87,8 +87,8 @@ function Chatbot() {
             <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
           </div>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-7xl alata-regular mb-4">Element Name</h1>
-            <p className="text-4xl saira-medium">
+            <h1 className="text-7xl poppins-bold mb-4">Element Name</h1>
+            <p className="text-4xl open-sans-light">
               Description of element and why the element is important
             </p>
           </div>
