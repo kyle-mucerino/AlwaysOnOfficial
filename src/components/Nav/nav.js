@@ -15,7 +15,7 @@ function Nav() {
         </NavLink>
         <ul className="flex items-center space-x-4 lg:space-x-6 xl:space-x-8 mx-auto uppercase">
           <li className="p-3 xl:p-6 relative">
-            <NavLink exact to="/home" activeClassName="active">
+            <NavLink exact to="/" activeClassName="active">
               <span>Platform</span>
             </NavLink>
             <ul className="submenu">
