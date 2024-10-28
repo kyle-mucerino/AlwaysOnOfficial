@@ -9,7 +9,7 @@ function SurveyTool() {
         <div className="flex flex-col justify-evenly text-left ml-12">
           <h1 className="text-8xl poppins-bold mb-4">Survey Tool</h1>
           <p className="text-4xl open-sans-light">
-            A powerful AI chatbot in the center of a customer service platform
+            Build surveys and deploy them in-chatbot, in-person, or on website (+ analytics)
           </p>
         </div>
         <div className="flex flex-row justify-center items-center">

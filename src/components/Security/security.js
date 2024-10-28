@@ -7,22 +7,14 @@ function Security() {
       <div className="section-sa-1 flex flex-row justify-evenly items-center border-b-2 border-black">
         <div className="flex flex-col justify-evenly text-left ml-12">
           <h1 className="text-8xl poppins-bold mb-4">
-            Security & Accesibility
+            Security & Accessibility
           </h1>
-          <p className="text-4xl open-sans-light">
-            A powerful AI chatbot in the center of a customer service platform
+          <p className="text-4xl open-sans-light leading-10">
+            AlwaysOn values both security & accessibility in order to best customer experience possible. See how we protect your data and make our chatbot accessible to all users:
           </p>
         </div>
       </div>
-      <div className="section-sa-2 flex justify-center items-center">
-        <div className="flex flex-col justify-center text-center">
-          <h1 className="text-7xl poppins-bold mb-4">Who's it for?</h1>
-          <p className="text-4xl open-sans-light">
-            Description of feature value and why the feature is important
-          </p>
-        </div>
-      </div>
-      <div className="relative flex justify-center items-center bg-white w-full">
+      <div className="relative flex justify-center items-center bg-white w-full p-4">
         <div className="flex-grow h-0 border-t border-gray-400"></div>
         <img
           className="h-36 mx-4 fading"
@@ -30,6 +22,41 @@ function Security() {
           alt="Logo"
         />
         <div className="flex-grow h-0 border-t border-gray-400"></div>
+      </div>
+      <div className="section-sa-2 flex flex-row">
+        <div className="flex flex-col w-1/2 p-4 border-black border-2 rounded-lg security">
+          <h1 className="text-7xl poppins-bold mb-4">Security</h1>
+          <ul className="text-left space-y-4">
+            <li className="text-3xl open-sans-light">
+              <b>Data Privacy:</b> No personal data/information collection
+            </li>
+            <li className="text-3xl open-sans-light">
+              <b>Integrations:</b> No direct integrations/systems access
+            </li>
+            <li className="text-3xl open-sans-light">
+              <b>Servers:</b> Chatbot runs directly from our servers
+            </li>
+            <li className="text-3xl open-sans-light">
+              <b>Chatbot Implementation:</b> Website: embed code
+              <br /> or App: iframe
+            </li>
+          </ul>
+        </div>
+        <div className="flex flex-col justify-evenly w-1/2 p-4 border-black border-2 rounded-lg accessibility">
+          <h1 className="text-7xl poppins-bold mb-4">Accessibility</h1>
+          <ul className="text-left space-y-4">
+            <li className="text-3xl open-sans-light">ADA compliant</li>
+            <li className="text-3xl open-sans-light">
+              Screen reader compatible
+            </li>
+            <li className="text-3xl open-sans-light">
+              Follow the latest Web Content Accessibility Guidlines (WCAG)
+            </li>
+            <li className="text-3xl open-sans-light">
+              12 supported languages (& more translation options coming)
+            </li>
+          </ul>
+        </div>
       </div>
       <div className="section-sa-3 p-4"></div>
     </>

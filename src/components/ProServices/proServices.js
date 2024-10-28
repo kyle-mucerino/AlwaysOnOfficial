@@ -9,7 +9,7 @@ function ProServices() {
         <div className="flex flex-col justify-evenly text-left ml-12">
           <h1 className="text-7xl poppins-bold mb-4">Professional Services</h1>
           <p className="text-4xl open-sans-light">
-            A powerful AI chatbot in the center of a customer service platform
+            We train & maintain your chatbot for you and provide full support
           </p>
         </div>
         <div className="flex flex-row justify-center items-center">
