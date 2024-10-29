@@ -66,7 +66,7 @@ function Platform() {
     <>
       {/* SECTION 1 */}
       <div className="section section-1 flex flex-row border-b-2 border-black">
-        <div className="flex flex-col justify-evenly text-left ml-12">
+        <div className="flex flex-col justify-center text-left ml-12">
           <div className="headline mb-4">
             <h1 className="text-8xl poppins-bold">AlwaysOn</h1>
           </div>
@@ -75,7 +75,7 @@ function Platform() {
               A powerful AI chatbot in the center of a customer service platform
             </p>
           </div>
-          <div className="free-trial">
+          <div className="free-trial mt-8">
             <button className="border-2 border-white bg-white text-black rounded-lg p-6 freeman-regular uppercase">
               <span>Get started today</span>
             </button>
@@ -152,17 +152,16 @@ function Platform() {
             </figure>
           </div>
           <div className="flex items-center w-1/2 p-8">
-            <div className="flex flex-col" id="survey">
+            <div className="flex flex-col space-y-4" id="survey">
               <h1 className="text-5xl font-extrabold poppins-bold">
                 Survey Tool
               </h1>
-              <h2 className="text-3xl font-extrabold poppins-bold my-4">
+              {/* <h2 className="text-3xl font-extrabold poppins-bold my-4">
                 Capture Feedback
-              </h2>
+              </h2> */}
               <p className="text-3xl open-sans-light">
-                In addition to the ChatBot, AlwaysOn's extensive Survey Tool
-                will give you further insights into the questions and comments
-                most prevalent on your school's website.
+                Build surveys and deploy them in-chatbot, in-person, or on
+                website (+ analytics)
               </p>
               <div className="mt-4 flex">
                 <button
@@ -204,17 +203,16 @@ function Platform() {
             </figure>
           </div>
           <div className="flex items-center w-1/2">
-            <div className="flex flex-col">
+            <div className="flex flex-col space-y-4">
               <h1 className="text-5xl font-extrabold poppins-bold">
                 Contact Us Routing
               </h1>
-              <h2 className="text-3xl font-extrabold poppins-bold my-4">
+              {/* <h2 className="text-3xl font-extrabold poppins-bold my-4">
                 Lorum Ipsum
-              </h2>
+              </h2> */}
               <p className="text-3xl open-sans-light">
-                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
+                Automated routing & tracking of questions submitted directly to
+                staff by topic
               </p>
               <div className="mt-4 flex">
                 <button
@@ -256,17 +254,16 @@ function Platform() {
             </figure>
           </div>
           <div className="flex items-center w-1/2">
-            <div className="flex flex-col">
+            <div className="flex flex-col space-y-4">
               <h1 className="text-5xl font-extrabold poppins-bold">
                 Professional Services
               </h1>
-              <h2 className="text-3xl font-extrabold poppins-bold my-4">
+              {/* <h2 className="text-3xl font-extrabold poppins-bold my-4">
                 Lorem Ipsum
-              </h2>
+              </h2> */}
               <p className="text-3xl open-sans-light">
-                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
+                We train & maintain your chatbot for you and provide full
+                support
               </p>
               <div className="mt-4 flex">
                 <button

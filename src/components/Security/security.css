@@ -3,16 +3,12 @@ body {
 }
 
 .section-sa-1 {
-  min-height: 60vh;
+  min-height: 50vh;
   background: linear-gradient(to bottom, #FF6600, #fc4a1a);
 }
 
 .section-sa-2 {
-  min-height: 30vh;
-  background-color: white;
-}
-
-.section-sa-3 {
+  min-height: 70vh;
   background-color: white;
 }
 

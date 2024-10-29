@@ -65,9 +65,9 @@ function Chatbot() {
             <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
           </div>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-7xl poppins-bold mb-4">Element Name</h1>
+            <h1 className="text-6xl poppins-bold mb-4">Content-Driven</h1>
             <p className="text-4xl open-sans-light">
-              Description of element and why the element is important
+              Chatbot answers questions using your website information only
             </p>
           </div>
         </div>
@@ -76,9 +76,9 @@ function Chatbot() {
             <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
           </div>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-7xl poppins-bold mb-4">Element Name</h1>
+            <h1 className="text-7xl poppins-bold mb-4">Self-Learning</h1>
             <p className="text-4xl open-sans-light">
-              Description of element and why the element is important
+              Chatbot is trained to improve with every question asked
             </p>
           </div>
         </div>
@@ -87,9 +87,9 @@ function Chatbot() {
             <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
           </div>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-7xl poppins-bold mb-4">Element Name</h1>
+            <h1 className="text-7xl poppins-bold mb-4">Insightful Analytics</h1>
             <p className="text-4xl open-sans-light">
-              Description of element and why the element is important
+              Chatbot analytics provide unique insights and question-level data
             </p>
           </div>
         </div>
