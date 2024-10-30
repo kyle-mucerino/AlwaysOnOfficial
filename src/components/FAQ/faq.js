@@ -2,11 +2,10 @@ import React, { useState } from "react";
 import "./faq.css";
 
 const FAQ = () => {
-  // State to track which question is open
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex1, setOpenIndex1] = useState(null);
+  const [openIndex2, setOpenIndex2] = useState(null);
 
-  // FAQ data
-  const faqs = [
+  const faqs1 = [
     {
       question: "Do you collect any data or personal information?",
       answer:
@@ -15,7 +14,7 @@ const FAQ = () => {
     {
       question: "Is your product WCAG compliant?",
       answer:
-        "Yes, we follow the latest WCAG compliance guidelines and our chatbot is WCAG 2.0 AA compliant. "
+        "Yes, we follow the latest WCAG compliance guidelines and our chatbot is WCAG 2.0 AA compliant."
     },
     {
       question: "Does your product work with screen readers?",
@@ -25,18 +24,43 @@ const FAQ = () => {
     {
       question: "Is your product secure to integrate and use?",
       answer:
-        "Our chatbots can be added across your entire website or on specific pages with only a few lines of code (i.e. script). Most website providers have a simple embed feature that makes it easy to implement in a few minutes. We will work with you to embed correctly. There is no complex integration and embedding our code on your website is completely safe and secure."
+        "Our chatbots can be added across your entire website or on specific pages with only a few lines of code (i.e., script). Most website providers have a simple embed feature that makes it easy to implement in a few minutes. We will work with you to embed correctly. There is no complex integration, and embedding our code on your website is completely safe and secure."
     }
   ];
 
-  // Toggle function for opening and closing an accordion item
-  const toggleAccordion = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
+  const faqs2 = [
+    {
+      question: "Do you offer free trials?",
+      answer:
+        "We offer 60-day free trials so that you can try AlwaysOn without any financial commitment. The goal is to give schools the opportunity to see the value and benefits through multiple months of engagement data. At the end of the trial, your school can make an informed decision about cancelling or moving forward."
+    },
+    {
+      question: "How does your pricng work?",
+      answer:
+        "We give schools one all-in price for the year. This includes everything: usage, features, support, etc. Each school is offered unique annual pricing based on a number of factors, including: School Size, Number of Chatbots, Feature Options, etc.Our product is designed to be affordable. Pricing is a conversation and we try to be as flexible as possible to work within your budget."
+    },
+    {
+      question: "How long are your agreements?",
+      answer: "Our standard agreements are 1 year. If your agreement starts during a fiscal year in progress (not at the beginning/end), we offer prorated terms so that your agreement can renew in alignment with your fiscal year. We also offer multi-year agreements, which come with a discounted annual rate."
+    },
+    {
+      question: "Do you offer discounts?",
+      answer: "We offer a variety of discounts which are available on a case by case basis. The amounts and types of discounts are dependent on several factors, so available discounts may vary and change at any given time."
+    }
+  ];
+
+  const toggleAccordion1 = (index) => {
+    setOpenIndex1(openIndex1 === index ? null : index);
+  };
+
+  const toggleAccordion2 = (index) => {
+    setOpenIndex2(openIndex2 === index ? null : index);
   };
 
   return (
     <div className="faq alata-regular flex flex-col justify-evenly items-center">
       <h1 className="text-6xl poppins-bold">Frequently Asked Questions</h1>
+
       <div className="relative flex justify-center items-center w-full">
         <div className="flex-grow h-0 border-t border-gray-400"></div>
         <img
@@ -46,24 +70,48 @@ const FAQ = () => {
         />
         <div className="flex-grow h-0 border-t border-gray-400"></div>
       </div>
-      <div className="accordion w-1/2 open-sans-light">
-        {faqs.map((faq, index) => (
-          <div key={index} className="accordion-item">
-            <div
-              className="accordion-header"
-              onClick={() => toggleAccordion(index)}
-            >
-              <h3>{faq.question}</h3>
-              {/* Toggle icon or indicator */}
-              <span>{openIndex === index ? "-" : "+"}</span>
-            </div>
-            {openIndex === index && (
-              <div className="accordion-body">
-                <p>{faq.answer}</p>
+
+      {/* Wrapper for both accordions with flex-row class */}
+      <div className="flex flex-row gap-8 w-full mt-8">
+        {/* First FAQ Accordion */}
+        <div className="accordion w-1/2 open-sans-light">
+          {faqs1.map((faq, index) => (
+            <div key={index} className="accordion-item">
+              <div
+                className="accordion-header"
+                onClick={() => toggleAccordion1(index)}
+              >
+                <h3>{faq.question}</h3>
+                <span>{openIndex1 === index ? "-" : "+"}</span>
               </div>
-            )}
-          </div>
-        ))}
+              {openIndex1 === index && (
+                <div className="accordion-body">
+                  <p>{faq.answer}</p>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+
+        {/* Second FAQ Accordion */}
+        <div className="accordion w-1/2 open-sans-light">
+          {faqs2.map((faq, index) => (
+            <div key={index} className="accordion-item">
+              <div
+                className="accordion-header"
+                onClick={() => toggleAccordion2(index)}
+              >
+                <h3>{faq.question}</h3>
+                <span>{openIndex2 === index ? "-" : "+"}</span>
+              </div>
+              {openIndex2 === index && (
+                <div className="accordion-body">
+                  <p>{faq.answer}</p>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

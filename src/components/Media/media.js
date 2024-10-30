@@ -15,7 +15,7 @@ function Media() {
     <>
       <div className={isOpen ? "blur-background" : ""}>
         {/* Sections */}
-        <div className="section-mm-1 flex flex-row justify-evenly items-center border-b-2 border-black">
+        <div className="section-mm-1 flex flex-row justify-start items-center border-b-2 border-black">
           <div className="flex flex-col justify-evenly text-left ml-12">
             <h1 className="text-8xl poppins-bold mb-4">Media & Materials</h1>
             <p className="text-4xl open-sans-light">

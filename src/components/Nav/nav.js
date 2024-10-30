@@ -34,7 +34,7 @@ function Nav() {
             </ul>
           </li>
           <li className="p-3 xl:p-6 relative">
-            <NavLink to="#" activeClassName="active">
+            <NavLink to="/company" activeClassName="active">
               <span>About</span>
             </NavLink>
             <ul className="submenu">
