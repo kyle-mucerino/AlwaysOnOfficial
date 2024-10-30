@@ -9,4 +9,5 @@ body {
 
 .section-cy-2 {
   background-color: white;
+  min-height: 50vh;
 }

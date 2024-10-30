@@ -58,10 +58,10 @@ const FAQ = () => {
   };
 
   return (
-    <div className="faq alata-regular flex flex-col justify-evenly items-center space-y-4">
+    <div className="faq alata-regular flex flex-col justify-evenly items-center">
       <h1 className="text-6xl poppins-bold">Frequently Asked Questions</h1>
 
-      <div className="relative flex justify-center items-center w-full">
+      <div className="relative flex justify-center items-center w-full mt-6 mb-10">
         <div className="flex-grow h-0 border-t border-gray-400"></div>
         <img
           className="h-36 mx-4 fading"
@@ -72,7 +72,7 @@ const FAQ = () => {
       </div>
 
       {/* Wrapper for both accordions with flex-row class */}
-      <div className="flex flex-col gap-28 w-full mt-8">
+      <div className="flex flex-col gap-14 w-full">
         <div className="flex flex-row justify-evenly">
           <h1 className="text-5xl poppins-bold text-left">
             Security & Accessibility:
@@ -89,7 +89,7 @@ const FAQ = () => {
                   <span>{openIndex1 === index ? "-" : "+"}</span>
                 </div>
                 {openIndex1 === index && (
-                  <div className="accordion-body">
+                  <div className="accordion-body text-left">
                     <p>{faq.answer}</p>
                   </div>
                 )}
@@ -101,7 +101,7 @@ const FAQ = () => {
         <div className="flex-grow h-0 border-t border-gray-400"></div>
 
         {/* Second FAQ Accordion */}
-        <div className="flex flex-row justify-evenly">
+        <div className="flex flex-row justify-evenly mb-12">
           <h1 className="text-5xl poppins-bold justify-center">
             {" "}
             Partnerships & Pricing:
@@ -117,7 +117,7 @@ const FAQ = () => {
                   <span>{openIndex2 === index ? "-" : "+"}</span>
                 </div>
                 {openIndex2 === index && (
-                  <div className="accordion-body">
+                  <div className="accordion-body text-left">
                     <p>{faq.answer}</p>
                   </div>
                 )}

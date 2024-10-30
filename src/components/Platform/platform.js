@@ -13,7 +13,6 @@ import gif9 from "../../assets/blackboard.gif";
 import gif10 from "../../assets/teacher2.gif";
 import chatBot from "../../assets/AOChatBot.png";
 import chatBot2 from "../../assets/chatbotph.png";
-import circleLogo from "../../assets/circleLogo2.png";
 
 
 function Platform() {

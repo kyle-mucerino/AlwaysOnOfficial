@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import chatBot from "../../assets/AOChatBot.png";
 import "./chatbot.css";
+import selfLearning from "../../assets/AOTopQs.png";
+import analyitcs from "../../assets/analytics.png";
+import content1 from "../../assets/content1.png";
+import content2 from "../../assets/content2.png";
 
 function Chatbot() {
   const [selectedBot, setSelectedBot] = useState("website");
@@ -62,31 +66,52 @@ function Chatbot() {
       <div className="section-cb-3 p-4">
         <div className="flex flex-row">
           <div className="flex justify-center items-center">
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+            <img
+              src={content1}
+              alt="gif"
+              className="w-4/5 rounded-lg mx-auto"
+            />
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex justify-center items-center">
+            <img
+              src={content2}
+              alt="gif"
+              className="w-4/5 rounded-lg mx-auto"
+            />
+          </div>
+          <div className="flex flex-col justify-center items-start text-left">
             <h1 className="text-6xl poppins-bold mb-4">Content-Driven</h1>
             <p className="text-4xl open-sans-light">
               Chatbot answers questions using your website information only
             </p>
           </div>
         </div>
+        <div className="flex-grow h-0 border-t border-gray-400"></div>
         <div className="flex flex-row-reverse">
-          <div className="flex justify-center items-center">
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+          <div className="flex justify-center">
+            <img
+              src={selfLearning}
+              alt="Chat Bot top questions asked"
+              className="w-4/5 rounded-lg ml-auto"
+            />
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-end text-right">
             <h1 className="text-7xl poppins-bold mb-4">Self-Learning</h1>
             <p className="text-4xl open-sans-light">
               Chatbot is trained to improve with every question asked
             </p>
           </div>
         </div>
+        <div className="flex-grow h-0 border-t border-gray-400"></div>
         <div className="flex flex-row section-cb-3">
           <div className="flex justify-center items-center">
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+            <img
+              src={analyitcs}
+              alt="gif"
+              className="w-4/5 rounded-lg mr-auto"
+            />
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center text-left">
             <h1 className="text-7xl poppins-bold mb-4">Insightful Analytics</h1>
             <p className="text-4xl open-sans-light">
               Chatbot analytics provide unique insights and question-level data
