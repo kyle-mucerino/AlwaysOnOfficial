@@ -58,7 +58,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="faq alata-regular flex flex-col justify-evenly items-center">
+    <div className="faq alata-regular flex flex-col justify-evenly items-center space-y-4">
       <h1 className="text-6xl poppins-bold">Frequently Asked Questions</h1>
 
       <div className="relative flex justify-center items-center w-full">
@@ -72,45 +72,58 @@ const FAQ = () => {
       </div>
 
       {/* Wrapper for both accordions with flex-row class */}
-      <div className="flex flex-row gap-8 w-full mt-8">
-        {/* First FAQ Accordion */}
-        <div className="accordion w-1/2 open-sans-light">
-          {faqs1.map((faq, index) => (
-            <div key={index} className="accordion-item">
-              <div
-                className="accordion-header"
-                onClick={() => toggleAccordion1(index)}
-              >
-                <h3>{faq.question}</h3>
-                <span>{openIndex1 === index ? "-" : "+"}</span>
-              </div>
-              {openIndex1 === index && (
-                <div className="accordion-body">
-                  <p>{faq.answer}</p>
+      <div className="flex flex-col gap-28 w-full mt-8">
+        <div className="flex flex-row justify-evenly">
+          <h1 className="text-5xl poppins-bold text-left">
+            Security & Accessibility:
+          </h1>
+          {/* First FAQ Accordion */}
+          <div className="accordion w-1/2 open-sans-light">
+            {faqs1.map((faq, index) => (
+              <div key={index} className="accordion-item">
+                <div
+                  className="accordion-header"
+                  onClick={() => toggleAccordion1(index)}
+                >
+                  <h3>{faq.question}</h3>
+                  <span>{openIndex1 === index ? "-" : "+"}</span>
                 </div>
-              )}
-            </div>
-          ))}
+                {openIndex1 === index && (
+                  <div className="accordion-body">
+                    <p>{faq.answer}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
 
+        <div className="flex-grow h-0 border-t border-gray-400"></div>
+
         {/* Second FAQ Accordion */}
-        <div className="accordion w-1/2 open-sans-light">
-          {faqs2.map((faq, index) => (
-            <div key={index} className="accordion-item">
-              <div
-                className="accordion-header"
-                onClick={() => toggleAccordion2(index)}
-              >
-                <h3>{faq.question}</h3>
-                <span>{openIndex2 === index ? "-" : "+"}</span>
-              </div>
-              {openIndex2 === index && (
-                <div className="accordion-body">
-                  <p>{faq.answer}</p>
+        <div className="flex flex-row justify-evenly">
+          <h1 className="text-5xl poppins-bold justify-center">
+            {" "}
+            Partnerships & Pricing:
+          </h1>
+          <div className="accordion w-1/2 open-sans-light">
+            {faqs2.map((faq, index) => (
+              <div key={index} className="accordion-item">
+                <div
+                  className="accordion-header"
+                  onClick={() => toggleAccordion2(index)}
+                >
+                  <h3>{faq.question}</h3>
+                  <span>{openIndex2 === index ? "-" : "+"}</span>
                 </div>
-              )}
-            </div>
-          ))}
+                {openIndex2 === index && (
+                  <div className="accordion-body">
+                    <p>{faq.answer}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
