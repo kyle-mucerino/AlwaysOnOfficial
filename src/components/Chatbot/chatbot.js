@@ -69,14 +69,14 @@ function Chatbot() {
             <img
               src={content1}
               alt="gif"
-              className="w-4/5 rounded-lg mx-auto"
+              className="w-4/5 rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer"
             />
           </div>
           <div className="flex justify-center items-center">
             <img
               src={content2}
               alt="gif"
-              className="w-4/5 rounded-lg mx-auto"
+              className="w-4/5 rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer"
             />
           </div>
           <div className="flex flex-col justify-center items-start text-left">
@@ -92,7 +92,7 @@ function Chatbot() {
             <img
               src={selfLearning}
               alt="Chat Bot top questions asked"
-              className="w-4/5 rounded-lg ml-auto"
+              className="w-4/5 rounded-lg ml-auto transform transition hover:scale-105 duration-300 cursor-pointer"
             />
           </div>
           <div className="flex flex-col justify-center items-end text-right">
@@ -108,7 +108,7 @@ function Chatbot() {
             <img
               src={analyitcs}
               alt="gif"
-              className="w-4/5 rounded-lg mr-auto"
+              className="w-4/5 rounded-lg mr-auto transform transition hover:scale-105 duration-300 cursor-pointer"
             />
           </div>
           <div className="flex flex-col justify-center text-left">

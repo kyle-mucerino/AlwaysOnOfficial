@@ -29,7 +29,7 @@ function Media() {
           <img
             src={onePagerImg}
             alt="PDF Preview"
-            className="pdf-thumbnail"
+            className="pdf-thumbnail cursor-pointer transform transition hover:scale-105 duration-300"
             onClick={toggleModal}
           />
           <div className="flex flex-col justify-evenly items-start text-left p-4">
