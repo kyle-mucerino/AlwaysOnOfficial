@@ -10,7 +10,7 @@ function Security() {
             Security & Accessibility
           </h1>
           <p className="text-4xl open-sans-light leading-10">
-            AlwaysOn values both security & accessibility in order to best
+            AlwaysOn values both security & accessibility in order to provide the best
             customer experience possible. See how we protect your data and make
             our chatbot accessible to all users:
           </p>
