@@ -85,23 +85,77 @@ function Platform() {
           <div className="center-logo z-10">
             <img className="h-84" src={chatBot2} alt="Logo" />
           </div>
+
+          {/* Feature 3 */}
           <div className="feature feature-3 w-1/3 text-left z-20">
             <a href="#survey">
-              <img src={gif4} alt="Feature 3" className="w-1/2 rounded-full" />
+              <div className="w-1/2 p-4 bg-white rounded-full inline-block">
+                <img src={gif4} alt="Feature 3" className="rounded-full" />
+              </div>
               <h3 className="font-extrabold text-lg">Survey Tool</h3>
             </a>
           </div>
+
+          {/* Feature 4 */}
           <div className="feature feature-4 w-1/3 text-left z-20">
             <a href="#contact">
-              <img src={gif5} alt="Feature 4" className="w-1/2 rounded-full" />
+              <div className="w-1/2 p-4 bg-white rounded-full inline-block">
+                <img src={gif5} alt="Feature 4" className="rounded-full" />
+              </div>
               <h3 className="font-extrabold text-lg">Contact Us Routing</h3>
             </a>
           </div>
+
+          {/* Feature 5 */}
           <div className="feature feature-5 w-1/3 text-left z-20">
             <a href="#professional">
-              <img src={gif6} alt="Feature 5" className="w-1/2 rounded-full" />
+              <div className="w-1/2 p-4 bg-white rounded-full inline-block">
+                <img src={gif6} alt="Feature 5" className="rounded-full" />
+              </div>
               <h3 className="font-extrabold text-lg">Professional Services</h3>
             </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="section-7">
+        <div className="flex flex-row p-2 space-x-2">
+          <div className="flex flex-col w-1/2 p-4 border-black border-2 rounded-lg security">
+            <h1 className="text-7xl poppins-bold mb-4">Chatbot</h1>
+            <ul className="text-left space-y-4">
+              <li className="text-3xl open-sans-light">
+                <b>Turnkey:</b> Works instantly no setup required
+              </li>
+              <li className="text-3xl open-sans-light">
+                <b>Custom:</b> Trained only on your website information
+              </li>
+              <li className="text-3xl open-sans-light">
+                <b>Translation:</b> Communicate in multiple languages
+              </li>
+              <li className="text-3xl open-sans-light">
+                <b>Training:</b> Improvement with every interaction
+              </li>
+              <li className="text-3xl open-sans-light">
+                <b>Multi-Chatbot:</b> District-wide, school site, dept, etc.
+              </li>
+            </ul>
+          </div>
+
+          <button class="text-8xl font-bold">&#43;</button>
+
+          <div className="flex flex-col justify-evenly w-1/2 p-4 border-black border-2 rounded-lg accessibility">
+            <h1 className="text-7xl poppins-bold mb-4">Analytics</h1>
+            <ul className="text-left space-y-4">
+              <li className="text-3xl open-sans-light">
+                <b>Usage Metrics:</b> Track the number of unique engagements and overall volume of questions
+              </li>
+              <li className="text-3xl open-sans-light">
+                <b>Question-Level Data:</b> See the exact questions and specific information your community requests
+              </li>
+              <li className="text-3xl open-sans-light">
+                <b>Predictive Insights:</b> Identity information gaps, trends, and anticipate needs to improve the website
+              </li>
+            </ul>
           </div>
         </div>
       </div>
