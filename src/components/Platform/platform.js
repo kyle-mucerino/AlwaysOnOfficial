@@ -35,31 +35,47 @@ function Platform() {
     image8: gif9
   };
 
-    const studentSliderRef = useRef(null);
-    const studentCountRef = useRef(null);
-    const questionCountRef = useRef(null);
+  const studentSliderRef = useRef(null);
+  const studentCountRef = useRef(null);
+  const questionCountRef = useRef(null);
 
-    useEffect(() => {
-      const slider = studentSliderRef.current;
-      const studentCount = studentCountRef.current;
-      const questionCount = questionCountRef.current;
+  useEffect(() => {
+    const slider = studentSliderRef.current;
+    const studentCount = studentCountRef.current;
+    const questionCount = questionCountRef.current;
 
-      if (slider && studentCount && questionCount) {
-        const updateCounts = () => {
-          const studentValue = slider.value;
-          studentCount.textContent = studentValue;
-          const questionValue = (studentValue * 3).toFixed(); // Example calculation
-          questionCount.textContent = questionValue;
-        };
+    if (slider && studentCount && questionCount) {
+      const updateCounts = () => {
+        const studentValue = slider.value;
+        studentCount.textContent = studentValue;
+        const questionValue = (studentValue * 3).toFixed(); // Example calculation
+        questionCount.textContent = questionValue;
+      };
 
-        slider.addEventListener("input", updateCounts);
-        updateCounts(); // Initial update
+      slider.addEventListener("input", updateCounts);
+      updateCounts(); // Initial update
 
-        return () => {
-          slider.removeEventListener("input", updateCounts);
-        };
-      }
-    }, []);
+      return () => {
+        slider.removeEventListener("input", updateCounts);
+      };
+    }
+  }, []);
+
+  const words = ["schools", "cities", "districts"];
+  const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  const [fade, setFade] = useState(true); // Control fade effect
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setFade(false); // Start fade-out
+      setTimeout(() => {
+        setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
+        setFade(true); // Fade-in next word
+      }, 500); // Adjust timing for fade-out effect
+    }, 2500);
+
+    return () => clearInterval(intervalId);
+  }, []);
 
   return (
     <>
@@ -71,7 +87,13 @@ function Platform() {
           </div>
           <div>
             <p className="text-4xl open-sans-light">
-              A powerful AI chatbot in the center of a customer service platform
+              A powerful customer service platform for{" "}
+              <span
+                className={`rotating-word ${fade ? "fade-in" : "fade-out"}`}
+              >
+                {words[currentWordIndex]}
+              </span>{" "}
+              featuring AI chatbots + analytics
             </p>
           </div>
           <div className="free-trial mt-8">
@@ -147,13 +169,16 @@ function Platform() {
             <h1 className="text-7xl poppins-bold mb-4">Analytics</h1>
             <ul className="text-left space-y-4">
               <li className="text-3xl open-sans-light">
-                <b>Usage Metrics:</b> Track the number of unique engagements and overall volume of questions
+                <b>Usage Metrics:</b> Track the number of unique engagements and
+                overall volume of questions
               </li>
               <li className="text-3xl open-sans-light">
-                <b>Question-Level Data:</b> See the exact questions and specific information your community requests
+                <b>Question-Level Data:</b> See the exact questions and specific
+                information your community requests
               </li>
               <li className="text-3xl open-sans-light">
-                <b>Predictive Insights:</b> Identity information gaps, trends, and anticipate needs to improve the website
+                <b>Predictive Insights:</b> Identity information gaps, trends,
+                and anticipate needs to improve the website
               </li>
             </ul>
           </div>

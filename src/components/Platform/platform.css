@@ -98,6 +98,23 @@ body {
   opacity: 1;
 }
 
+/* Rotating Words */
+/* Rotating Word */
+.rotating-word {
+  display: inline-block;
+  transition: opacity 0.5s ease; /* Transition for fading effect */
+  font-weight: bold;
+}
+
+/* Fade-in effect */
+.fade-in {
+  opacity: 1;
+}
+
+/* Fade-out effect */
+.fade-out {
+  opacity: 0;
+}
 
 
 /* GIF BUBBLE SECTION-1 */
