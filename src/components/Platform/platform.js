@@ -85,9 +85,11 @@ function Platform() {
           <div className="headline mb-4">
             <h1 className="text-8xl poppins-bold">AlwaysOn</h1>
           </div>
-          <div>
-            <p className="text-4xl open-sans-light">
+          <div className="homepage-hero">
+            <p className="text-4xl open-sans-light leading-normal">
               A powerful customer service platform for{" "}
+            </p>
+            <p className="text-4xl open-sans-light leading-normal">
               <span
                 className={`rotating-word ${fade ? "fade-in" : "fade-out"}`}
               >

@@ -99,11 +99,13 @@ body {
 }
 
 /* Rotating Words */
-/* Rotating Word */
 .rotating-word {
   display: inline-block;
   transition: opacity 0.5s ease; /* Transition for fading effect */
-  font-weight: bold;
+  font-weight: bolder;
+  text-transform: uppercase;
+  width: 10.65rem;
+  text-align: center;
 }
 
 /* Fade-in effect */
@@ -114,6 +116,10 @@ body {
 /* Fade-out effect */
 .fade-out {
   opacity: 0;
+}
+
+.homepage-hero {
+  width: max-content;
 }
 
 
