@@ -54,35 +54,33 @@ body {
   z-index: 10;
 }
 
+/* Ensure the features remain positioned but are centered within their containers */
 .feature {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Ensures text alignment matches visual layout */
 }
 
-/* Adjust the circle layout for the right side */
-.feature-1 {
-  top: 3.5%;
-  left: 67%; 
-}
-
-.feature-2 {
-  top: 3%;
-  right: 50%; 
+/* Adjust layout-specific positions */
+.feature-4 {
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
 }
 
 .feature-3 {
   top: 50%;
-  left: 70%; 
-}
-
-.feature-4 {
-  top: 50%;
-  right: 55%; 
-  right: 54%; 
+  right: 80%;
+  transform: translate(50%, -50%);
 }
 
 .feature-5 {
-  top: 75%;
-  left: 42%;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .feature-container .feature {

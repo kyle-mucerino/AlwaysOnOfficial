@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./platform.css";
 import { ReactComponent as Map } from "../../assets/map2.svg";
-import gif from "../../assets/homegif.gif";
 import gif2 from "../../assets/school.gif";
 import gif3 from "../../assets/students.gif";
 import gif4 from "../../assets/chat.gif";
@@ -10,7 +9,6 @@ import gif6 from "../../assets/professional.gif";
 import gif7 from "../../assets/lesson.gif";
 import gif8 from "../../assets/teacher.gif";
 import gif9 from "../../assets/blackboard.gif";
-import gif10 from "../../assets/teacher2.gif";
 import chatBot from "../../assets/AOChatBot.png";
 import chatBot2 from "../../assets/chatbotph.png";
 
@@ -111,32 +109,44 @@ function Platform() {
           </div>
 
           {/* Feature 3 */}
-          <div className="feature feature-3 w-1/3 text-left z-20">
-            <a href="#survey">
+          <div className="feature feature-3 w-1/3 flex flex-col justify-center items-center z-20">
+            <a href="#survey" className="text-center">
               <div className="w-1/2 p-4 bg-white rounded-full inline-block">
                 <img src={gif4} alt="Feature 3" className="rounded-full" />
               </div>
-              <h3 className="font-extrabold text-lg">Survey Tool</h3>
+              <h3 className="font-extrabold text-lg">
+                <span className="bg-black rounded-lg text-white p-1">
+                  Survey Tool
+                </span>
+              </h3>
             </a>
           </div>
 
           {/* Feature 4 */}
-          <div className="feature feature-4 w-1/3 text-left z-20">
-            <a href="#contact">
+          <div className="feature feature-4 w-1/3 flex flex-col justify-center items-center z-20">
+            <a href="#contact" className="text-center">
               <div className="w-1/2 p-4 bg-white rounded-full inline-block">
                 <img src={gif5} alt="Feature 4" className="rounded-full" />
               </div>
-              <h3 className="font-extrabold text-lg">Contact Us Routing</h3>
+              <h3 className="font-extrabold text-lg">
+                <span className="bg-black rounded-lg text-white p-1">
+                  Contact Us Routing
+                </span>
+              </h3>
             </a>
           </div>
 
           {/* Feature 5 */}
-          <div className="feature feature-5 w-1/3 text-left z-20">
-            <a href="#professional">
+          <div className="feature feature-5 w-1/3 flex flex-col justify-center items-center z-20">
+            <a href="#professional" className="text-center">
               <div className="w-1/2 p-4 bg-white rounded-full inline-block">
                 <img src={gif6} alt="Feature 5" className="rounded-full" />
               </div>
-              <h3 className="font-extrabold text-lg">Professional Services</h3>
+              <h3 className="font-extrabold text-lg">
+                <span className="bg-black rounded-lg text-white p-1">
+                  Professional Services
+                </span>
+              </h3>
             </a>
           </div>
         </div>
