@@ -112,7 +112,7 @@ function Platform() {
           <div className="feature feature-3 w-1/3 flex flex-col justify-center items-center z-20">
             <a href="#survey" className="text-center">
               <div className="w-1/2 p-4 bg-white rounded-full inline-block">
-                <img src={gif4} alt="Feature 3" className="rounded-full" />
+                <img src={gif4} alt="Feature 3" className="rounded-lg" />
               </div>
               <h3 className="font-extrabold text-lg">
                 <span className="bg-black rounded-lg text-white p-1">
@@ -126,7 +126,7 @@ function Platform() {
           <div className="feature feature-4 w-1/3 flex flex-col justify-center items-center z-20">
             <a href="#contact" className="text-center">
               <div className="w-1/2 p-4 bg-white rounded-full inline-block">
-                <img src={gif5} alt="Feature 4" className="rounded-full" />
+                <img src={gif5} alt="Feature 4" className="rounded-lg" />
               </div>
               <h3 className="font-extrabold text-lg">
                 <span className="bg-black rounded-lg text-white p-1">
@@ -140,7 +140,7 @@ function Platform() {
           <div className="feature feature-5 w-1/3 flex flex-col justify-center items-center z-20">
             <a href="#professional" className="text-center">
               <div className="w-1/2 p-4 bg-white rounded-full inline-block">
-                <img src={gif6} alt="Feature 5" className="rounded-full" />
+                <img src={gif6} alt="Feature 5" className="rounded-lg" />
               </div>
               <h3 className="font-extrabold text-lg">
                 <span className="bg-black rounded-lg text-white p-1">
