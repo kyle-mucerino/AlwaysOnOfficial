@@ -1,22 +1,22 @@
 import React from "react";
 import "../Company/company.css";
-import logo2 from "../../assets/logo4.png";
+import logo from "../../assets/logo9.png";
 
 function Company() {
   return (
     <>
       <div className="section-cy-1 flex flex-row items-center border-b-2 border-black">
-        <div className="flex flex-col justify-evenly text-left p-12">
-          <h1 className="text-8xl poppins-bold mb-4">AlwaysOn</h1>
-          <p className="text-4xl open-sans-light">About the company</p>
+        <div className="flex flex-col text-left p-12">
+          <h1 className="text-9xl poppins-bold mb-4">AlwaysOn</h1>
+          <p className="text-5xl open-sans-light">About the company</p>
         </div>
-        <div className="relative flex justify-center items-center w-full">
+        {/* <div className="relative flex justify-center items-center w-full">
           <img
-            className="h-60 mx-4 fading rounded-full"
-            src={logo2}
+            className="h-60 mx-4 fading"
+            src={logo}
             alt="Logo"
           />
-        </div>
+        </div> */}
       </div>
       <div className="section-cy-2 flex justify-center items-center">
         <div className="flex flex-col justify-center text-left p-12">
