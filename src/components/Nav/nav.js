@@ -18,7 +18,7 @@ function Nav() {
             <NavLink exact to="/" activeClassName="active">
               <span>Platform</span>
             </NavLink>
-            <ul className="submenu">
+            <ul className="submenu rounded-lg">
               <li>
                 <NavLink to="/chatbot">AI Chatbot</NavLink>
               </li>
@@ -37,7 +37,7 @@ function Nav() {
             <NavLink to="/company" activeClassName="active">
               <span>About</span>
             </NavLink>
-            <ul className="submenu">
+            <ul className="submenu rounded-lg">
               <li>
                 <NavLink to="/company">Company</NavLink>
               </li>
