@@ -1,6 +1,7 @@
 import React from "react";
 import "../Contact/contact.css";
 import chatBot from "../../assets/AOChatBot.png";
+import { TextGenerateEffect } from "../TextGenerateEffect";
 
 function Contact() {
   return (
@@ -8,9 +9,11 @@ function Contact() {
       <div className="section-cu-1 flex flex-row justify-evenly items-center border-b-2 border-black">
         <div className="flex flex-col justify-evenly text-left ml-12">
           <h1 className="text-7xl poppins-bold mb-4">Contact Us Routing</h1>
-          <p className="text-4xl open-sans-light">
-            Automated routing & tracking of questions submitted directly to staff by topic
-          </p>
+          <TextGenerateEffect
+            words="Automated routing & tracking of questions submitted directly to staff by topic"
+            className="text-4xl open-sans-light"
+            duration={0.5}
+          />
         </div>
         <div className="flex flex-row justify-center items-center">
           <div>

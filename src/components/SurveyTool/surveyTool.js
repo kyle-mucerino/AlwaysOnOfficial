@@ -1,6 +1,7 @@
 import React from "react";
 import "../SurveyTool/surveyTool.css";
 import chatBot from "../../assets/AOChatBot.png";
+import { TextGenerateEffect } from "../TextGenerateEffect";
 
 function SurveyTool() {
   return (
@@ -8,9 +9,11 @@ function SurveyTool() {
       <div className="section-st-1 flex flex-row justify-evenly items-center border-b-2 border-black">
         <div className="flex flex-col justify-evenly text-left ml-12">
           <h1 className="text-8xl poppins-bold mb-4">Survey Tool</h1>
-          <p className="text-4xl open-sans-light">
-            Build surveys and deploy them in-chatbot, in-person, or on website (+ analytics)
-          </p>
+          <TextGenerateEffect 
+            words="Build surveys and deploy them in-chatbot, in-person, or on website (+ analytics)"
+            className="text-4xl open-sans-light"
+            duration={0.5}
+          />
         </div>
         <div className="flex flex-row justify-center items-center">
           <div>

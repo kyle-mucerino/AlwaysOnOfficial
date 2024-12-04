@@ -36,6 +36,14 @@ body {
   background-color: white;
 }
 
+.security {
+  background-color: #ddd;
+}
+
+.accessibility {
+  background-color: #ddd;
+}
+
 .attribution {
   color: rgb(207, 205, 205)
 }

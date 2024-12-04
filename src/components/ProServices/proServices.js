@@ -1,6 +1,7 @@
 import React from "react";
 import "../ProServices/proServices.css";
 import chatBot from "../../assets/AOChatBot.png";
+import { TextGenerateEffect } from "../TextGenerateEffect";
 
 function ProServices() {
   return (
@@ -8,9 +9,11 @@ function ProServices() {
       <div className="section-ps-1 flex flex-row justify-evenly items-center border-b-2 border-black">
         <div className="flex flex-col justify-evenly text-left ml-12">
           <h1 className="text-7xl poppins-bold mb-4">Professional Services</h1>
-          <p className="text-4xl open-sans-light">
-            We train & maintain your chatbot for you and provide full support
-          </p>
+          <TextGenerateEffect
+            words="We train and maintain your chatbot for you and provide full support"
+            className="text-4xl open-sans-light"
+            duration={0.5}
+          />
         </div>
         <div className="flex flex-row justify-center items-center">
           <div>
