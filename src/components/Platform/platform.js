@@ -11,6 +11,7 @@ import gif8 from "../../assets/teacher.gif";
 import gif9 from "../../assets/blackboard.gif";
 import chatBot from "../../assets/AOChatBot.png";
 import chatBot2 from "../../assets/chatbotph.png";
+import ExistingComponent from "../HoverEffect.js"; 
 
 
 function Platform() {
