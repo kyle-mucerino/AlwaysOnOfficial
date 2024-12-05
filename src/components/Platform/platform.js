@@ -11,7 +11,7 @@ import gif8 from "../../assets/teacher.gif";
 import gif9 from "../../assets/blackboard.gif";
 import chatBot from "../../assets/AOChatBot.png";
 import chatBot2 from "../../assets/chatbotph.png";
-import ExistingComponent from "../HoverEffect.js"; 
+import { FlipWordsDemo } from "../FlipWordsDemo"; 
 
 
 function Platform() {
@@ -60,22 +60,6 @@ function Platform() {
     }
   }, []);
 
-  const words = ["schools", "cities", "districts"];
-  const [currentWordIndex, setCurrentWordIndex] = useState(0);
-  const [fade, setFade] = useState(true); // Control fade effect
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setFade(false); // Start fade-out
-      setTimeout(() => {
-        setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
-        setFade(true); // Fade-in next word
-      }, 500); // Adjust timing for fade-out effect
-    }, 2500);
-
-    return () => clearInterval(intervalId);
-  }, []);
-
   return (
     <>
       {/* SECTION 1 */}
@@ -85,17 +69,7 @@ function Platform() {
             <h1 className="text-8xl poppins-bold">AlwaysOn</h1>
           </div>
           <div className="homepage-hero">
-            <p className="text-4xl open-sans-light leading-normal">
-              A powerful customer service platform for{" "}
-            </p>
-            <p className="text-4xl open-sans-light leading-normal">
-              <span
-                className={`rotating-word ${fade ? "fade-in" : "fade-out"}`}
-              >
-                {words[currentWordIndex]}
-              </span>{" "}
-              featuring AI chatbots + analytics
-            </p>
+            <FlipWordsDemo />
           </div>
           <div className="free-trial mt-8">
             <button className="border-2 border-white bg-white text-black rounded-lg p-6 freeman-regular uppercase">
