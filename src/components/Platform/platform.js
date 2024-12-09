@@ -12,6 +12,8 @@ import gif9 from "../../assets/blackboard.gif";
 import chatBot from "../../assets/AOChatBot.png";
 import chatBot2 from "../../assets/chatbotph.png";
 import { FlipWordsDemo } from "../FlipWordsDemo"; 
+import { AnimatedTestimonialsDemo }  from "../AnimatedTestimonialsDemo";
+import { CanvasRevealEffectDemo } from "../CanvasRevealEffectDemo.js";
 
 
 function Platform() {
@@ -128,7 +130,8 @@ function Platform() {
       </div>
 
       <div className="section-7">
-        <div className="flex flex-row p-2 space-x-2">
+        <CanvasRevealEffectDemo />
+        {/* <div className="flex flex-row p-2 space-x-2">
           <div className="flex flex-col w-1/2 p-4 border-black border-2 rounded-lg security">
             <h1 className="text-7xl poppins-bold mb-4">Chatbot</h1>
             <ul className="text-left space-y-4">
@@ -169,7 +172,7 @@ function Platform() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* SECTION 2 */}
@@ -403,7 +406,8 @@ function Platform() {
 
       {/* SECTION 6 */}
       <div className="section section-6 flex flex-col">
-        <div className="text-center p-2">
+        <AnimatedTestimonialsDemo />
+        {/* <div className="text-center p-2">
           <h1 className="text-7xl poppins-bold">Testimonials</h1>
           <p className="text-3xl open-sans-light mt-4 text-center">
             100+ schools & districts in 13 states enhance their schools online
@@ -447,7 +451,7 @@ function Platform() {
               <h4>Twitter</h4>
             </figcaption>
           </figure>
-        </div>
+        </div> */}
         <div className="hidden custom:block content-container-1 text-center">
           <h1 className="text-6xl uppercase poppins-bold p-12 text-black">
             Explore the power of AlwaysOn
