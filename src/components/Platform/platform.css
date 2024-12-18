@@ -17,23 +17,15 @@ body {
 }
 
 .section-3 {
-  background-color: white;
+  background-color: black;
 }
 
 .section-4 {
-  background-color: white;
+  background-color: rgb(228, 219, 219);
 }
 
 .section-5 {
   background-color: rgb(228, 219, 219);
-}
-
-.section-6 {
-  background-color: white;
-}
-
-.section-7 {
-  background-color: white;
 }
 
 .security {
