@@ -14,6 +14,8 @@ import chatBot2 from "../../assets/chatbotph.png";
 import { FlipWordsDemo } from "../FlipWordsDemo"; 
 import { AnimatedTestimonialsDemo }  from "../AnimatedTestimonialsDemo";
 import { CanvasRevealEffectDemo } from "../CanvasRevealEffectDemo.js";
+import { VortexDemo } from "../VortexDemo";
+import { AppleCardsCarouselDemo } from "../appleCardsCarouselDemo";
 
 
 function Platform() {
@@ -175,8 +177,10 @@ function Platform() {
         </div> */}
       </div>
 
+      <AppleCardsCarouselDemo />
+
       {/* SECTION 2 */}
-      <div className="section section-2 flex flex-row">
+      {/* <div className="section section-2 flex flex-row">
         <div className="flex flex-col" id="webBot">
           <h1 className="poppins-bold text-4xl mb-4">Website Chatbot</h1>
           <img
@@ -205,10 +209,10 @@ function Platform() {
           alt="Logo"
         />
         <div className="flex-grow h-0 border-t border-gray-400"></div>
-      </div>
+      </div> */}
 
       {/* SECTION 4 */}
-      <div className="section section-4 hidden custom:flex flex-col">
+      {/* <div className="section section-4 hidden custom:flex flex-col">
         <div className="flex flex-row">
           <div className="flex w-1/2">
             <figure className="implement">
@@ -224,9 +228,6 @@ function Platform() {
               <h1 className="text-5xl font-extrabold poppins-bold">
                 Survey Tool
               </h1>
-              {/* <h2 className="text-3xl font-extrabold poppins-bold my-4">
-                Capture Feedback
-              </h2> */}
               <p className="text-3xl open-sans-light">
                 Build surveys and deploy them in-chatbot, in-person, or on
                 website (+ analytics)
@@ -275,9 +276,6 @@ function Platform() {
               <h1 className="text-5xl font-extrabold poppins-bold">
                 Contact Us Routing
               </h1>
-              {/* <h2 className="text-3xl font-extrabold poppins-bold my-4">
-                Lorum Ipsum
-              </h2> */}
               <p className="text-3xl open-sans-light">
                 Automated routing & tracking of questions submitted directly to
                 staff by topic
@@ -326,9 +324,6 @@ function Platform() {
               <h1 className="text-5xl font-extrabold poppins-bold">
                 Professional Services
               </h1>
-              {/* <h2 className="text-3xl font-extrabold poppins-bold my-4">
-                Lorem Ipsum
-              </h2> */}
               <p className="text-3xl open-sans-light">
                 We train & maintain your chatbot for you and provide full
                 support
@@ -362,7 +357,7 @@ function Platform() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* SECTION 5 */}
       <div className="section section-5 flex flex-col">
@@ -453,14 +448,15 @@ function Platform() {
           </figure>
         </div> */}
         <div className="hidden custom:block content-container-1 text-center">
-          <h1 className="text-6xl uppercase poppins-bold p-12 text-black">
+          <VortexDemo />
+          {/* <h1 className="text-6xl uppercase poppins-bold p-12 text-black">
             Explore the power of AlwaysOn
           </h1>
           <div className="free-trial flex-row">
             <button className="border-2 border-white bg-white text-black rounded-lg p-4 freeman-regular uppercase mx-4">
               <span>Get started today</span>
             </button>
-          </div>
+          </div> */}
         </div>
         {/* ROI CALCULATOR SECTION */}
         {/* <div
