@@ -11,7 +11,7 @@ function ProServices() {
         <div className="flex flex-col justify-evenly text-left ml-12">
           <h1 className="text-7xl poppins-bold mb-4">Professional Services</h1>
           <TextGenerateEffect
-            words="We train and maintain your chatbot for you and provide full support"
+            words="We help you every step of the way to get the most out of the platform with the least amount of work."
             className="text-4xl open-sans-light"
             duration={0.5}
           />

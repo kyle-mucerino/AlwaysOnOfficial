@@ -11,7 +11,7 @@ function Contact() {
         <div className="flex flex-col justify-evenly text-left ml-12">
           <h1 className="text-7xl poppins-bold mb-4">Contact Us Routing</h1>
           <TextGenerateEffect
-            words="Automated routing & tracking of questions submitted directly to staff by topic"
+            words="Give your community an easy way to connect with staff and get the help they need."
             className="text-4xl open-sans-light"
             duration={0.5}
           />

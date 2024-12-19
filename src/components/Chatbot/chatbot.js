@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 import "./chatbot.css";
-import selfLearning from "../../assets/AOTopQs.png";
-import analyitcs from "../../assets/analytics.png";
-import content1 from "../../assets/content1.png";
-import content2 from "../../assets/content2.png";
 import webBotVideo from "../../assets/webBotVideo.mp4";
 import docBotVideo from "../../assets/docBotVideo.mp4";
 import { FlipWordsDemo } from "../FlipWordsDemo2";
+import analytics2 from "../../assets/Analytics (2).png";
+import chatBot from "../../assets/AOChatBot.png";
 
 function Chatbot() {
   const [selectedBot, setSelectedBot] = useState("website");
@@ -16,30 +14,35 @@ function Chatbot() {
       <div className="section-cb-01 flex flex-col justify-center items-center">
         <div className="text-2xl open-sans-light p-4 font-bold">
           <FlipWordsDemo />
-          {/* AlwaysOn chatbot can be launched within 24 hours, is trained only on
-          your information, available in 30+ languages, and improves with every
-          interaction. */}
         </div>
         <div className="container flex justify-center items-center">
           <div
-            className="box flex justify-center items-center"
+            className={`box flex justify-center items-center ${
+              selectedBot === "website" ? "active" : ""
+            }`}
             onClick={() => setSelectedBot("website")}
           >
             <span></span>
             <div className="content">
               <h2>Website Bot</h2>
               <p>
-                Uses your website as its sole knowledge base to answer questions and guide users to the right information. See below for more details.
+                Uses your website as its sole knowledge base to answer questions
+                and guide users to the right information. See below for more
+                details.
               </p>
               <button>Learn More</button>
             </div>
           </div>
-          <div className="box" onClick={() => setSelectedBot("document")}>
+          <div
+            className={`box ${selectedBot === "document" ? "active" : ""}`}
+            onClick={() => setSelectedBot("document")}
+          >
             <span></span>
             <div className="content">
               <h2>Document Bot</h2>
               <p>
-                Trained exclusively on internal documents, it answers questions with precision and accuracy. See below for more details. 
+                Trained exclusively on internal documents, it answers questions
+                with precision and accuracy. See below for more details.
               </p>
               <button>Learn More</button>
             </div>
@@ -56,17 +59,26 @@ function Chatbot() {
               <b>&#9660;</b>
             </div>
             <div className="video-container p-8">
-              <video src={webBotVideo} className="video w-4/5 mx-auto" controls></video>
+              <video
+                src={webBotVideo}
+                className="video w-4/5 mx-auto"
+                controls
+              ></video>
             </div>
           </>
         )}
         {selectedBot === "document" && (
           <>
             <div className="document text-4xl alata-regular">
-              A chatbot trained on your organization's <span>documents</span><b>&#9660;</b>
+              A chatbot trained on your organization's <span>documents</span>
+              <b>&#9660;</b>
             </div>
             <div className="video-container p-8">
-              <video src={docBotVideo} className="video w-4/5 mx-auto" controls></video>
+              <video
+                src={docBotVideo}
+                className="video w-4/5 mx-auto"
+                controls
+              ></video>
             </div>
           </>
         )}
@@ -81,38 +93,16 @@ function Chatbot() {
         <div className="flex-grow h-0 border-t border-gray-400"></div>
       </div>
       <div className="section-cb-3 p-4">
-        <div className="flex flex-row">
-          <div className="flex justify-center items-center">
-            <img
-              src={content1}
-              alt="gif"
-              className="w-4/5 rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer"
-            />
-          </div>
-          <div className="flex justify-center items-center">
-            <img
-              src={content2}
-              alt="gif"
-              className="w-4/5 rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer"
-            />
-          </div>
-          <div className="flex flex-col justify-center items-start text-left">
-            <h1 className="text-6xl poppins-bold mb-4">Content-Driven</h1>
-            <p className="text-4xl open-sans-light">
-              Chatbot answers questions using your website information only
-            </p>
-          </div>
-        </div>
         <div className="flex-grow h-0 border-t border-gray-400"></div>
         <div className="flex flex-row-reverse">
           <div className="flex justify-center">
             <img
-              src={selfLearning}
+              src={chatBot}
               alt="Chat Bot top questions asked"
-              className="w-4/5 rounded-lg ml-auto transform transition hover:scale-105 duration-300 cursor-pointer"
+              className="w-1/2 rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer p-4"
             />
           </div>
-          <div className="flex flex-col justify-center items-end text-right">
+          <div className="flex flex-col justify-center items-end text-right w-2/5">
             <h1 className="text-7xl poppins-bold mb-4">Self-Learning</h1>
             <p className="text-4xl open-sans-light">
               Chatbot is trained to improve with every question asked
@@ -123,12 +113,12 @@ function Chatbot() {
         <div className="flex flex-row section-cb-3">
           <div className="flex justify-center items-center">
             <img
-              src={analyitcs}
+              src={analytics2}
               alt="gif"
-              className="w-4/5 rounded-lg mr-auto transform transition hover:scale-105 duration-300 cursor-pointer"
+              className="rounded-lg transform transition hover:scale-105 duration-300 cursor-pointer p-4"
             />
           </div>
-          <div className="flex flex-col justify-center text-left">
+          <div className="flex flex-col justify-center text-left w-2/5 p-2">
             <h1 className="text-7xl poppins-bold mb-4">Insightful Analytics</h1>
             <p className="text-4xl open-sans-light">
               Chatbot analytics provide unique insights and question-level data

@@ -109,7 +109,7 @@ function Platform() {
         <CanvasRevealEffectDemo />
       </div>
 
-      <div className="section-3">
+      <div className="section-3" id="survey" >
         <AppleCardsCarouselDemo />
       </div>
 

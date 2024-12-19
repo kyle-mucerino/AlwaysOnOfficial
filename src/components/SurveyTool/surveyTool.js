@@ -11,7 +11,7 @@ function SurveyTool() {
         <div className="flex flex-col justify-evenly text-left ml-12">
           <h1 className="text-8xl poppins-bold mb-4">Survey Tool</h1>
           <TextGenerateEffect
-            words="Build surveys and deploy them in-chatbot, in-person, or on website (+ analytics)"
+            words="Dynamic, pulse check surveys to get quick & easy feedback from your community."
             className="text-4xl open-sans-light"
             duration={0.5}
           />

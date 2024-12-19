@@ -55,14 +55,27 @@ body {
   filter: blur(30px);
 }
 
-.container .box:hover:before,
-.container .box:hover:after
-{
+.container .box.active::before,
+.container .box.active::after {
   transform: skewX(0deg);
-  left: 20px;
+  left:20px;
   width: calc(100% - 90px);
-  
 }
+
+.container .box.active .content {
+  left: -25px;
+  padding: 60px 40px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .box.active span::before,
+.container .box.active span::after {
+  opacity: 1;
+  width: 100px;
+  height: 100px;
+}
+
 
 .container .box:nth-child(1):before,
 .container .box:nth-child(1):after
@@ -111,9 +124,10 @@ body {
   box-shadow: 0 5px 15px rgba(0,0,0,0.08)
 }
 
-.container .box:hover span::before
+.container .box:hover span::before,
+.container .box.active span::before
 {
-  top: -50px;
+  top: -40px;
   left: 50px;
   width: 100px;
   height: 100px;
