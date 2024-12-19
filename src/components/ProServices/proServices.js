@@ -3,6 +3,10 @@ import "../ProServices/proServices.css";
 import chatBot from "../../assets/AOChatBot.png";
 import { TextGenerateEffect } from "../TextGenerateEffect";
 import ProfessionalServicesVideo from "../../assets/Professional Services.mp4";
+import service from "../../assets/service.png";
+import ai from "../../assets/artificial-intelligence (1).png";
+import performance from "../../assets/performance-review.png";
+
 
 function ProServices() {
   return (
@@ -52,42 +56,50 @@ function ProServices() {
           alt="Logo"
         />
         <div className="flex-grow h-0 border-t border-gray-400"></div>
-      </div>
+      </div> */}
       <div className="section-ps-3 p-4">
         <div className="flex flex-row">
           <div className="flex justify-center items-center">
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+            <img
+              src={performance}
+              alt="gif"
+              className="w-3/5 rounded-lg mx-auto"
+            />
           </div>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-7xl poppins-bold mb-4">Element Name</h1>
-            <p className="text-4xl open-sans-light">
+            <h1 className="text-7xl poppins-bold mb-4">&#x2190;Data Reviews</h1>
+            {/* <p className="text-4xl open-sans-light">
               Description of element and why the element is important
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="flex flex-row-reverse">
           <div className="flex justify-center items-center">
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+            <img src={ai} alt="gif" className="w-3/5 rounded-lg mx-auto" />
           </div>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-7xl poppins-bold mb-4">Element Name</h1>
-            <p className="text-4xl open-sans-light">
+            <h1 className="text-7xl poppins-bold mb-4">
+              ChatBot Training&#x2192;
+            </h1>
+            {/* <p className="text-4xl open-sans-light">
               Description of element and why the element is important
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="flex flex-row section-cb-3">
           <div className="flex justify-center items-center">
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+            <img src={service} alt="gif" className="w-3/5 rounded-lg mx-auto" />
           </div>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-7xl poppins-bold mb-4">Element Name</h1>
-            <p className="text-4xl open-sans-light">
+            <h1 className="text-7xl poppins-bold mb-4">
+              &#x2190;Unlimited Support
+            </h1>
+            {/* <p className="text-4xl open-sans-light">
               Description of element and why the element is important
-            </p>
+            </p> */}
           </div>
         </div>
-      </div> */}
+      </div>
     </>
   );
 }

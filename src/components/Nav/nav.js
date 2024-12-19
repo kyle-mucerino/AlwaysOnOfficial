@@ -16,7 +16,8 @@ function Nav() {
         <ul className="flex items-center space-x-4 lg:space-x-6 xl:space-x-8 mx-auto uppercase">
           <li className="p-3 xl:p-6 relative">
             <NavLink exact to="/" activeClassName="active">
-              <span>Platform</span>
+              <span>Platform</span>{" "}
+              <i class="fa-solid fa-caret-down"></i>
             </NavLink>
             <ul className="submenu rounded-lg">
               <li>
@@ -37,7 +38,8 @@ function Nav() {
           </li>
           <li className="p-3 xl:p-6 relative">
             <NavLink to="/company" activeClassName="active">
-              <span>About</span>
+              <span>About</span>{" "}
+              <i class="fa-solid fa-caret-down"></i>
             </NavLink>
             <ul className="submenu rounded-lg">
               <li>
