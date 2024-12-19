@@ -16,13 +16,6 @@ body {
   background-color: #1d061a;
   color: black;
 }
-/* .container
-{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-} */
 
 .container .box
 {
@@ -201,7 +194,7 @@ body {
   line-height: 1.4em;
 }
 
-.container .box .content a
+.container .box .content button
 {
   display: inline-block;
   font-size: 1.1em;
@@ -214,9 +207,26 @@ body {
   margin-top: 5px;
 }
 
-.container .box .content a:hover
+.container .box .content button:hover
 {
   background: #ffcf4d;
   border: 1px solid rgba(255, 0, 88, 0.4);
   box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
+}
+
+.website b {
+  font-size: 25px;
+  color: white;
+}
+
+.document b {
+  font-size: 25px;
+  color: white;
+}
+.website span {
+  color: white;
+}
+
+.document span {
+  color: white;
 }

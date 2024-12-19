@@ -2,6 +2,7 @@ import React from "react";
 import "../SurveyTool/surveyTool.css";
 import chatBot from "../../assets/AOChatBot.png";
 import { TextGenerateEffect } from "../TextGenerateEffect";
+import SurveyToolVideo from "../../assets/Survey Tool.mp4";
 
 function SurveyTool() {
   return (
@@ -17,7 +18,7 @@ function SurveyTool() {
         </div>
         <div className="flex flex-row justify-center items-center">
           <div>
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+            <video src={SurveyToolVideo} alt="gif" className="w-4/5 mx-auto rounded-lg" controls />
           </div>
         </div>
       </div>

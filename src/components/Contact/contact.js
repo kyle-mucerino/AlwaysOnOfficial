@@ -2,6 +2,7 @@ import React from "react";
 import "../Contact/contact.css";
 import chatBot from "../../assets/AOChatBot.png";
 import { TextGenerateEffect } from "../TextGenerateEffect";
+import ContactUsVideo from "../../assets/Contact Us.mp4";
 
 function Contact() {
   return (
@@ -17,7 +18,7 @@ function Contact() {
         </div>
         <div className="flex flex-row justify-center items-center">
           <div>
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+            <video src={ContactUsVideo} alt="gif" className="w-4/5 rounded-lg mx-auto" controls />
           </div>
         </div>
       </div>

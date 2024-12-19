@@ -2,6 +2,7 @@ import React from "react";
 import "../ProServices/proServices.css";
 import chatBot from "../../assets/AOChatBot.png";
 import { TextGenerateEffect } from "../TextGenerateEffect";
+import ProfessionalServicesVideo from "../../assets/Professional Services.mp4";
 
 function ProServices() {
   return (
@@ -17,7 +18,7 @@ function ProServices() {
         </div>
         <div className="flex flex-row justify-center items-center">
           <div>
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+            <video src={ProfessionalServicesVideo} alt="gif" className="w-4/5 rounded-lg mx-auto" controls />
           </div>
         </div>
       </div>

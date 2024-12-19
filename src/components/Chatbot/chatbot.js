@@ -1,17 +1,25 @@
 import React, { useState } from "react";
-import chatBot from "../../assets/AOChatBot.png";
 import "./chatbot.css";
 import selfLearning from "../../assets/AOTopQs.png";
 import analyitcs from "../../assets/analytics.png";
 import content1 from "../../assets/content1.png";
 import content2 from "../../assets/content2.png";
+import webBotVideo from "../../assets/webBotVideo.mp4";
+import docBotVideo from "../../assets/docBotVideo.mp4";
+import { FlipWordsDemo } from "../FlipWordsDemo2";
 
 function Chatbot() {
   const [selectedBot, setSelectedBot] = useState("website");
   return (
     <>
       {/* SECTION 1 */}
-      <div className="section-cb-01 flex justify-center items-center">
+      <div className="section-cb-01 flex flex-col justify-center items-center">
+        <div className="text-2xl open-sans-light p-4 font-bold">
+          <FlipWordsDemo />
+          {/* AlwaysOn chatbot can be launched within 24 hours, is trained only on
+          your information, available in 30+ languages, and improves with every
+          interaction. */}
+        </div>
         <div className="container flex justify-center items-center">
           <div
             className="box flex justify-center items-center"
@@ -21,10 +29,9 @@ function Chatbot() {
             <div className="content">
               <h2>Website Bot</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Uses your website as its sole knowledge base to answer questions and guide users to the right information. See below for more details.
               </p>
-              <a href="#top">Read More</a>
+              <button>Learn More</button>
             </div>
           </div>
           <div className="box" onClick={() => setSelectedBot("document")}>
@@ -32,10 +39,9 @@ function Chatbot() {
             <div className="content">
               <h2>Document Bot</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Trained exclusively on internal documents, it answers questions with precision and accuracy. See below for more details. 
               </p>
-              <a href="#top">Read More</a>
+              <button>Learn More</button>
             </div>
           </div>
         </div>
@@ -44,14 +50,25 @@ function Chatbot() {
       {/* SECTION 2 */}
       <div className="section-02 flex flex-col items-center justify-center">
         {selectedBot === "website" && (
-          <div className="website text-4xl alata-regular">
-            A powerful AI chatbot in the center of a customer service platform
-          </div>
+          <>
+            <div className="website text-4xl alata-regular">
+              A chatbot trained on your organization's <span>website</span>
+              <b>&#9660;</b>
+            </div>
+            <div className="video-container p-8">
+              <video src={webBotVideo} className="video w-4/5 mx-auto" controls></video>
+            </div>
+          </>
         )}
         {selectedBot === "document" && (
-          <div className="document text-4xl alata-regular">
-            Document based internal chatbot
-          </div>
+          <>
+            <div className="document text-4xl alata-regular">
+              A chatbot trained on your organization's <span>documents</span><b>&#9660;</b>
+            </div>
+            <div className="video-container p-8">
+              <video src={docBotVideo} className="video w-4/5 mx-auto" controls></video>
+            </div>
+          </>
         )}
       </div>
       <div className="relative flex justify-center items-center w-full bg-white">

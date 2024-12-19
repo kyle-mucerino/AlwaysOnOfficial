@@ -13,19 +13,19 @@ body {
 }
 
 .section-2 {
-  background-color: white;
+  background-color: #1d061a;
 }
 
 .section-3 {
-  background-color: black;
+  background-color: white;
 }
 
 .section-4 {
-  background-color: rgb(228, 219, 219);
+  background-color: white;
 }
 
 .section-5 {
-  background-color: rgb(228, 219, 219);
+  background-color: white;
 }
 
 .security {
@@ -330,10 +330,10 @@ body {
 /* SECTION 6 */
 /* Ellipse "SEE ALL U CAN ACCOMPLISH */
 .content-container-1 {
-  /* background: linear-gradient(to bottom, #FF6600, #fc4a1a); */
+  background: linear-gradient(to bottom, #FF6600, #fc4a1a);
   border: none;
   clip-path: ellipse(75% 100% at center top);
-  /* min-height: 300px; */
+  min-height: 300px;
 }
 
 ul.states {

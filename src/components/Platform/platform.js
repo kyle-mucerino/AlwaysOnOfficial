@@ -7,7 +7,6 @@ import gif6 from "../../assets/professional.gif";
 import chatBot2 from "../../assets/chatbotph.png";
 import { FlipWordsDemo } from "../FlipWordsDemo";
 import { CanvasRevealEffectDemo } from "../CanvasRevealEffectDemo.js";
-import { VortexDemo } from "../VortexDemo";
 import { AppleCardsCarouselDemo } from "../appleCardsCarouselDemo";
 
 
@@ -153,7 +152,6 @@ function Platform() {
         </div>
       </div>
 
-     
       <div className="section section-5 flex flex-col">
         <div className="text-center p-2">
           <h1 className="text-7xl poppins-bold">Testimonials</h1>
@@ -201,7 +199,14 @@ function Platform() {
           </figure>
         </div>
         <div className="hidden custom:block content-container-1 text-center">
-          <VortexDemo />
+          <h1 className="text-6xl uppercase poppins-bold p-12 text-black">
+            Explore the power of AlwaysOn
+          </h1>
+          <div className="free-trial flex-row">
+            <button className="border-2 border-white bg-white text-black rounded-lg p-4 freeman-regular uppercase mx-4">
+              <span>Get started today</span>
+            </button>
+          </div>
         </div>
       </div>
     </>
