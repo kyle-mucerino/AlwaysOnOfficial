@@ -18,11 +18,25 @@ function Contact() {
         </div>
         <div className="flex flex-row justify-center items-center">
           <div>
-            <video src={ContactUsVideo} alt="gif" className="w-4/5 rounded-lg mx-auto" controls />
+            <video
+              src={ContactUsVideo}
+              alt="gif"
+              className="w-4/5 rounded-lg mx-auto"
+              controls
+            />
           </div>
         </div>
       </div>
-      <div className="section-cu-2 flex justify-center items-center">
+      <div className="relative flex justify-center items-center bg-white w-full">
+        <div className="flex-grow h-0 border-t border-gray-400"></div>
+        <img
+          className="h-36 mx-4 fading my-10"
+          src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
+          alt="Logo"
+        />
+        <div className="flex-grow h-0 border-t border-gray-400"></div>
+      </div>
+      {/* <div className="section-cu-2 flex justify-center items-center">
         <div className="flex flex-col justify-center text-center">
           <h1 className="text-7xl poppins-bold mb-4">Who's it for?</h1>
           <p className="text-4xl open-sans-light">
@@ -73,7 +87,7 @@ function Contact() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
