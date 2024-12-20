@@ -3,6 +3,7 @@
 import React from "react";
 import { Carousel, Card } from "./appleCardsCarousel.js";
 import logo3 from "../assets/logo3.png";
+import { NavLink } from "react-router-dom";
 
 
 export function AppleCardsCarouselDemo() {
@@ -39,13 +40,16 @@ const SurveyToolCard = () => {
               choose from various response types. With built in analytics,
               reviewing and acting on your data has never been simpler.
             </p>
-            <img
+            {/* <img
               src={logo3}
               alt="Macbook mockup from Aceternity UI"
               height="500"
               width="500"
               className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain mt-4"
-            />
+            /> */}
+            <button className="flex mt-8 mx-auto">
+              <a href="/survey-tool" className=" text-white p-2 bg-blue-600 rounded-lg text-xl font-semibold">Learn more about Survey Tool</a>
+            </button>
           </div>
         );
       })}
@@ -75,13 +79,21 @@ const ContactUsRoutingCard = () => {
               directly to the submitter. Additionally, all contacted submissions
               are logged in the Chapond analytics for easy tracking and review.
             </p>
-            <img
+            {/* <img
               src={logo3}
               alt="Macbook mockup from Aceternity UI"
               height="500"
               width="500"
               className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain mt-4"
-            />
+            /> */}
+            <button className="flex mt-8 mx-auto">
+              <a
+                href="/contact-us-routing"
+                className=" text-white p-2 bg-blue-600 rounded-lg text-xl font-semibold"
+              >
+                Learn more about Contact Us Routing 
+              </a>
+            </button>
           </div>
         );
       })}
@@ -112,13 +124,21 @@ const ProServicesCard = () => {
               side every step of the way, ensuring you maximize the value of
               always on. Always on the next level of customer service excellent
             </p>
-            <img
+            {/* <img
               src={logo3}
               alt="Macbook mockup from Aceternity UI"
               height="500"
               width="500"
               className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain mt-4"
-            />
+            /> */}
+            <button className="flex mt-8 mx-auto">
+              <a
+                href="/professional-services"
+                className=" text-white p-2 bg-blue-600 rounded-lg text-xl font-semibold"
+              >
+                Learn more about Professional Services
+              </a>
+            </button>
           </div>
         );
       })}
