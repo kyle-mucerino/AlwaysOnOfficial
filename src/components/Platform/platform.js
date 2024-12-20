@@ -42,11 +42,11 @@ function Platform() {
     <>
       {/* SECTION 1 */}
       <div className="section section-1 flex flex-row border-b-2 border-black">
-        <div className="flex flex-col justify-center text-left ml-12">
+        <div className="flex flex-col justify-center text-left ml-8">
           <div className="headline mb-4">
             <h1 className="text-8xl poppins-bold">AlwaysOn</h1>
           </div>
-          <div className="homepage-hero">
+          <div className="homepage-hero w-max">
             <FlipWordsDemo />
           </div>
           <div className="free-trial mt-8">
@@ -63,44 +63,44 @@ function Platform() {
 
           {/* Feature 3 */}
           <div className="feature feature-3 w-1/3 flex flex-col justify-center items-center z-20">
-            <a href="#survey" className="text-center">
-              <div className="w-1/2 p-4 bg-white rounded-full inline-block">
+            <div className="text-center">
+              <div className="w-3/5 p-6 bg-white rounded-full inline-block">
                 <img src={gif4} alt="Feature 3" className="rounded-lg" />
               </div>
               <h3 className="font-extrabold text-lg">
-                <span className="bg-black rounded-lg text-white p-1">
+                <span className="bg-yellow-400 rounded-lg text-black p-2">
                   Survey Tool
                 </span>
               </h3>
-            </a>
+            </div>
           </div>
 
           {/* Feature 4 */}
           <div className="feature feature-4 w-1/3 flex flex-col justify-center items-center z-20">
-            <a href="#contact" className="text-center">
-              <div className="w-1/2 p-4 bg-white rounded-full inline-block">
+            <div className="text-center">
+              <div className="w-3/5 p-6 bg-white rounded-full inline-block">
                 <img src={gif5} alt="Feature 4" className="rounded-lg" />
               </div>
               <h3 className="font-extrabold text-lg">
-                <span className="bg-black rounded-lg text-white p-1">
+                <span className="bg-yellow-400 rounded-lg text-black p-2">
                   Contact Us Routing
                 </span>
               </h3>
-            </a>
+            </div>
           </div>
 
           {/* Feature 5 */}
           <div className="feature feature-5 w-1/3 flex flex-col justify-center items-center z-20">
-            <a href="#professional" className="text-center">
-              <div className="w-1/2 p-4 bg-white rounded-full inline-block">
+            <div className="text-center">
+              <div className="w-3/5 p-6 bg-white rounded-full inline-block">
                 <img src={gif6} alt="Feature 5" className="rounded-lg" />
               </div>
               <h3 className="font-extrabold text-lg">
-                <span className="bg-black rounded-lg text-white p-1">
+                <span className="bg-yellow-400 rounded-lg text-black p-2">
                   Professional Services
                 </span>
               </h3>
-            </a>
+            </div>
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@ function Platform() {
         <CanvasRevealEffectDemo />
       </div>
 
-      <div className="section-3" id="survey" >
+      <div className="section-3" id="survey">
         <AppleCardsCarouselDemo />
       </div>
 

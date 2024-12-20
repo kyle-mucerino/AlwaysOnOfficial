@@ -6,7 +6,7 @@ import { CanvasRevealEffect } from "./CanvasRevealEffect";
 export function CanvasRevealEffectDemo() {
   return (
     <>
-      <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8 cursor-pointer open-sans-light">
+      <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-yellow-400 w-full gap-4 mx-auto px-8 cursor-pointer open-sans-light">
         <Card
           title="CHATBOT"
           info="Turnkey: Works instantly no setup required) Custom: Trained only on your website information) Translation: Communicate in multiple languages) Training: Improvement with every interaction) Multi-Chatbot: District-wide, school site, dept, etc."
@@ -17,7 +17,7 @@ export function CanvasRevealEffectDemo() {
             colors={([153, 51, 255], [0, 255, 85])}
           />
         </Card>
-        <button class="text-8xl font-bold text-white">&#43;</button>
+        <button class="text-8xl font-bold text-black">&#43;</button>
         <Card
           title="ANALYTICS"
           info="Usage Metrics: Track the number of unique engagements and overall volume of questions) Question-Level Data: See the exact questions and specific information your community requests) Predictive Insights: Identify information gaps, trends, and anticipate needs to improve the website"
@@ -43,7 +43,7 @@ const Card = ({ title, info, children }) => {
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="relative border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2] max-w-[36rem] w-full mx-auto p-4 h-[32rem] hover:shadow-xl transition duration-300 ease-in-out"
+      className="relative border-4 border-black group/canvas-card flex items-center justify-center max-w-[36rem] w-full mx-auto p-4 h-[32rem] hover:shadow-xl transition duration-300 ease-in-out rounded-lg"
     >
       <AnimatePresence>
         {hovered && (
@@ -59,7 +59,7 @@ const Card = ({ title, info, children }) => {
       <div className="relative z-20">
         {/* Title */}
         <div className="text-center transition duration-200 w-full mx-auto flex items-center justify-center mb-8">
-          <h2 className="dark:text-white text-5xl relative z-10 text-black font-bold">
+          <h2 className="text-5xl relative z-10 text-black font-bold">
             {title}
           </h2>
         </div>
@@ -85,7 +85,7 @@ const Card = ({ title, info, children }) => {
 
         {/* Hover Prompt */}
         {!hovered && (
-          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-lg text-gray-500 dark:text-gray-400 animate-bounce uppercase">
+          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-lg text-gray-900 animate-bounce uppercase font-bold">
             Hover for more details
           </div>
         )}

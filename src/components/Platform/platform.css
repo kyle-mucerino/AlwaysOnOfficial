@@ -48,7 +48,7 @@ body {
 /* Center logo */
 .center-logo {
   position: absolute;
-  top: 45%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
@@ -66,19 +66,19 @@ body {
 
 /* Adjust layout-specific positions */
 .feature-4 {
-  top: 50%;
+  top: 80%;
   left: 80%;
   transform: translate(-50%, -50%);
 }
 
 .feature-3 {
-  top: 50%;
+  top: 80%;
   right: 80%;
   transform: translate(50%, -50%);
 }
 
 .feature-5 {
-  top: 85%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -115,11 +115,6 @@ body {
 .fade-out {
   opacity: 0;
 }
-
-.homepage-hero {
-  width: max-content;
-}
-
 
 /* GIF BUBBLE SECTION-1 */
 

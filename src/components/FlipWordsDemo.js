@@ -6,8 +6,8 @@ export function FlipWordsDemo() {
 
   return (
       <div className="text-4xl saira-regular leading-normal">
-        A powerful customer service platform for
-        <FlipWords words={words} className="font-bold text-white" /> <br />
+        A powerful customer service platform for <br/>
+        <FlipWords words={words} className="font-bold text-white" /> 
         featuring AI chatbots + analytics
       </div>
   );
