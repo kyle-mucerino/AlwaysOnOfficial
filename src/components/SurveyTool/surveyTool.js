@@ -3,6 +3,7 @@ import "../SurveyTool/surveyTool.css";
 import chatBot from "../../assets/AOChatBot.png";
 import { TextGenerateEffect } from "../TextGenerateEffect";
 import SurveyToolVideo from "../../assets/Survey Tool.mp4";
+import surveygif1 from "../../assets/surveygif1.gif";
 
 function SurveyTool() {
   return (
@@ -56,7 +57,11 @@ function SurveyTool() {
       <div className="section-st-3 p-4">
         <div className="flex flex-row">
           <div className="flex justify-center items-center">
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+            <img
+              src={surveygif1}
+              alt="gif"
+              className="w-1/2 rounded-lg mx-auto"
+            />
           </div>
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-6xl poppins-bold mb-4">
@@ -69,7 +74,11 @@ function SurveyTool() {
         </div>
         <div className="flex flex-row-reverse">
           <div className="flex justify-center items-center">
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+            <img
+              src={surveygif1}
+              alt="gif"
+              className="w-1/2 rounded-lg mx-auto"
+            />
           </div>
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-6xl poppins-bold mb-4">

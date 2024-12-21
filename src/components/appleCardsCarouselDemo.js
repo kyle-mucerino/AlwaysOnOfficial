@@ -4,6 +4,9 @@ import React from "react";
 import { Carousel, Card } from "./appleCardsCarousel.js";
 import logo3 from "../assets/logo3.png";
 import { NavLink } from "react-router-dom";
+import professional from "../assets/professional.gif";
+import list from "../assets/list.gif";
+import chat from "../assets/credit-score.gif";
 
 
 export function AppleCardsCarouselDemo() {
@@ -16,6 +19,10 @@ export function AppleCardsCarouselDemo() {
       <h2 className="max-w-7xl mx-auto text-xl md:text-5xl font-bold text-neutral-800 poppins-bold uppercase">
         additional features of the AlwaysOn platform
       </h2>
+      <h3 class="max-w-7xl mx-auto text-sm md:text-xl font-bold open-sans-light bg-orange-500 w-max rounded-lg p-1 text-white mt-2">
+        Ready to explore? Click a card!
+      </h3>
+
       <Carousel items={cards} />
     </div>
   );
@@ -147,25 +154,23 @@ const ProServicesCard = () => {
 };
 
 const data = [
-
   {
-    category: "Feature 1",
+    category: "",
     title: "Survey Tool",
-    src: "https://images.unsplash.com/photo-1713869791518-a770879e60dc?q=80&w=2333&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: chat,
     content: <SurveyToolCard />
   },
 
   {
-    category: "Feature 2",
+    category: "",
     title: "Contact Us Routing",
-    src: "https://images.unsplash.com/photo-1599202860130-f600f4948364?q=80&w=2515&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: list,
     content: <ContactUsRoutingCard />
   },
   {
-    category: "Feature 3",
+    category: "",
     title: "Professional Services",
-    src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: professional,
     content: <ProServicesCard />
   }
 ];
-

@@ -118,7 +118,7 @@ function Chatbot() {
               className="rounded-lg transform transition hover:scale-105 duration-300 cursor-pointer p-4"
             />
           </div>
-          <div className="flex flex-col justify-center text-left w-2/5 p-2">
+          <div className="flex flex-col justify-center text-left w-3/5 p-2">
             <h1 className="text-7xl poppins-bold mb-4">Insightful Analytics</h1>
             <p className="text-4xl open-sans-light">
               Chatbot analytics provide unique insights and question-level data
