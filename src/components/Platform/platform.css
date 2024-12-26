@@ -12,6 +12,14 @@ body {
   background: linear-gradient(to bottom, #FF6600, #fc4a1a);
 }
 
+.chatbot {
+  background: linear-gradient(to bottom, #FF6600, #fc4a1a);
+}
+
+.analytics {
+  background: linear-gradient(to bottom, #FF6600, #fc4a1a);
+}
+
 .section-2 {
   background-color: #fcae04;
 }

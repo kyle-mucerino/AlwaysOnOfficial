@@ -108,7 +108,7 @@ function Platform() {
           <div class="mx-auto w-[35rem]">
             <div class="relative group">
               <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <div class="relative px-7 py-6 bg-orange-500 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+              <div class="relative px-7 py-6 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 chatbot">
                 <div class="space-y-4">
                   <p class="text-5xl poppins-bold">Chatbot</p>
                   <ul className="text-left space-y-4">
@@ -145,7 +145,7 @@ function Platform() {
           <div class="mx-auto w-[35rem]">
             <div class="relative group">
               <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <div class="relative px-7 py-6 bg-orange-500 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+              <div class="relative px-7 py-6 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 analytics">
                 <div class="space-y-4">
                   <p class="text-5xl poppins-bold">Analytics</p>
                   <ul className="text-left space-y-4">
