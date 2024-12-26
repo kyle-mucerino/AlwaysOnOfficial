@@ -104,7 +104,78 @@ function Platform() {
       </div>
 
       <div className="section-2 border-b-2 border-black">
-        <CanvasRevealEffectDemo />
+        <div class="flex flex-row justify-center relative overflow-hidden sm:py-12 cursor-pointer">
+          <div class="mx-auto w-[35rem]">
+            <div class="relative group">
+              <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+              <div class="relative px-7 py-6 bg-orange-500 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+                <div class="space-y-4">
+                  <p class="text-5xl poppins-bold">Chatbot</p>
+                  <ul className="text-left space-y-4">
+                    <li className="text-xl open-sans-light">
+                      <b>Turnkey:</b> Works instantly no setup required
+                    </li>
+                    <li className="text-xl open-sans-light">
+                      <b>Custom:</b> Trained only on your website information
+                    </li>
+                    <li className="text-xl open-sans-light">
+                      <b>Translation:</b> Communicate in multiple languages
+                    </li>
+                    <li className="text-xl open-sans-light">
+                      <b>Training:</b> Improvement with every interaction
+                    </li>
+                    <li className="text-xl open-sans-light">
+                      <b>Multi-Chatbot:</b> District-wide, school site, dept,
+                      etc.
+                    </li>
+                  </ul>
+                  <a
+                    href="https://braydoncoyer.dev/blog/tailwind-gradients-how-to-make-a-glowing-gradient-background"
+                    class="block text-indigo-400 group-hover:text-slate-800 transition duration-200"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Learn More →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="text-8xl font-bold">&#43;</button>
+          <div class="mx-auto w-[35rem]">
+            <div class="relative group">
+              <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+              <div class="relative px-7 py-6 bg-orange-500 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
+                <div class="space-y-4">
+                  <p class="text-5xl poppins-bold">Analytics</p>
+                  <ul className="text-left space-y-4">
+                    <li className="text-xl open-sans-light">
+                      <b>Usage Metrics:</b> Track the number of unique
+                      engagements and overall volume of questions
+                    </li>
+                    <li className="text-xl open-sans-light">
+                      <b>Question-Level Data:</b> See the exact questions and
+                      specific information your community requests
+                    </li>
+                    <li className="text-xl open-sans-light">
+                      <b>Predictive Insights:</b> Identity information gaps,
+                      trends, and anticipate needs to improve the website
+                    </li>
+                  </ul>
+                  <a
+                    href="https://braydoncoyer.dev/blog/tailwind-gradients-how-to-make-a-glowing-gradient-background"
+                    class="block text-indigo-400 group-hover:text-slate-800 transition duration-200"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Learn More →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <CanvasRevealEffectDemo /> */}
         {/* <div className="flex flex-row p-6 space-x-2">
           <div className="flex flex-col w-1/2 p-4 border-black border-2 rounded-lg chatbot bg-orange-500 opacity-100 hover:opacity-75 shadow-2xl">
             <h1 className="text-7xl poppins-bold mb-4">Chatbot</h1>
