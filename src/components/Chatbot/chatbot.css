@@ -127,8 +127,8 @@ body {
 .container .box:hover span::before,
 .container .box.active span::before
 {
-  top: -40px;
-  left: 50px;
+  top: -55px;
+  left: 20px;
   width: 100px;
   height: 100px;
   opacity: 1;
