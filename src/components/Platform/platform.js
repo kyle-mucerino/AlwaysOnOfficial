@@ -41,22 +41,22 @@ function Platform() {
   return (
     <>
       {/* SECTION 1 */}
-      <div className="section section-1 flex flex-row border-b-2 border-black">
-        <div className="flex flex-col justify-center text-left ml-8">
+      <div className="section section-1 flex flex-row border-b-2 border-black border-t-2">
+        <div className="flex flex-col justify-center text-center sm:text-left sm:ml-8 mx-auto">
           <div className="headline mb-4">
-            <h1 className="text-8xl poppins-bold">AlwaysOn</h1>
+            <h1 className="text-5xl sm:text-8xl poppins-bold">AlwaysOn</h1>
           </div>
-          <div className="homepage-hero w-max">
+          <div className="homepage-hero w-full sm:w-max">
             <FlipWordsDemo />
           </div>
-          <div className="free-trial mt-8">
-            <button className="border-2 border-white bg-white text-black rounded-lg p-6 freeman-regular uppercase">
+          <div className="free-trial mt-8 text-center sm:text-left">
+            <button className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl">
               <span>Get started today</span>
             </button>
           </div>
         </div>
 
-        <div className="flex-grow relative feature-container w-full">
+        <div className="flex-grow relative feature-container w-full hidden sm:flex">
           <div className="center-logo z-10">
             <img className="h-84" src={chatBot2} alt="Logo" />
           </div>
@@ -104,8 +104,8 @@ function Platform() {
       </div>
 
       <div className="section-2 border-b-2 border-black">
-        <div class="flex flex-row justify-center relative overflow-hidden sm:py-12 cursor-pointer">
-          <div class="mx-auto w-[35rem]">
+        <div class="flex flex-col sm:flex-row justify-center relative overflow-hidden p-4 sm:py-12 cursor-pointer">
+          <div class="mx-auto w-full sm:w-[35rem]">
             <div class="relative group">
               <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <div class="relative px-7 py-6 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 chatbot">
@@ -142,7 +142,7 @@ function Platform() {
             </div>
           </div>
           <button class="text-8xl font-bold">&#43;</button>
-          <div class="mx-auto w-[35rem]">
+          <div class="mx-auto w-full sm:w-[35rem]">
             <div class="relative group">
               <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <div class="relative px-7 py-6 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 analytics">
@@ -222,7 +222,7 @@ function Platform() {
         <AppleCardsCarouselDemo />
       </div>
 
-      <div className="section section-4 flex flex-col">
+      <div className="section section-4 hidden sm:flex flex-col">
         <div className="text-center">
           <h1 className="text-7xl font-extrabold poppins-bold">Our Clients</h1>
           <p className="text-3xl italic mt-2">
@@ -261,7 +261,7 @@ function Platform() {
         </div>
       </div>
 
-      <div className="section section-5 flex flex-col">
+      <div className="section section-5 hidden sm:flex flex-col">
         <div className="text-center p-2">
           <h1 className="text-7xl poppins-bold">Testimonials</h1>
           <p className="text-3xl open-sans-light mt-4 text-center">
