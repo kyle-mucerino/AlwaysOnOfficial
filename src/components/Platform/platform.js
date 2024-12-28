@@ -44,7 +44,7 @@ function Platform() {
       <div className="section section-1 flex flex-row border-b-2 border-black border-t-2">
         <div className="flex flex-col justify-center text-center sm:text-left sm:ml-8 mx-auto">
           <div className="headline mb-4">
-            <h1 className="text-5xl sm:text-8xl poppins-bold">AlwaysOn</h1>
+            <h1 className="text-6xl sm:text-8xl poppins-bold">AlwaysOn</h1>
           </div>
           <div className="homepage-hero w-full sm:w-max">
             <FlipWordsDemo />
