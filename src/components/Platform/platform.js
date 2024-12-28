@@ -8,6 +8,7 @@ import chatBot2 from "../../assets/chatbotph.png";
 import { FlipWordsDemo } from "../FlipWordsDemo";
 import { CanvasRevealEffectDemo } from "../CanvasRevealEffectDemo.js";
 import { AppleCardsCarouselDemo } from "../appleCardsCarouselDemo";
+import logo2 from "../../assets/logo2.png";
 
 
 function Platform() {
