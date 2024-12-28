@@ -54,11 +54,6 @@ function Platform() {
             <button className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl">
               <span>Get started today</span>
             </button>
-            <div className="relative flex sm:hidden justify-center items-center w-full bg-transparent">
-              <div className="flex-grow h-0 border-t border-white"></div>
-              <img className="h-16 mx-4 my-4" src={logo2} alt="Logo" />
-              <div className="flex-grow h-0 border-t border-white"></div>
-            </div>
           </div>
         </div>
 
