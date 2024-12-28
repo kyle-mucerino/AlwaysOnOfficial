@@ -5,6 +5,9 @@ body {
 .section-cy-1 {
   min-height: 40vh;
   background: linear-gradient(to bottom, #FF6600, #fc4a1a);
+  @media (max-width: 640px) {
+    min-height: fit-content;
+  }
 }
 
 .section-cy-2 {

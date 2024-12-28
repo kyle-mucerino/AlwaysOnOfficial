@@ -1,13 +1,9 @@
 import React, { useState } from "react";
 import "./about.css";
-import Image1 from "../../assets/AOTopQs.png";
-import Image2 from "../../assets/homegif.gif";
-import Image4 from "../../assets/AOChatBot.png";
 import gif from "../../assets/homegif.gif";
 import gif2 from "../../assets/school.gif";
 import gif3 from "../../assets/students.gif";
 import gif4 from "../../assets/education.gif";
-import gif5 from "../../assets/secretary.gif";
 import gif6 from "../../assets/bell.gif";
 import gif7 from "../../assets/lesson.gif";
 import gif8 from "../../assets/teacher.gif";

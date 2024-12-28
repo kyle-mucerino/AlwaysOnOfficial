@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./faq.css";
+import logo2 from "../../assets/logo2.png";
 
 const FAQ = () => {
   const [openIndex1, setOpenIndex1] = useState(null);
@@ -58,10 +59,17 @@ const FAQ = () => {
   };
 
   return (
-    <div className="faq alata-regular flex flex-col justify-evenly items-center">
-      <h1 className="text-6xl poppins-bold">Frequently Asked Questions</h1>
+    <div className="faq alata-regular flex flex-col justify-evenly items-center border-t-2 border-black">
+      <h1 className="text-3xl sm:text-6xl poppins-bold">
+        Frequently Asked Questions
+      </h1>
+      <div className="relative sm:hidden flex justify-center items-center w-full bg-transparent">
+        <div className="flex-grow h-0 border-t border-white"></div>
+        <img className="h-16 mx-4 my-4" src={logo2} alt="Logo" />
+        <div className="flex-grow h-0 border-t border-white"></div>
+      </div>
 
-      <div className="relative flex justify-center items-center w-full mt-6 mb-10">
+      <div className="relative hidden sm:flex justify-center items-center w-full mt-6 mb-10">
         <div className="flex-grow h-0 border-t border-gray-400"></div>
         <img
           className="h-36 mx-4 fading"
@@ -73,12 +81,12 @@ const FAQ = () => {
 
       {/* Wrapper for both accordions with flex-row class */}
       <div className="flex flex-col gap-14 w-full">
-        <div className="flex flex-row justify-evenly">
-          <h1 className="text-5xl poppins-bold text-left">
+        <div className="flex flex-col sm:flex-row justify-evenly">
+          <h1 className="text-2xl sm:text-5xl poppins-bold text-left mb-2 sm:mb-0">
             Security & Accessibility:
           </h1>
           {/* First FAQ Accordion */}
-          <div className="accordion w-1/2 open-sans-light">
+          <div className="accordion w-full sm:w-1/2 open-sans-light">
             {faqs1.map((faq, index) => (
               <div key={index} className="accordion-item">
                 <div
@@ -101,12 +109,12 @@ const FAQ = () => {
         <div className="flex-grow h-0 border-t border-gray-400"></div>
 
         {/* Second FAQ Accordion */}
-        <div className="flex flex-row justify-evenly mb-12">
-          <h1 className="text-5xl poppins-bold justify-center">
+        <div className="flex flex-col sm:flex-row justify-evenly sm:mb-12">
+          <h1 className="text-2xl sm:text-5xl poppins-bold justify-center mb-2 sm:mb-0">
             {" "}
             Partnerships & Pricing:
           </h1>
-          <div className="accordion w-1/2 open-sans-light">
+          <div className="accordion w-full sm:w-1/2 open-sans-light">
             {faqs2.map((faq, index) => (
               <div key={index} className="accordion-item">
                 <div

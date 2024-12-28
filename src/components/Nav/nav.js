@@ -54,18 +54,46 @@ function Nav() {
                 {isPlatformSubmenuOpen && (
                   <ul className="ml-4 text-sm space-y-2">
                     <li className="mt-8">
-                      <NavLink to="/chatbot">AI Chatbot + Analytics</NavLink>
+                      <NavLink
+                        to="/chatbot"
+                        onClick={() => {
+                          setIsMobileMenuOpen(false);
+                          setIsPlatformSubmenuOpen(false);
+                        }}
+                      >
+                        AI Chatbot + Analytics
+                      </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/survey-tool">Survey Tool</NavLink>
+                      <NavLink
+                        to="/survey-tool"
+                        onClick={() => {
+                          setIsMobileMenuOpen(false);
+                          setIsPlatformSubmenuOpen(false);
+                        }}
+                      >
+                        Survey Tool
+                      </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/contact-us-routing">
+                      <NavLink
+                        to="/contact-us-routing"
+                        onClick={() => {
+                          setIsMobileMenuOpen(false);
+                          setIsPlatformSubmenuOpen(false);
+                        }}
+                      >
                         Contact Us Routing
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/professional-services">
+                      <NavLink
+                        to="/professional-services"
+                        onClick={() => {
+                          setIsMobileMenuOpen(false);
+                          setIsPlatformSubmenuOpen(false);
+                        }}
+                      >
                         Professional Services
                       </NavLink>
                     </li>
@@ -84,18 +112,48 @@ function Nav() {
                 {isAboutSubmenuOpen && (
                   <ul className="ml-4 text-sm space-y-2">
                     <li>
-                      <NavLink to="/company">Company</NavLink>
+                      <NavLink
+                        to="/company"
+                        onClick={() => {
+                          setIsMobileMenuOpen(false);
+                          setIsAboutSubmenuOpen(false);
+                        }}
+                      >
+                        Company
+                      </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/media">Media & Materials</NavLink>
+                      <NavLink
+                        to="/media"
+                        onClick={() => {
+                          setIsMobileMenuOpen(false);
+                          setIsAboutSubmenuOpen(false);
+                        }}
+                      >
+                        Media & Materials
+                      </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/security-accessibility">
+                      <NavLink
+                        to="/security-accessibility"
+                        onClick={() => {
+                          setIsMobileMenuOpen(false);
+                          setIsAboutSubmenuOpen(false);
+                        }}
+                      >
                         Security/Accessibility
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/faq">FAQ</NavLink>
+                      <NavLink
+                        to="/faq"
+                        onClick={() => {
+                          setIsMobileMenuOpen(false);
+                          setIsAboutSubmenuOpen(false);
+                        }}
+                      >
+                        FAQ
+                      </NavLink>
                     </li>
                   </ul>
                 )}
