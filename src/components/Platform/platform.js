@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import "./platform.css";
-import { ReactComponent as Map } from "../../assets/map2.svg";
+import { ReactComponent as Map } from "../../assets/map3.svg";
 import gif4 from "../../assets/chat.gif";
 import gif5 from "../../assets/list.gif";
 import gif6 from "../../assets/professional.gif";
@@ -223,27 +223,29 @@ function Platform() {
         <AppleCardsCarouselDemo />
       </div>
 
-      <div className="section section-4 hidden sm:flex flex-col">
+      <div className="section section-4 flex flex-col">
         <div className="text-center">
-          <h1 className="text-7xl font-extrabold poppins-bold">Our Clients</h1>
-          <p className="text-3xl italic mt-2">
+          <h1 className="text-3xl sm:text-7xl font-extrabold poppins-bold">
+            Our Clients
+          </h1>
+          <p className="text-lg sm:text-3xl italic mt-2">
             100+ schools & districts in 13 states enhance their schools online
             presence with AlwaysOn
           </p>
         </div>
-        <div className="flex flex-row text-center">
+        <div className="flex flex-col sm:flex-row text-center">
           <div className="flex flex-col mt-4 w-1/2 mx-auto">
-            <div className="hidden custom:flex flex-col my-12 drop-shadow-2xl">
-              <Map />
-              <div className="flex flex-row mt-8 italic attribution">
+            <div className="flex flex-col my-12 drop-shadow-2xl">
+              <Map className="scale-150 sm:scale-110" />
+              <div className="flex flex-row mt-8 italic attribution opacity-10">
                 <a href="https://commons.wikimedia.org/wiki/File:Blank_US_Map_(states_only).svg">
                   Heitordp, CC0, via Wikimedia Commons
                 </a>
               </div>
             </div>
           </div>
-          <div className="custom:grid grid-cols-1 mx-auto my-auto hidden">
-            <ul className="saira-regular text-2xl states">
+          {/* <div className="custom:grid grid-cols-2 gap-x-2 mx-auto my-auto hidden">
+            <ul className="saira-regular text-2xl states space-y-2">
               <li>California</li>
               <li>Texas</li>
               <li>Michigan</li>
@@ -251,6 +253,8 @@ function Platform() {
               <li>Illinois</li>
               <li>Oklahoma</li>
               <li>Kansas</li>
+            </ul>
+            <ul className="saira-regular text-2xl states space-y-2">
               <li>New York</li>
               <li>Pennsylvania</li>
               <li>Indiana</li>
@@ -258,7 +262,7 @@ function Platform() {
               <li>Colorado</li>
               <li>New Jersey</li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -266,8 +270,7 @@ function Platform() {
         <div className="text-center p-2">
           <h1 className="text-7xl poppins-bold">Testimonials</h1>
           <p className="text-3xl open-sans-light mt-4 text-center">
-            100+ schools & districts in 13 states enhance their schools online
-            presence with AlwaysOn
+            See what other Superintendents, Company leaders, and Principals are saying about AlwaysOn
           </p>
         </div>
         <div className="testimonials hidden custom:flex flex-row p-8 justify-center">
