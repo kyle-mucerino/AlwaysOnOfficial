@@ -5,7 +5,7 @@ function Security() {
   return (
     <>
       <div className="section-sa-1 flex flex-row justify-evenly items-center border-b-2 border-black border-t-2">
-        <div className="flex flex-col justify-evenly text-center sm:text-left ml-2 sm:ml-12">
+        <div className="flex flex-col justify-evenly text-left p-6 sm:ml-12">
           <h1 className="text-3xl sm:text-8xl poppins-bold mb-0 sm:mb-4">
             Security & Accessibility
           </h1>
@@ -30,16 +30,16 @@ function Security() {
           <div className="flex flex-col w-full sm:w-1/2 p-4 border-black border-2 rounded-lg security">
             <h1 className="text-xl sm:text-7xl poppins-bold mb-4">Security</h1>
             <ul className="text-left space-y-4">
-              <li className="text-sm sm:text-3xl open-sans-light">
+              <li className="text-md sm:text-3xl open-sans-light">
                 <b>Data Privacy:</b> No personal data/information collection
               </li>
-              <li className="text-sm sm:text-3xl open-sans-light">
+              <li className="text-md sm:text-3xl open-sans-light">
                 <b>Integrations:</b> No direct integrations/systems access
               </li>
-              <li className="text-sm sm:text-3xl open-sans-light">
+              <li className="text-md sm:text-3xl open-sans-light">
                 <b>Servers:</b> Chatbot runs directly from our servers
               </li>
-              <li className="text-sm sm:text-3xl open-sans-light">
+              <li className="text-md sm:text-3xl open-sans-light">
                 <b>Chatbot Implementation:</b> Website: embed code
                 <br /> or App: iframe
               </li>
@@ -50,16 +50,16 @@ function Security() {
               Accessibility
             </h1>
             <ul className="text-left space-y-4">
-              <li className="text-sm sm:text-3xl open-sans-light">
+              <li className="text-md sm:text-3xl open-sans-light">
                 ADA compliant
               </li>
-              <li className="text-sm sm:text-3xl open-sans-light">
+              <li className="text-md sm:text-3xl open-sans-light">
                 Screen reader compatible
               </li>
-              <li className="text-sm sm:text-3xl open-sans-light">
+              <li className="text-md sm:text-3xl open-sans-light">
                 Follow the latest Web Content Accessibility Guidlines (WCAG)
               </li>
-              <li className="text-sm sm:text-3xl open-sans-light">
+              <li className="text-md sm:text-3xl open-sans-light">
                 12 supported languages (& more translation options coming)
               </li>
             </ul>

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./media.css";
 import onePager from "../../assets/onePager.pdf";
 import onePagerImg from "../../assets/onePager.png";
-import logo2 from "../../assets/logo2.png";
 
 function Media() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +16,7 @@ function Media() {
       <div className={isOpen ? "blur-background" : ""}>
         {/* Sections */}
         <div className="section-mm-1 flex flex-row justify-start items-center border-y-2 border-black">
-          <div className="flex flex-col justify-evenly text-center sm:text-left ml-4 sm:mx-0 sm:ml-12">
+          <div className="flex flex-col justify-evenly text-left p-8 sm:mx-0 sm:ml-12">
             <h1 className="text-3xl sm:text-8xl poppins-bold mb-0 sm:mb-4">
               Media & Materials
             </h1>

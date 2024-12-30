@@ -5,6 +5,9 @@ body {
 .section-sa-1 {
   min-height: 50vh;
   background: linear-gradient(to bottom, #FF6600, #fc4a1a);
+  @media (max-width: 640px) {
+    min-height: 35vh;
+  }
 }
 
 .section-sa-2 {
