@@ -3,8 +3,7 @@ body {
 }
 
 .section-cb-2 {
-  min-height: 30vh;
-  background-color: white;
+  background:linear-gradient(to bottom, #FF6600, #fc4a1a);
 }
 
 .section-cb-3 {

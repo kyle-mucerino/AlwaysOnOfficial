@@ -52,7 +52,7 @@ function Chatbot() {
       </div>
 
       {/* SECTION 2 */}
-      <div className="section-02 hidden sm:flex flex-col items-center justify-center">
+      <div className="section-cb-2 hidden sm:flex flex-col items-center justify-center p-4">
         {selectedBot === "website" && (
           <>
             <div className="website text-2xl sm:text-4xl alata-regular">
@@ -120,42 +120,162 @@ function Chatbot() {
       </div>
       {/* SECTION 3 */}
       <div className="section-cb-3 p-4">
-        <div className="flex-grow h-0 border-t border-gray-400"></div>
-        <div className="flex flex-col-reverse sm:flex-row-reverse">
-          <div className="flex justify-center">
-            <img
-              src={chatBot}
-              alt="Chat Bot top questions asked"
-              className="w-1/2 rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer p-4"
-            />
-          </div>
-          <div className="flex flex-col justify-center text-center sm:text-right w-full s:w-2/5 mt-2 sm:mt-0">
-            <h1 className="text-2xl sm:text-7xl poppins-bold mb-4">
-              Self-Learning
-            </h1>
-            <p className="text-lg sm:text-4xl open-sans-light">
-              Chatbot is trained to improve with every question asked
-            </p>
-          </div>
-        </div>
-        <div className="flex-grow h-0 border-t border-gray-400"></div>
-        <div className="flex flex-col-reverse sm:flex-row section-cb-3">
-          <div className="flex justify-center items-center">
-            <img
-              src={analytics2}
-              alt="gif"
-              className="rounded-lg transform transition hover:scale-105 duration-300 cursor-pointer p-4"
-            />
-          </div>
-          <div className="flex flex-col justify-center text-center sm:text-left w-full s:w-3/5 p-2">
-            <h1 className="text-2xl sm:text-7xl poppins-bold mb-4">
-              Insightful Analytics
-            </h1>
-            <p className="text-lg sm:text-4xl open-sans-light">
-              Chatbot analytics provide unique insights and question-level data
-            </p>
-          </div>
-        </div>
+        {selectedBot === "website" && (
+          <>
+            <div className="flex-grow h-0 border-t border-gray-400"></div>
+            <div className="flex flex-col-reverse sm:flex-row-reverse space-x-4">
+              <div className="flex justify-center">
+                <ul className="text-lg sm:text-2xl open-sans-light text-left p-4 space-y-2">
+                  <li>
+                    <b>Turnkey:</b> Works instantly no setup required
+                  </li>
+                  <li>
+                    <b>Custom:</b> Trained only on your organization's info
+                  </li>
+                  <li>
+                    <b>Translation:</b> Communicates in multiple languages
+                  </li>
+                  <li>
+                    <b>Training:</b> Improves with every interaction
+                  </li>
+                  <li>
+                    <b>Multi-Chatbot:</b> Build different chatbots for each use
+                    case
+                  </li>
+                </ul>
+                {/* <img
+                  src={chatBot}
+                  alt="Chat Bot top questions asked"
+                  className="w-1/2 rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer p-4"
+                /> */}
+              </div>
+
+              <div className="flex flex-row justify-center items-center text-left w-full sm:w-3/5 mt-2 sm:mt-0">
+                <p className="text-lg sm:text-3xl open-sans-light">
+                  AlwaysOn website chatbot can be trained to use your
+                  organization's website information to provide accurate
+                  source-based answers that guide your community to the right
+                  information 24/7.
+                </p>
+                <p className="text-5xl hidden sm:flex">&#x2192;</p>
+              </div>
+            </div>
+            <div className="flex-grow h-0 border-t border-gray-400"></div>
+            <div className="flex flex-col-reverse sm:flex-row-reverse section-cb-3">
+              <div className="flex justify-center items-center">
+                <ul className="text-lg sm:text-2xl open-sans-light text-left p-4 space-y-2">
+                  <li>
+                    <b>Usage Metrics:</b> Track total engagement and question
+                    volume
+                  </li>
+                  <li>
+                    <b>Question-Level Data:</b> See exact questions organized
+                    into categories & topics
+                  </li>
+                  <li>
+                    <b>Community Insights:</b> Identify the how and why behind
+                    your community engagement
+                  </li>
+                </ul>
+                {/* <img
+                  src={analytics2}
+                  alt="gif"
+                  className="rounded-lg transform transition hover:scale-105 duration-300 cursor-pointer p-4"
+                /> */}
+              </div>
+
+              <div className="flex flex-row justify-center items-center text-left w-full sm:w-5/6 p-2">
+                {/* <h1 className="text-2xl sm:text-7xl poppins-bold mb-4">
+                  Insightful Analytics
+                </h1> */}
+                <p className="text-lg sm:text-3xl open-sans-light">
+                  AlwaysOn chatbot analytics offer valuable insights into your
+                  community's needs, helping you keep your website updated and
+                  relevant.
+                </p>
+                <p className="text-5xl hidden sm:flex">&#x2192;</p>
+              </div>
+            </div>
+          </>
+        )}
+        {selectedBot === "document" && (
+          <>
+            <div className="flex-grow h-0 border-t border-gray-400"></div>
+            <div className="flex flex-col-reverse sm:flex-row-reverse space-x-4">
+              <div className="flex justify-center">
+                <ul className="text-lg sm:text-2xl open-sans-light text-left p-4 space-y-2">
+                  <li>
+                    <b>Turnkey:</b> Works instantly no setup required
+                  </li>
+                  <li>
+                    <b>Custom:</b> Trained only on your organization's info
+                  </li>
+                  <li>
+                    <b>Translation:</b> Communicates in multiple languages
+                  </li>
+                  <li>
+                    <b>Training:</b> Improves with every interaction
+                  </li>
+                  <li>
+                    <b>Multi-Chatbot:</b> Build different chatbots for each use
+                    case
+                  </li>
+                </ul>
+                {/* <img
+                  src={chatBot}
+                  alt="Chat Bot top questions asked"
+                  className="w-1/2 rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer p-4"
+                /> */}
+              </div>
+
+              <div className="flex flex-row justify-center items-center text-left w-full sm:w-3/5 mt-2 sm:mt-0">
+                <p className="text-lg sm:text-3xl open-sans-light">
+                  AlwaysOn document chatbot can be trained to use your
+                  organization's internal files and documents to provide
+                  accurate source-based answers that guide your staff to the
+                  right information 24/7.
+                </p>
+                <p className="text-5xl hidden sm:flex">&#x2192;</p>
+              </div>
+            </div>
+            <div className="flex-grow h-0 border-t border-gray-400"></div>
+            <div className="flex flex-col-reverse sm:flex-row-reverse section-cb-3">
+              <div className="flex justify-center items-center">
+                <ul className="text-lg sm:text-2xl open-sans-light text-left p-4 space-y-2">
+                  <li>
+                    <b>Usage Metrics:</b> Track total engagement and question
+                    volume
+                  </li>
+                  <li>
+                    <b>Question-Level Data:</b> See exact questions organized
+                    into categories & topics
+                  </li>
+                  <li>
+                    <b>Community Insights:</b> Identify the how and why behind
+                    your community engagement
+                  </li>
+                </ul>
+                {/* <img
+                  src={analytics2}
+                  alt="gif"
+                  className="rounded-lg transform transition hover:scale-105 duration-300 cursor-pointer p-4"
+                /> */}
+              </div>
+
+              <div className="flex flex-row justify-center items-center text-left w-full sm:w-5/6 p-2">
+                {/* <h1 className="text-2xl sm:text-7xl poppins-bold mb-4">
+                  Insightful Analytics
+                </h1> */}
+                <p className="text-lg sm:text-3xl open-sans-light">
+                  AlwaysOn chatbot analytics offer valuable insights into your
+                  staff's questions, helping you keep all your process,
+                  procedural, and policy documents updated and relevant.
+                </p>
+                <p className="text-5xl hidden sm:flex">&#x2192;</p>
+              </div>
+            </div>
+          </>
+        )}
       </div>
     </>
   );
