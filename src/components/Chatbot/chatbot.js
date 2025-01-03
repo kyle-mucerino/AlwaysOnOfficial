@@ -56,7 +56,8 @@ function Chatbot() {
         {selectedBot === "website" && (
           <>
             <div className="website text-2xl sm:text-4xl alata-regular">
-              A chatbot trained on your organization's <span>website</span>
+              Intelligent, multilingual, insightful chatbot trained on your
+              organization's <span>website</span>
               <b>&#9660;</b>
             </div>
             <div className="video-container p-0 sm:p-8 mt-2 sm:mt-0">
@@ -93,11 +94,7 @@ function Chatbot() {
         </h1>
         <div className="relative flex justify-center items-center w-full bg-transparent">
           <div className="flex-grow h-0 border-t border-white"></div>
-          <img
-            className="h-16 mx-4 my-4"
-            src={logo2}
-            alt="Logo"
-          />
+          <img className="h-16 mx-4 my-4" src={logo2} alt="Logo" />
           <div className="flex-grow h-0 border-t border-white"></div>
         </div>
         <div className="website text-2xl sm:text-4xl alata-regular mt-2">

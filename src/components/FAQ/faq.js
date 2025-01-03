@@ -5,27 +5,33 @@ import logo2 from "../../assets/logo2.png";
 const FAQ = () => {
   const [openIndex1, setOpenIndex1] = useState(null);
   const [openIndex2, setOpenIndex2] = useState(null);
+  const [openIndex3, setOpenIndex3] = useState(null);
 
   const faqs1 = [
     {
       question: "Do you collect any data or personal information?",
       answer:
-        "Your data is yours. We do not collect, save, or sell the personal information of anyone who uses our product. We only collect general usage data, not personally identifiable information, which we make available to you through analytics."
+        "Your data is yours. We do not collect, save, or sell the personal data and information (PII) of chatbot users."
     },
     {
-      question: "Is your product WCAG compliant?",
+      question: "Is your product WCAG/ADA compliant?",
       answer:
-        "Yes, we follow the latest WCAG compliance guidelines and our chatbot is WCAG 2.0 AA compliant."
+        "Yes, we follow the current Web Content Accessibility Guidelines (WCAG) and ADA standards. You can view our Voluntary Product Accessibility Template (VPAT) here."
     },
     {
       question: "Does your product work with screen readers?",
       answer:
-        "Yes, we have successfully tested our product with various screen readers and it is screen reader compatible."
+        "Yes, our product is screen reader compatible and we have successfully tested with various screen readers."
     },
     {
       question: "Is your product secure to integrate and use?",
       answer:
-        "Our chatbots can be added across your entire website or on specific pages with only a few lines of code (i.e., script). Most website providers have a simple embed feature that makes it easy to implement in a few minutes. We will work with you to embed correctly. There is no complex integration, and embedding our code on your website is completely safe and secure."
+        "Yes, our chatbot runs directly from our own servers, so there is no added security risk to having the chatbot on your website or in your mobile app. It does not require any direct integration with your systems or servers, and can be added to your website using our embed code (short script) and your mobile app using our iframe code."
+    },
+    {
+      question: "How many languages does your chatbot support?",
+      answer:
+        "Currently, our chatbot can interact and translate in 30 languages: Amharic, Arabic, Chinese, English, Filipino, French, German, Guarani, Gujarati, Hebrew, Hindi, Hmong, Japanese, Korean, Macedonian, Malay, Mongolian, Pashto, Persian, Polish, Portuguese, Punjabi, Russian, Serbian, Somali, Spanish, Swahili, Turkish, Ukrainian, Vietnamese."
     }
   ];
 
@@ -33,20 +39,35 @@ const FAQ = () => {
     {
       question: "Do you offer free trials?",
       answer:
-        "We offer 60-day free trials so that you can try AlwaysOn without any financial commitment. The goal is to give schools the opportunity to see the value and benefits through multiple months of engagement data. At the end of the trial, your school can make an informed decision about cancelling or moving forward."
+        "Yes, we offer 1-month free trials. We want to provide the opportunity to see the value and collect value data to help determine if AlwaysOn is a long term fit for your organization."
     },
     {
-      question: "How does your pricng work?",
+      question: "How does your pricing work?",
       answer:
-        "We give schools one all-in price for the year. This includes everything: usage, features, support, etc. Each school is offered unique annual pricing based on a number of factors, including: School Size, Number of Chatbots, Feature Options, etc.Our product is designed to be affordable. Pricing is a conversation and we try to be as flexible as possible to work within your budget."
+        "Our pricing is based on your population and the license type you choose. Pricing is fixed on an annual basis. Contracts can be prorated in Year 1."
     },
     {
       question: "How long are your agreements?",
-      answer: "Our standard agreements are 1 year. If your agreement starts during a fiscal year in progress (not at the beginning/end), we offer prorated terms so that your agreement can renew in alignment with your fiscal year. We also offer multi-year agreements, which come with a discounted annual rate."
+      answer:
+        "Contracts are a minimum of one-year and multi-year contracts are available."
     },
     {
       question: "Do you offer discounts?",
-      answer: "We offer a variety of discounts which are available on a case by case basis. The amounts and types of discounts are dependent on several factors, so available discounts may vary and change at any given time."
+      answer:
+        "Yes, we offer discounts and can be flexible on pricing to make it work with your budget."
+    }
+  ];
+
+  const faqs3 = [
+    {
+      question: "How is an AI chatbot different from a website search bar?",
+      answer:
+        "Website search provides static results entirely based on keywords, and your ability to modify or customize results is very limited. Our AI chatbot is conversational and intelligent in processing questions, does all the search/browsing work for you, and answers questions directly with sources. Our AI chatbot also learns and improves with every interaction, translates in 30+ languages, and provides insightful analytics that identify stakeholder needs and help you keep your website updated."
+    },
+    {
+      question: "Can you have a chatbot and search bar on your website?",
+      answer:
+        "Yes, we always recommend keeping your search bar if you are considering a chatbot for your website. Your chatbot will likely become the primary way people navigate and engage with your website, but a search bar can still be a helpful and familiar alternative."
     }
   ];
 
@@ -56,6 +77,10 @@ const FAQ = () => {
 
   const toggleAccordion2 = (index) => {
     setOpenIndex2(openIndex2 === index ? null : index);
+  };
+
+  const toggleAccordion3 = (index) => {
+    setOpenIndex3(openIndex3 === index ? null : index);
   };
 
   return (
@@ -79,7 +104,7 @@ const FAQ = () => {
         <div className="flex-grow h-0 border-t border-gray-400"></div>
       </div>
 
-      {/* Wrapper for both accordions with flex-row class */}
+      {/* Wrapper for all accordions */}
       <div className="flex flex-col gap-14 w-full">
         <div className="flex flex-col sm:flex-row justify-evenly">
           <h1 className="text-2xl sm:text-5xl poppins-bold text-left mb-2 sm:mb-0">
@@ -108,12 +133,11 @@ const FAQ = () => {
 
         <div className="flex-grow h-0 border-t border-gray-400"></div>
 
-        {/* Second FAQ Accordion */}
         <div className="flex flex-col sm:flex-row justify-evenly sm:mb-12">
           <h1 className="text-2xl sm:text-5xl poppins-bold justify-center mb-2 sm:mb-0">
-            {" "}
             Partnerships & Pricing:
           </h1>
+          {/* Second FAQ Accordion */}
           <div className="accordion w-full sm:w-1/2 open-sans-light">
             {faqs2.map((faq, index) => (
               <div key={index} className="accordion-item">
@@ -125,6 +149,33 @@ const FAQ = () => {
                   <span>{openIndex2 === index ? "-" : "+"}</span>
                 </div>
                 {openIndex2 === index && (
+                  <div className="accordion-body text-left">
+                    <p>{faq.answer}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="flex-grow h-0 border-t border-gray-400"></div>
+
+        <div className="flex flex-col sm:flex-row justify-evenly sm:mb-12">
+          <h1 className="text-2xl sm:text-5xl poppins-bold justify-center mb-2 sm:mb-0">
+            Product:
+          </h1>
+          {/* Third FAQ Accordion */}
+          <div className="accordion w-full sm:w-1/2 open-sans-light">
+            {faqs3.map((faq, index) => (
+              <div key={index} className="accordion-item">
+                <div
+                  className="accordion-header"
+                  onClick={() => toggleAccordion3(index)}
+                >
+                  <h3>{faq.question}</h3>
+                  <span>{openIndex3 === index ? "-" : "+"}</span>
+                </div>
+                {openIndex3 === index && (
                   <div className="accordion-body text-left">
                     <p>{faq.answer}</p>
                   </div>

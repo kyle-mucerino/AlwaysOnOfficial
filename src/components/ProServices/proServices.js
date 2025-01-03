@@ -14,9 +14,11 @@ function ProServices() {
     <>
       <div className="section-ps-1 flex flex-col sm:flex-row justify-evenly items-center border-b-2 border-black">
         <div className="flex flex-col justify-evenly text-center sm:text-left mx-2 sm:mx-0 sm:ml-12 mt-2 sm:mt-0">
-          <h1 className="text-2xl sm:text-7xl poppins-bold mb-2 sm:mb-4">Professional Services</h1>
+          <h1 className="text-2xl sm:text-7xl poppins-bold mb-2 sm:mb-4">
+            Professional Services
+          </h1>
           <TextGenerateEffect
-            words="We help you every step of the way to get the most out of the platform with the least amount of work."
+            words="We help you every step of the way to get the most out of our platform."
             className="text-xl sm:text-4xl open-sans-light mb-2 sm:mb-0"
             duration={0.5}
           />
@@ -56,7 +58,9 @@ function ProServices() {
             />
           </div>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-xl sm:text-7xl poppins-bold mb-4">&#x2190;Data Reviews</h1>
+            <h1 className="text-xl sm:text-7xl poppins-bold mb-4">
+              &#x2190;Data Reviews
+            </h1>
           </div>
         </div>
         <div className="flex flex-row-reverse">

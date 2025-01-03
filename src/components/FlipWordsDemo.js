@@ -2,14 +2,14 @@ import React from "react";
 import { FlipWords } from "./FlipWords.js";
 
 export function FlipWordsDemo() {
-  const words = ["schools", "cities", "districts"];
+  const words = ["schools", "cities", "government"];
 
   return (
     <>
       <div className="hidden sm:block text-4xl saira-regular leading-normal">
-        A powerful customer service platform for <br/>
+        A customer service platform for 
         <FlipWords words={words} className="font-bold text-white" /> 
-        featuring AI chatbots + analytics
+        <br></br>featuring AI chatbots + analytics
       </div>
       <div className="block sm:hidden text-2xl saira-regular leading-normal">
         A powerful customer service platform for 

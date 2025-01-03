@@ -20,7 +20,7 @@ export function AppleCardsCarouselDemo() {
         additional features of the AlwaysOn platform
       </h2>
       <h3 class="max-w-7xl mx-auto text-sm md:text-xl font-bold open-sans-light bg-orange-500 w-max rounded-lg p-1 text-white mt-2">
-        Ready to explore? Click a card!
+        Click a card to explore
       </h3>
 
       <Carousel items={cards} />
@@ -41,11 +41,14 @@ const SurveyToolCard = () => {
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
                 AlwaysOn Survey Tool:
               </span>{" "}
-              Flexible. Powerful. Insightful. The AlwaysOn platform includes a
-              versatile survey tool designed for your needs. Customized
-              questions, use conditional logic for tailored followups, and
-              choose from various response types. With built in analytics,
-              reviewing and acting on your data has never been simpler.
+              Flexible. Dynamic. Insightful. The AlwaysOn platform includes
+              survey tool designed to help you collect quick and easy feedback
+              from your community. Build pulse check surveys with ease, embed
+              them in the chatbot, share via link, or deploy them in-person with
+              a QR code or tablet. Create a new survey in minutes with custom
+              questions, choose from various response types, and use conditional
+              logic for tailored follow-ups. With built-in analytics, reviewing
+              and acting on community feedback has never been simpler.
             </p>
             {/* <img
               src={logo3}
@@ -55,7 +58,12 @@ const SurveyToolCard = () => {
               className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain mt-4"
             /> */}
             <button className="flex mt-8 mx-auto">
-              <a href="/survey-tool" className=" text-white p-2 bg-blue-600 rounded-lg text-xl font-semibold">Learn more about Survey Tool</a>
+              <a
+                href="/survey-tool"
+                className=" text-white p-2 bg-blue-600 rounded-lg text-xl font-semibold"
+              >
+                Learn more about Survey Tool
+              </a>
             </button>
           </div>
         );
@@ -77,14 +85,14 @@ const ContactUsRoutingCard = () => {
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
                 AlwaysOn Contact Us Routing:
               </span>{" "}
-              Questions. Delivered. Solved. The contact us form allows users to
-              submit questions directly to staff through the chatbot. This
-              ensures that staff email addresses remain private. Questions are
-              automatically routed to the appropriate staff member based on the
-              topic selected by the user. Topics are fully customizable to meet
-              your needs. Staff receive questions via email and can respond
-              directly to the submitter. Additionally, all contacted submissions
-              are logged in the Chapond analytics for easy tracking and review.
+              Receive. Respond. Resolve. The AlwaysOn platform includes a
+              Contact Us form that allows users to submit questions directly to
+              staff through the chat bought. Questions are automatically routed
+              to staff by choosing from a list of topics that your organization
+              can fully customize. Staff receive questions via email, and staff
+              email addresses are only revealed when they respond directly to
+              the submitter. Additionally, all Contact Us submissions are logged
+              in the chat bought analytics for easy tracking and review.
             </p>
             {/* <img
               src={logo3}
@@ -98,7 +106,7 @@ const ContactUsRoutingCard = () => {
                 href="/contact-us-routing"
                 className=" text-white p-2 bg-blue-600 rounded-lg text-xl font-semibold"
               >
-                Learn more about Contact Us Routing 
+                Learn more about Contact Us Routing
               </a>
             </button>
           </div>
@@ -121,15 +129,13 @@ const ProServicesCard = () => {
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
                 AlwaysOn Professional Services:
               </span>{" "}
-              Expertise. Support. Partnership. At AlwaysOn we're committed to
+              Expertise. Support. Partnership. At AlwaysOn, we’re committed to
               helping you get the most out of our platform without adding to
-              your workload. Our professional services are included at no extra
-              cost. Think of it as an offsite personal assistant to help meet
-              the needs of you in your clients. We'll train your chatbot, review
-              your data, and make personalized recommendations for your website
-              and content. From onboarding to ongoing success, we'll be by your
-              side every step of the way, ensuring you maximize the value of
-              always on. Always on the next level of customer service excellent
+              your workload. Our Professional Services are included at no extra
+              cost. We provide personalized customer service designed to help
+              train your chatbot, review your data, and make recommendations for
+              your website and content. From onboarding to ongoing success,
+              we’ll be by your side every step of the way.
             </p>
             {/* <img
               src={logo3}

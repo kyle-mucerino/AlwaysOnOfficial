@@ -109,30 +109,23 @@ function Platform() {
           <div class="mx-auto w-full sm:w-[35rem]">
             <div class="relative group">
               <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <div class="relative px-7 py-6 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 chatbot">
-                <div class="space-y-4">
+              <div class="relative px-7 py-6 ring-1 ring-gray-900/5 rounded-lg leading-none flex justify-start items-start space-x-61 chatbot">
+                <div class="space-y-8">
                   <p class="text-5xl poppins-bold">Chatbot</p>
-                  <ul className="text-left space-y-4">
-                    <li className="text-xl open-sans-light">
-                      <b>Turnkey:</b> Works instantly no setup required
+                  <ol className="text-left space-y-10">
+                    <li className="text-2xl open-sans-light">
+                      <b>1.</b> Make website information easier to find
                     </li>
-                    <li className="text-xl open-sans-light">
-                      <b>Custom:</b> Trained only on your website information
+                    <li className="text-2xl open-sans-light">
+                      <b>2.</b> Provide instant 24/7 self service support
                     </li>
-                    <li className="text-xl open-sans-light">
-                      <b>Translation:</b> Communicate in multiple languages
+                    <li className="text-2xl open-sans-light">
+                      <b>3.</b> Increase staff capacity by reducing inquries
                     </li>
-                    <li className="text-xl open-sans-light">
-                      <b>Training:</b> Improvement with every interaction
-                    </li>
-                    <li className="text-xl open-sans-light">
-                      <b>Multi-Chatbot:</b> District-wide, school site, dept,
-                      etc.
-                    </li>
-                  </ul>
+                  </ol>
                   <a
                     href="https://braydoncoyer.dev/blog/tailwind-gradients-how-to-make-a-glowing-gradient-background"
-                    class="block text-indigo-400 group-hover:text-slate-800 transition duration-200"
+                    class="block text-indigo-500 group-hover:text-slate-800 transition duration-200"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -146,26 +139,26 @@ function Platform() {
           <div class="mx-auto w-full sm:w-[35rem]">
             <div class="relative group">
               <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <div class="relative px-7 py-6 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 analytics">
+              <div class="relative px-7 py-6 ring-1 ring-gray-900/5 rounded-lg leading-none flex justify-start space-x-6 analytics">
                 <div class="space-y-4">
                   <p class="text-5xl poppins-bold">Analytics</p>
                   <ul className="text-left space-y-4">
-                    <li className="text-xl open-sans-light">
-                      <b>Usage Metrics:</b> Track the number of unique
-                      engagements and overall volume of questions
+                    <li className="text-2xl open-sans-light">
+                      <b>1.</b> Identify merging topics and question trends in
+                      real time
                     </li>
-                    <li className="text-xl open-sans-light">
-                      <b>Question-Level Data:</b> See the exact questions and
-                      specific information your community requests
+                    <li className="text-2xl open-sans-light">
+                      <b>2.</b> Surface information gaps and outdated
+                      information
                     </li>
-                    <li className="text-xl open-sans-light">
-                      <b>Predictive Insights:</b> Identity information gaps,
-                      trends, and anticipate needs to improve the website
+                    <li className="text-2xl open-sans-light">
+                      <b>3.</b> Update chatbot responses, website information,
+                      and plan content schedules
                     </li>
                   </ul>
                   <a
                     href="https://braydoncoyer.dev/blog/tailwind-gradients-how-to-make-a-glowing-gradient-background"
-                    class="block text-indigo-400 group-hover:text-slate-800 transition duration-200"
+                    class="block text-indigo-500 group-hover:text-slate-800 transition duration-200"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -226,11 +219,11 @@ function Platform() {
       <div className="section section-4 flex flex-col">
         <div className="text-center">
           <h1 className="text-3xl sm:text-7xl font-extrabold poppins-bold">
-            Our Clients
+            Our Partners
           </h1>
           <p className="text-lg sm:text-3xl italic mt-2">
-            100+ schools & districts in 13 states enhance their schools online
-            presence with AlwaysOn
+            100+ organizations in 17 states use AlwaysOn to elevate their
+            customer service
           </p>
         </div>
         <div className="flex flex-col sm:flex-row text-center">
@@ -268,12 +261,12 @@ function Platform() {
 
       <div className="section section-5 hidden sm:flex flex-col">
         <div className="text-center p-2">
-          <h1 className="text-7xl poppins-bold">Testimonials</h1>
-          <p className="text-3xl open-sans-light mt-4 text-center">
-            See what other Superintendents, Company leaders, and Principals are saying about AlwaysOn
+          {/* <h1 className="text-7xl poppins-bold">Testimonials</h1> */}
+          <p className="text-5xl open-sans-lite mb-16 text-center">
+            See what our partners are saying about AlwaysOn
           </p>
         </div>
-        <div className="testimonials hidden custom:flex flex-row p-8 justify-center">
+        {/* <div className="testimonials hidden custom:flex flex-row p-8 justify-center">
           <figure class="snip1533">
             <figcaption>
               <blockquote>
@@ -310,13 +303,13 @@ function Platform() {
               <h4>Twitter</h4>
             </figcaption>
           </figure>
-        </div>
+        </div> */}
         <div className="hidden custom:block content-container-1 text-center">
           <h1 className="text-6xl uppercase poppins-bold p-12 text-black">
             Explore the power of AlwaysOn
           </h1>
           <div className="free-trial flex-row">
-            <button className="border-2 border-white bg-white text-black rounded-lg p-4 freeman-regular uppercase mx-4">
+            <button className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl">
               <span>Get started today</span>
             </button>
           </div>

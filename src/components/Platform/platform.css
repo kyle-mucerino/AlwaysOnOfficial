@@ -16,11 +16,14 @@ body {
 }
 
 .chatbot {
-  background: linear-gradient(to bottom, #FF6600, #fc4a1a);
+  background: white;
+  min-height: 22.5rem;
 }
 
 .analytics {
-  background: linear-gradient(to bottom, #FF6600, #fc4a1a);
+  background: white;
+  min-height: 20rem;
+
 }
 
 .section-2 {

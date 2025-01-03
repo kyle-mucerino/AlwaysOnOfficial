@@ -14,7 +14,7 @@ function Contact() {
             Contact Us Routing
           </h1>
           <TextGenerateEffect
-            words="Give your community an easy way to connect with staff and get the help they need."
+            words="Give your community an easy way to connect with staff and get help."
             className="text-lg sm:text-4xl open-sans-light"
             duration={0.5}
           />
@@ -53,7 +53,7 @@ function Contact() {
           </div>
           <div className="flex flex-row justify-center items-center">
             <h1 className="text-xl sm:text-5xl poppins-bold mb-4 leading-normal">
-              Questions submitted by topic
+              Questions submitted to staff by topic
             </h1>
             <div className="text-xl sm:text-7xl sm:mr-2">&#x2192;</div>
           </div>
