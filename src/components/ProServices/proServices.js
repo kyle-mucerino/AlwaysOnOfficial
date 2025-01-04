@@ -48,8 +48,8 @@ function ProServices() {
         />
         <div className="flex-grow h-0 border-t border-gray-400"></div>
       </div>
-      <div className="section-ps-3 p-4">
-        <div className="flex flex-row">
+      <div className="section-ps-3">
+        <div className="flex flex-row p-4">
           <div className="flex justify-center items-center">
             <img
               src={performance}
@@ -63,7 +63,7 @@ function ProServices() {
             </h1>
           </div>
         </div>
-        <div className="flex flex-row-reverse">
+        <div className="flex flex-row-reverse p-4">
           <div className="flex justify-center items-center">
             <img src={ai} alt="gif" className="w-3/5 rounded-lg mx-auto" />
           </div>
@@ -73,7 +73,7 @@ function ProServices() {
             </h1>
           </div>
         </div>
-        <div className="flex flex-row section-cb-3">
+        <div className="flex flex-row p-4">
           <div className="flex justify-center items-center">
             <img src={service} alt="gif" className="w-3/5 rounded-lg mx-auto" />
           </div>
@@ -81,6 +81,16 @@ function ProServices() {
             <h1 className="text-xl sm:text-7xl poppins-bold mb-4">
               &#x2190;Unlimited Support
             </h1>
+          </div>
+        </div>
+        <div className="content-container-ps text-center">
+          <h1 className="text-xl sm:text-6xl uppercase poppins-bold p-6 sm:p-12 text-black">
+            Explore the power of AlwaysOn
+          </h1>
+          <div className="free-trial flex-row">
+            <button className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl">
+              <span>Schedule a demo</span>
+            </button>
           </div>
         </div>
       </div>

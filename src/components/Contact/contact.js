@@ -14,7 +14,7 @@ function Contact() {
             Contact Us Routing
           </h1>
           <TextGenerateEffect
-            words="Give your community an easy way to connect with staff and get help."
+            words="Give your community an easy way to connect with staff."
             className="text-lg sm:text-4xl open-sans-light"
             duration={0.5}
           />
@@ -35,8 +35,17 @@ function Contact() {
           <div className="flex-grow h-0 border-t border-white"></div>
         </div>
       </div>
-      <div className="section-cu-3 p-4 space-y-4">
-        <div className="flex flex-row">
+      <div className="relative hidden sm:flex justify-center items-center bg-white w-full">
+        <div className="flex-grow h-0 border-t border-gray-400"></div>
+        <img
+          className="h-36 mx-4 fading my-10"
+          src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
+          alt="Logo"
+        />
+        <div className="flex-grow h-0 border-t border-gray-400"></div>
+      </div>
+      <div className="section-cu-3 space-y-4">
+        <div className="flex flex-row p-4">
           <div className="flex justify-center items-center">
             <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
           </div>
@@ -47,7 +56,7 @@ function Contact() {
             </h1>
           </div>
         </div>
-        <div className="flex flex-row-reverse">
+        <div className="flex flex-row-reverse p-4">
           <div className="flex justify-center items-center">
             <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
           </div>
@@ -58,7 +67,7 @@ function Contact() {
             <div className="text-xl sm:text-7xl sm:mr-2">&#x2192;</div>
           </div>
         </div>
-        <div className="flex flex-row section-cb-3">
+        <div className="flex flex-row p-4">
           <div className="flex justify-center items-center">
             <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
           </div>
@@ -67,6 +76,16 @@ function Contact() {
             <h1 className="text-xl sm:text-5xl poppins-bold mb-4 leading-normal">
               Track interactions & collect feedback
             </h1>
+          </div>
+        </div>
+        <div className="content-container-cu text-center">
+          <h1 className="text-xl sm:text-6xl uppercase poppins-bold p-6 sm:p-12 text-black">
+            Explore the power of AlwaysOn
+          </h1>
+          <div className="free-trial flex-row">
+            <button className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl">
+              <span>Schedule a demo</span>
+            </button>
           </div>
         </div>
       </div>

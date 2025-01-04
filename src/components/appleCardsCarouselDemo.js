@@ -39,24 +39,17 @@ const SurveyToolCard = () => {
           >
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                AlwaysOn Survey Tool:
+                AlwaysOn Survey Tool: Flexible. Dynamic. Insightful. <br></br>
               </span>{" "}
-              Flexible. Dynamic. Insightful. The AlwaysOn platform includes
-              survey tool designed to help you collect quick and easy feedback
-              from your community. Build pulse check surveys with ease, embed
-              them in the chatbot, share via link, or deploy them in-person with
-              a QR code or tablet. Create a new survey in minutes with custom
-              questions, choose from various response types, and use conditional
-              logic for tailored follow-ups. With built-in analytics, reviewing
-              and acting on community feedback has never been simpler.
+              The AlwaysOn platform includes survey tool designed to help you
+              collect quick and easy feedback from your community. Build pulse
+              check surveys with ease, embed them in the chatbot, share via
+              link, or deploy them in-person with a QR code or tablet. Create a
+              new survey in minutes with custom questions, choose from various
+              response types, and use conditional logic for tailored follow-ups.
+              With built-in analytics, reviewing and acting on community
+              feedback has never been simpler.
             </p>
-            {/* <img
-              src={logo3}
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain mt-4"
-            /> */}
             <button className="flex mt-8 mx-auto">
               <a
                 href="/survey-tool"
@@ -83,9 +76,9 @@ const ContactUsRoutingCard = () => {
           >
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                AlwaysOn Contact Us Routing:
+                AlwaysOn Contact Us Routing: Receive. Respond. Resolve.<br></br>
               </span>{" "}
-              Receive. Respond. Resolve. The AlwaysOn platform includes a
+              The AlwaysOn platform includes a
               Contact Us form that allows users to submit questions directly to
               staff through the chat bought. Questions are automatically routed
               to staff by choosing from a list of topics that your organization
@@ -94,13 +87,6 @@ const ContactUsRoutingCard = () => {
               the submitter. Additionally, all Contact Us submissions are logged
               in the chat bought analytics for easy tracking and review.
             </p>
-            {/* <img
-              src={logo3}
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain mt-4"
-            /> */}
             <button className="flex mt-8 mx-auto">
               <a
                 href="/contact-us-routing"
@@ -127,23 +113,16 @@ const ProServicesCard = () => {
           >
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                AlwaysOn Professional Services:
+                AlwaysOn Professional Services: Expertise. Support. Partnership.<br></br>
               </span>{" "}
-              Expertise. Support. Partnership. At AlwaysOn, we’re committed to
-              helping you get the most out of our platform without adding to
-              your workload. Our Professional Services are included at no extra
-              cost. We provide personalized customer service designed to help
-              train your chatbot, review your data, and make recommendations for
-              your website and content. From onboarding to ongoing success,
-              we’ll be by your side every step of the way.
+              At AlwaysOn, we're committed to helping you get the most out of
+              our platform without adding to your workload. Our Professional
+              Services are included at no extra cost. We provide personalized
+              customer service designed to help train your chatbot, review your
+              data, and make recommendations for your website and content. From
+              onboarding to ongoing success, we'll be by your side every step of
+              the way.
             </p>
-            {/* <img
-              src={logo3}
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain mt-4"
-            /> */}
             <button className="flex mt-8 mx-auto">
               <a
                 href="/professional-services"

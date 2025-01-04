@@ -1,49 +1,21 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import "./platform.css";
 import { ReactComponent as Map } from "../../assets/map3.svg";
 import gif4 from "../../assets/chat.gif";
 import gif5 from "../../assets/list.gif";
 import gif6 from "../../assets/professional.gif";
-import chatBot2 from "../../assets/chatbotph.png";
+import chatBot2 from "../../assets/bot (1).png";
 import { FlipWordsDemo } from "../FlipWordsDemo";
-import { CanvasRevealEffectDemo } from "../CanvasRevealEffectDemo.js";
 import { AppleCardsCarouselDemo } from "../appleCardsCarouselDemo";
-import logo2 from "../../assets/logo2.png";
 
 
 function Platform() {
-
-  const studentSliderRef = useRef(null);
-  const studentCountRef = useRef(null);
-  const questionCountRef = useRef(null);
-
-  useEffect(() => {
-    const slider = studentSliderRef.current;
-    const studentCount = studentCountRef.current;
-    const questionCount = questionCountRef.current;
-
-    if (slider && studentCount && questionCount) {
-      const updateCounts = () => {
-        const studentValue = slider.value;
-        studentCount.textContent = studentValue;
-        const questionValue = (studentValue * 3).toFixed(); // Example calculation
-        questionCount.textContent = questionValue;
-      };
-
-      slider.addEventListener("input", updateCounts);
-      updateCounts(); // Initial update
-
-      return () => {
-        slider.removeEventListener("input", updateCounts);
-      };
-    }
-  }, []);
 
   return (
     <>
       {/* SECTION 1 */}
       <div className="section section-1 flex flex-row border-b-2 border-black border-t-2">
-        <div className="flex flex-col justify-center text-center sm:text-left sm:ml-8 mx-auto">
+        <div className="flex flex-col justify-center text-center sm:text-left sm:ml-8 mx-auto w-[38rem]">
           <div className="headline mb-4">
             <h1 className="text-6xl sm:text-8xl poppins-bold">AlwaysOn</h1>
           </div>
@@ -51,13 +23,13 @@ function Platform() {
             <FlipWordsDemo />
           </div>
           <div className="free-trial mt-8 text-center sm:text-left">
-            <button className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl">
+            <button className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl" href="">
               <span>Get started today</span>
             </button>
           </div>
         </div>
 
-        <div className="flex-grow relative feature-container w-full hidden sm:flex">
+        <div className="flex-grow relative feature-container hidden sm:flex">
           <div className="center-logo z-10">
             <img className="h-84" src={chatBot2} alt="Logo" />
           </div>
@@ -65,7 +37,7 @@ function Platform() {
           {/* Feature 3 */}
           <div className="feature feature-3 w-1/3 flex flex-col justify-center items-center z-20">
             <div className="text-center">
-              <div className="w-1/2 p-4 bg-white rounded-full inline-block">
+              <div className="w-1/2 p-5 bg-white rounded-full inline-block">
                 <img src={gif4} alt="Feature 3" className="rounded-lg" />
               </div>
               <h3 className="font-bold text-2xl">
@@ -77,7 +49,7 @@ function Platform() {
           {/* Feature 4 */}
           <div className="feature feature-4 w-1/3 flex flex-col justify-center items-center z-20">
             <div className="text-center">
-              <div className="w-1/2 p-4 bg-white rounded-full inline-block">
+              <div className="w-1/2 p-5 bg-white rounded-full inline-block">
                 <img src={gif5} alt="Feature 4" className="rounded-lg" />
               </div>
               <h3 className="font-bold text-2xl">
@@ -96,7 +68,7 @@ function Platform() {
                   Professional Services
                 </span>
               </h3>
-              <div className="w-1/2 p-4 bg-white rounded-full inline-block">
+              <div className="w-1/2 p-5 bg-white rounded-full inline-block">
                 <img src={gif6} alt="Feature 5" className="rounded-lg" />
               </div>
             </div>
@@ -105,7 +77,7 @@ function Platform() {
       </div>
 
       <div className="section-2 border-b-2 border-black">
-        <div class="flex flex-col sm:flex-row justify-center relative overflow-hidden p-4 sm:py-12 cursor-pointer">
+        <div class="flex flex-col sm:flex-row justify-center relative overflow-hidden p-4 sm:py-12">
           <div class="mx-auto w-full sm:w-[35rem]">
             <div class="relative group">
               <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
@@ -124,7 +96,7 @@ function Platform() {
                     </li>
                   </ol>
                   <a
-                    href="https://braydoncoyer.dev/blog/tailwind-gradients-how-to-make-a-glowing-gradient-background"
+                    href="/chatbot"
                     class="block text-indigo-500 group-hover:text-slate-800 transition duration-200"
                     target="_blank"
                     rel="noreferrer"
@@ -157,7 +129,7 @@ function Platform() {
                     </li>
                   </ul>
                   <a
-                    href="https://braydoncoyer.dev/blog/tailwind-gradients-how-to-make-a-glowing-gradient-background"
+                    href="/chatbot"
                     class="block text-indigo-500 group-hover:text-slate-800 transition duration-200"
                     target="_blank"
                     rel="noreferrer"
@@ -169,47 +141,6 @@ function Platform() {
             </div>
           </div>
         </div>
-        {/* <CanvasRevealEffectDemo /> */}
-        {/* <div className="flex flex-row p-6 space-x-2">
-          <div className="flex flex-col w-1/2 p-4 border-black border-2 rounded-lg chatbot bg-orange-500 opacity-100 hover:opacity-75 shadow-2xl">
-            <h1 className="text-7xl poppins-bold mb-4">Chatbot</h1>
-            <ul className="text-left space-y-4">
-              <li className="text-3xl open-sans-light">
-                <b>Turnkey:</b> Works instantly no setup required
-              </li>
-              <li className="text-3xl open-sans-light">
-                <b>Custom:</b> Trained only on your website information
-              </li>
-              <li className="text-3xl open-sans-light">
-                <b>Translation:</b> Communicate in multiple languages
-              </li>
-              <li className="text-3xl open-sans-light">
-                <b>Training:</b> Improvement with every interaction
-              </li>
-              <li className="text-3xl open-sans-light">
-                <b>Multi-Chatbot:</b> District-wide, school site, dept, etc.
-              </li>
-            </ul>
-          </div>
-          <button class="text-8xl font-bold">&#43;</button>
-          <div className="flex flex-col justify-evenly w-1/2 p-4 border-black border-2 rounded-lg analyitcs bg-orange-500 opacity-100 hover:opacity-75 shadow-2xl">
-            <h1 className="text-7xl poppins-bold mb-4">Analytics</h1>
-            <ul className="text-left space-y-4">
-              <li className="text-3xl open-sans-light">
-                <b>Usage Metrics:</b> Track the number of unique engagements and
-                overall volume of questions
-              </li>
-              <li className="text-3xl open-sans-light">
-                <b>Question-Level Data:</b> See the exact questions and specific
-                information your community requests
-              </li>
-              <li className="text-3xl open-sans-light">
-                <b>Predictive Insights:</b> Identity information gaps, trends,
-                and anticipate needs to improve the website
-              </li>
-            </ul>
-          </div>
-        </div> */}
       </div>
 
       <div className="section-3" id="survey">
@@ -222,7 +153,7 @@ function Platform() {
             Our Partners
           </h1>
           <p className="text-lg sm:text-3xl italic mt-2">
-            100+ organizations in 17 states use AlwaysOn to elevate their
+            100+ organizations in 18 states use AlwaysOn to elevate their
             customer service
           </p>
         </div>
@@ -237,35 +168,16 @@ function Platform() {
               </div>
             </div>
           </div>
-          {/* <div className="custom:grid grid-cols-2 gap-x-2 mx-auto my-auto hidden">
-            <ul className="saira-regular text-2xl states space-y-2">
-              <li>California</li>
-              <li>Texas</li>
-              <li>Michigan</li>
-              <li>Wisconsin</li>
-              <li>Illinois</li>
-              <li>Oklahoma</li>
-              <li>Kansas</li>
-            </ul>
-            <ul className="saira-regular text-2xl states space-y-2">
-              <li>New York</li>
-              <li>Pennsylvania</li>
-              <li>Indiana</li>
-              <li>Washington</li>
-              <li>Colorado</li>
-              <li>New Jersey</li>
-            </ul>
-          </div> */}
         </div>
       </div>
 
       <div className="section section-5 hidden sm:flex flex-col">
-        <div className="text-center p-2">
-          {/* <h1 className="text-7xl poppins-bold">Testimonials</h1> */}
+        {/* <div className="text-center p-2">
+          <h1 className="text-7xl poppins-bold">Testimonials</h1>
           <p className="text-5xl open-sans-lite mb-16 text-center">
             See what our partners are saying about AlwaysOn
           </p>
-        </div>
+        </div> */}
         {/* <div className="testimonials hidden custom:flex flex-row p-8 justify-center">
           <figure class="snip1533">
             <figcaption>

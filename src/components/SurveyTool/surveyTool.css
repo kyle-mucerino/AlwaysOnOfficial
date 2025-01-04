@@ -7,11 +7,20 @@ body {
   background: linear-gradient(to bottom, #FF6600, #fc4a1a);
 }
 
-.section-st-2 {
-  min-height: 30vh;
+.section-st-3 {
   background-color: white;
 }
 
-.section-st-3 {
+.section-st-4 {
   background-color: white;
+}
+
+.content-container-st {
+  background: linear-gradient(to bottom, #FF6600, #fc4a1a);
+  border: none;
+  clip-path: ellipse(75% 100% at center top);
+  min-height: 300px;
+  @media (max-width: 640px) {
+    min-height: 175px;
+  }
 }

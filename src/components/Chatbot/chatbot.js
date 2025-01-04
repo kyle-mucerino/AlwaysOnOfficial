@@ -27,9 +27,8 @@ function Chatbot() {
             <div className="content">
               <h2>Website Bot</h2>
               <p>
-                Uses your website as its sole knowledge base to answer questions
-                and guide users to the right information. See below for more
-                details.
+                Intelligent, multilingual, insightful chatbot trained on your
+                organization's website.
               </p>
               <button>Learn More</button>
             </div>
@@ -42,8 +41,8 @@ function Chatbot() {
             <div className="content">
               <h2>Document Bot</h2>
               <p>
-                Trained exclusively on internal documents, it answers questions
-                with precision and accuracy. See below for more details.
+                Intelligent, multilingual, insightful chatbot trained on your
+                organization's documents.
               </p>
               <button>Learn More</button>
             </div>
@@ -56,8 +55,7 @@ function Chatbot() {
         {selectedBot === "website" && (
           <>
             <div className="website text-2xl sm:text-4xl alata-regular">
-              Intelligent, multilingual, insightful chatbot trained on your
-              organization's <span>website</span>
+              A chatbot trained on your organization's <span>website</span>
               <b>&#9660;</b>
             </div>
             <div className="video-container p-0 sm:p-8 mt-2 sm:mt-0">
@@ -119,13 +117,13 @@ function Chatbot() {
         </div>
       </div>
       {/* SECTION 3 */}
-      <div className="section-cb-3 p-4">
+      <div className="section-cb-3">
         {selectedBot === "website" && (
           <>
             <div className="flex-grow h-0 border-t border-gray-400"></div>
-            <div className="flex flex-col-reverse sm:flex-row-reverse space-x-4">
-              <div className="flex justify-center">
-                <ul className="text-lg sm:text-2xl open-sans-light text-left p-4 space-y-2">
+            <div className="flex flex-col sm:flex-row">
+              <div className="flex justify-evenly flex-col-reverse items-start p-4">
+                <ul className="text-lg sm:text-3xl open-sans-light text-left space-y-4">
                   <li>
                     <b>Turnkey:</b> Works instantly no setup required
                   </li>
@@ -143,27 +141,25 @@ function Chatbot() {
                     case
                   </li>
                 </ul>
-                {/* <img
-                  src={chatBot}
-                  alt="Chat Bot top questions asked"
-                  className="w-1/2 rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer p-4"
-                /> */}
-              </div>
-
-              <div className="flex flex-row justify-center items-center text-left w-full sm:w-3/5 mt-2 sm:mt-0">
-                <p className="text-lg sm:text-3xl open-sans-light">
+                <p className="text-lg sm:text-3xl open-sans-light text-left">
                   AlwaysOn website chatbot can be trained to use your
                   organization's website information to provide accurate
                   source-based answers that guide your community to the right
                   information 24/7.
                 </p>
-                <p className="text-5xl hidden sm:flex">&#x2192;</p>
+              </div>
+              <div className="flex justify-center items-center text-left mt-2 sm:mt-0">
+                <img
+                  src={chatBot}
+                  alt="Chat Bot top questions asked"
+                  className="w-full rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer p-4"
+                />
               </div>
             </div>
             <div className="flex-grow h-0 border-t border-gray-400"></div>
-            <div className="flex flex-col-reverse sm:flex-row-reverse section-cb-3">
-              <div className="flex justify-center items-center">
-                <ul className="text-lg sm:text-2xl open-sans-light text-left p-4 space-y-2">
+            <div className="flex flex-col sm:flex-row-reverse">
+              <div className="flex flex-col-reverse justify-evenly items-start w-full sm:w-3/5 p-4">
+                <ul className="text-lg sm:text-2xl open-sans-light text-left space-y-2">
                   <li>
                     <b>Usage Metrics:</b> Track total engagement and question
                     volume
@@ -177,23 +173,18 @@ function Chatbot() {
                     your community engagement
                   </li>
                 </ul>
-                {/* <img
-                  src={analytics2}
-                  alt="gif"
-                  className="rounded-lg transform transition hover:scale-105 duration-300 cursor-pointer p-4"
-                /> */}
-              </div>
-
-              <div className="flex flex-row justify-center items-center text-left w-full sm:w-5/6 p-2">
-                {/* <h1 className="text-2xl sm:text-7xl poppins-bold mb-4">
-                  Insightful Analytics
-                </h1> */}
-                <p className="text-lg sm:text-3xl open-sans-light">
+                <p className="text-lg sm:text-3xl open-sans-light text-left">
                   AlwaysOn chatbot analytics offer valuable insights into your
                   community's needs, helping you keep your website updated and
                   relevant.
                 </p>
-                <p className="text-5xl hidden sm:flex">&#x2192;</p>
+              </div>
+              <div className="flex flex-row justify-center items-center text-left">
+                <img
+                  src={analytics2}
+                  alt="gif"
+                  className="rounded-lg cursor-pointer p-4"
+                />
               </div>
             </div>
           </>
@@ -201,9 +192,9 @@ function Chatbot() {
         {selectedBot === "document" && (
           <>
             <div className="flex-grow h-0 border-t border-gray-400"></div>
-            <div className="flex flex-col-reverse sm:flex-row-reverse space-x-4">
-              <div className="flex justify-center">
-                <ul className="text-lg sm:text-2xl open-sans-light text-left p-4 space-y-2">
+            <div className="flex flex-col-reverse sm:flex-row">
+              <div className="flex justify-evenly flex-col-reverse items-start p-4">
+                <ul className="text-lg sm:text-3xl open-sans-light text-left space-y-4">
                   <li>
                     <b>Turnkey:</b> Works instantly no setup required
                   </li>
@@ -221,27 +212,25 @@ function Chatbot() {
                     case
                   </li>
                 </ul>
-                {/* <img
-                  src={chatBot}
-                  alt="Chat Bot top questions asked"
-                  className="w-1/2 rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer p-4"
-                /> */}
-              </div>
-
-              <div className="flex flex-row justify-center items-center text-left w-full sm:w-3/5 mt-2 sm:mt-0">
-                <p className="text-lg sm:text-3xl open-sans-light">
+                <p className="text-lg sm:text-3xl open-sans-light text-left">
                   AlwaysOn document chatbot can be trained to use your
                   organization's internal files and documents to provide
                   accurate source-based answers that guide your staff to the
                   right information 24/7.
                 </p>
-                <p className="text-5xl hidden sm:flex">&#x2192;</p>
+              </div>
+              <div className="flex justify-center items-center text-left mt-2 sm:mt-0">
+                <img
+                  src={chatBot}
+                  alt="Chat Bot top questions asked"
+                  className="w-full rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer p-4"
+                />
               </div>
             </div>
             <div className="flex-grow h-0 border-t border-gray-400"></div>
-            <div className="flex flex-col-reverse sm:flex-row-reverse section-cb-3">
-              <div className="flex justify-center items-center">
-                <ul className="text-lg sm:text-2xl open-sans-light text-left p-4 space-y-2">
+            <div className="flex flex-col-reverse sm:flex-row-reverse">
+              <div className="flex flex-col-reverse justify-evenly items-start w-3/5 p-4">
+                <ul className="text-lg sm:text-2xl open-sans-light text-left space-y-2">
                   <li>
                     <b>Usage Metrics:</b> Track total engagement and question
                     volume
@@ -255,27 +244,32 @@ function Chatbot() {
                     your community engagement
                   </li>
                 </ul>
-                {/* <img
+                <p className="text-lg sm:text-3xl open-sans-light text-left">
+                  AlwaysOn chatbot analytics offer valuable insights into your
+                  community's needs, helping you keep your website updated and
+                  relevant.
+                </p>
+              </div>
+              <div className="flex flex-row justify-center items-center text-left">
+                <img
                   src={analytics2}
                   alt="gif"
-                  className="rounded-lg transform transition hover:scale-105 duration-300 cursor-pointer p-4"
-                /> */}
-              </div>
-
-              <div className="flex flex-row justify-center items-center text-left w-full sm:w-5/6 p-2">
-                {/* <h1 className="text-2xl sm:text-7xl poppins-bold mb-4">
-                  Insightful Analytics
-                </h1> */}
-                <p className="text-lg sm:text-3xl open-sans-light">
-                  AlwaysOn chatbot analytics offer valuable insights into your
-                  staff's questions, helping you keep all your process,
-                  procedural, and policy documents updated and relevant.
-                </p>
-                <p className="text-5xl hidden sm:flex">&#x2192;</p>
+                  className="rounded-lg cursor-pointer p-4"
+                />
               </div>
             </div>
           </>
         )}
+        <div className="content-container-cb text-center">
+          <h1 className="text-xl sm:text-6xl uppercase poppins-bold p-6 sm:p-12 text-black">
+            Explore the power of AlwaysOn
+          </h1>
+          <div className="free-trial flex-row">
+            <button className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl">
+              <span>Schedule a demo</span>
+            </button>
+          </div>
+        </div>
       </div>
     </>
   );

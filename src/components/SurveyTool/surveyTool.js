@@ -17,7 +17,7 @@ function SurveyTool() {
             Survey Tool
           </h1>
           <TextGenerateEffect
-            words="Create pulse check surveys to get quick & easy feedback from your community."
+            words="Create simple surveys to get quick & easy feedback from your community."
             className="text-lg sm:text-4xl open-sans-light"
             duration={0.5}
           />
@@ -38,7 +38,16 @@ function SurveyTool() {
           <div className="flex-grow h-0 border-t border-white"></div>
         </div>
       </div>
-      <div className="section-st-3 p-4 space-y-16">
+      <div className="relative hidden sm:flex justify-center items-center bg-white w-full">
+        <div className="flex-grow h-0 border-t border-gray-400"></div>
+        <img
+          className="h-36 mx-4 fading my-10"
+          src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
+          alt="Logo"
+        />
+        <div className="flex-grow h-0 border-t border-gray-400"></div>
+      </div>
+      <div className="section-st-3 space-y-16">
         <div className="flex flex-row justify-center items-center">
           <img src={surveygif1} alt="gif" className="w-1/2 rounded-lg p-4" />
           <div className="flex flex-col justify-center items-center">
@@ -63,6 +72,16 @@ function SurveyTool() {
             <h1 className="text-xl sm:text-6xl poppins-bold mb-4">
               &#x2190;View Analytics
             </h1>
+          </div>
+        </div>
+        <div className="content-container-st text-center">
+          <h1 className="text-xl sm:text-6xl uppercase poppins-bold p-6 sm:p-12 text-black">
+            Explore the power of AlwaysOn
+          </h1>
+          <div className="free-trial flex-row">
+            <button className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl">
+              <span>Schedule a demo</span>
+            </button>
           </div>
         </div>
       </div>

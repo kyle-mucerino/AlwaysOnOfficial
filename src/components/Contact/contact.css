@@ -15,3 +15,13 @@ body {
 .section-cu-3 {
   background-color: white;
 }
+
+.content-container-cu {
+  background: linear-gradient(to bottom, #FF6600, #fc4a1a);
+  border: none;
+  clip-path: ellipse(75% 100% at center top);
+  min-height: 300px;
+  @media (max-width: 640px) {
+    min-height: 175px;
+  }
+}
