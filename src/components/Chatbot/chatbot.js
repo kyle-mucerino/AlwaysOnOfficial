@@ -265,7 +265,15 @@ function Chatbot() {
             Explore the power of AlwaysOn
           </h1>
           <div className="free-trial flex-row">
-            <button className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl">
+            <button
+              className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
+              onClick={() =>
+                window.open(
+                  "https://calendly.com/alwaysonai/intro-meeting",
+                  "_blank"
+                )
+              }
+            >
               <span>Schedule a demo</span>
             </button>
           </div>

@@ -135,13 +135,13 @@ function Nav() {
                     </li>
                     <li>
                       <NavLink
-                        to="/security-accessibility"
+                        to="/contact-us"
                         onClick={() => {
                           setIsMobileMenuOpen(false);
                           setIsAboutSubmenuOpen(false);
                         }}
                       >
-                        Security/Accessibility
+                        Contact Us
                       </NavLink>
                     </li>
                     <li>
@@ -159,7 +159,15 @@ function Nav() {
                 )}
               </li>
               <div>
-                <button className="w-full button uppercase rounded-lg px-4 py-2 text-xl">
+                <button
+                  className="w-full button uppercase rounded-lg px-4 py-2 text-xl"
+                  onClick={() =>
+                    window.open(
+                      "https://calendly.com/alwaysonai/intro-meeting",
+                      "_blank"
+                    )
+                  }
+                >
                   Schedule a demo
                 </button>
               </div>
@@ -212,9 +220,7 @@ function Nav() {
                   <NavLink to="/media">Media & Materials</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/security-accessibility">
-                    Security/Accessibility
-                  </NavLink>
+                  <NavLink to="/contact-us">Contact Us</NavLink>
                 </li>
                 <li>
                   <NavLink to="/faq">FAQ</NavLink>
@@ -222,7 +228,15 @@ function Nav() {
               </ul>
             </li>
           </ul>
-          <button className="w-1/5 uppercase button ml-auto rounded-lg font-bold px-4 xl:px-6 py-2 xl:py-3 text-black text-xl">
+          <button
+            className="w-1/5 uppercase button ml-auto rounded-lg font-bold px-4 xl:px-6 py-2 xl:py-3 text-black text-xl"
+            onClick={() =>
+              window.open(
+                "https://calendly.com/alwaysonai/intro-meeting",
+                "_blank"
+              )
+            }
+          >
             <span>Schedule a demo</span>
           </button>
         </nav>

@@ -23,7 +23,15 @@ function Platform() {
             <FlipWordsDemo />
           </div>
           <div className="free-trial mt-8 text-center sm:text-left">
-            <button className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl" href="">
+            <button
+              className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
+              onClick={() =>
+                window.open(
+                  "https://calendly.com/alwaysonai/intro-meeting",
+                  "_blank"
+                )
+              }
+            >
               <span>Get started today</span>
             </button>
           </div>
@@ -221,7 +229,15 @@ function Platform() {
             Explore the power of AlwaysOn
           </h1>
           <div className="free-trial flex-row">
-            <button className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl">
+            <button
+              className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
+              onClick={() =>
+                window.open(
+                  "https://calendly.com/alwaysonai/intro-meeting",
+                  "_blank"
+                )
+              }
+            >
               <span>Get started today</span>
             </button>
           </div>

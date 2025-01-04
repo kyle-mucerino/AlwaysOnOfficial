@@ -12,7 +12,7 @@ import ProServices from "./components/ProServices/proServices";
 import Company from "./components/Company/company.js";
 import Media from "./components/Media/media.js";
 import FAQ from "./components/FAQ/faq.js";
-import Security from "./components/Security/security.js";
+import ContactUs from "./components/ContactUs/contactUs.js";
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
           <Route path="/company" element={<Company />} />
           <Route path="/media" element={<Media />} />
           <Route path="/faq" element={<FAQ />} />
-          <Route path="/security-accessibility" element={<Security />} />
+          <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
         <Footer />
       </div>
