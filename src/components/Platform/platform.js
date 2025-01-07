@@ -49,9 +49,9 @@ function Platform() {
               <div className="w-1/2 p-5 bg-white rounded-full inline-block">
                 <img src={gif4} alt="gif showing a survey" className="rounded-lg" />
               </div>
-              <h3 className="font-bold text-2xl">
+              <h1 className="font-bold text-2xl">
                 <span className="rounded-lg text-black p-2">Survey Tool</span>
-              </h3>
+              </h1>
             </div>
           </div>
 
@@ -61,22 +61,22 @@ function Platform() {
               <div className="w-1/2 p-5 bg-white rounded-full inline-block">
                 <img src={gif5} alt="gif of person communicating" className="rounded-lg" />
               </div>
-              <h3 className="font-bold text-2xl">
+              <h1 className="font-bold text-2xl">
                 <span className="rounded-lg text-black p-2">
                   Contact Us Routing
                 </span>
-              </h3>
+              </h1>
             </div>
           </div>
 
           {/* Feature 5 */}
           <div className="feature feature-5 w-1/3 flex flex-col justify-center items-center z-20">
             <div className="text-center">
-              <h3 className="font-bold text-2xl">
+              <h1 className="font-bold text-2xl">
                 <span className="rounded-lg text-black p-2">
                   Professional Services
                 </span>
-              </h3>
+              </h1>
               <div className="w-1/2 p-5 bg-white rounded-full inline-block">
                 <img src={gif6} alt="gif of info & person" className="rounded-lg" />
               </div>

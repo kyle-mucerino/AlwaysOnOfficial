@@ -146,6 +146,7 @@ const data = [
     category: "",
     title: "Survey Tool",
     src: chat,
+    alt: "gif of happiness levels fluctuating",
     content: <SurveyToolCard />
   },
 
@@ -153,12 +154,14 @@ const data = [
     category: "",
     title: "Contact Us Routing",
     src: list,
+    alt: "gif of a list being checked off",
     content: <ContactUsRoutingCard />
   },
   {
     category: "",
     title: "Professional Services",
     src: professional,
+    alt: "gif of a person on the phone answering surrounding assisting",
     content: <ProServicesCard />
   }
 ];
