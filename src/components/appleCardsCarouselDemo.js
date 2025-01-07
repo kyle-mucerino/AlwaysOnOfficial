@@ -19,7 +19,7 @@ export function AppleCardsCarouselDemo() {
       <h2 className="max-w-7xl mx-auto text-xl md:text-5xl font-bold text-neutral-800 poppins-bold uppercase">
         additional features of the AlwaysOn platform
       </h2>
-      <h3 class="max-w-7xl mx-auto text-sm md:text-xl font-bold open-sans-light bg-orange-500 w-max rounded-lg p-1 text-white mt-2">
+      <h3 class="max-w-7xl mx-auto text-sm md:text-xl font-bold open-sans-light bg-orange-500 w-max rounded-lg p-1 mt-2 text-black">
         Click a card to explore
       </h3>
 
