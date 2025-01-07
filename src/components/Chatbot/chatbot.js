@@ -30,7 +30,7 @@ function Chatbot() {
                 Intelligent, multilingual, insightful chatbot trained on your
                 organization's website.
               </p>
-              <button>Learn More</button>
+              <button aria-label="Learn more about the Website Bot">Learn More</button>
             </div>
           </div>
           <div
@@ -44,7 +44,7 @@ function Chatbot() {
                 Intelligent, multilingual, insightful chatbot trained on your
                 organization's documents.
               </p>
-              <button>Learn More</button>
+              <button aria-label="Learn more about the Document Bot">Learn More</button>
             </div>
           </div>
         </div>
@@ -273,6 +273,7 @@ function Chatbot() {
                   "_blank"
                 )
               }
+              aria-label="Link to calendly to book an appointment"
             >
               <span>Schedule a demo</span>
             </button>

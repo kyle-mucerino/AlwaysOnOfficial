@@ -81,7 +81,7 @@ function About() {
                 <div className="ag-courses-item_date-box">
                   Our AI is trained to be an expert in school questions and
                   topics right out of the box. <br />
-                  <button className="btn info mt-4 font-black">
+                  <button className="btn info mt-4 font-black" aria-label="Learn More about School-Friendly AI">
                     Learn More&rarr;
                   </button>
                 </div>
@@ -104,7 +104,7 @@ function About() {
                 <div className="ag-courses-item_date-box">
                   Custom FAQs (not required), AI website training, and answer
                   feedback help improve chatbot answers. <br />
-                  <button className="btn info mt-4 font-black">
+                  <button className="btn info mt-4 font-black" aria-label="Learn More about Answer Quality Tools">
                     Learn More&rarr;
                   </button>
                 </div>
@@ -132,7 +132,7 @@ function About() {
                 <div className="ag-courses-item_date-box">
                   Route questions to specific staff members (if person is
                   needed) based on topic. <br />
-                  <button className="btn info mt-4 font-black">
+                  <button className="btn info mt-4 font-black" aria-label="Learn More about Contact Us Routing">
                     Learn More&rarr;
                   </button>
                 </div>
@@ -160,7 +160,7 @@ function About() {
                 <div className="ag-courses-item_date-box">
                   English, Spanish, and 10 other languages available. More
                   coming soon! <br />
-                  <button className="btn info mt-4 font-black">
+                  <button className="btn info mt-4 font-black" aria-label="Learn More about Language Translation">
                     Learn More&rarr;
                   </button>
                 </div>
@@ -188,7 +188,7 @@ function About() {
                 <div className="ag-courses-item_date-box">
                   Question level data that gives you a real time passive focus
                   group and measurement of stakeholder needs. <br />
-                  <button className="btn info mt-4 font-black">
+                  <button className="btn info mt-4 font-black" aria-label="Learn More about Analytics">
                     Learn More&rarr;
                   </button>
                 </div>
@@ -213,7 +213,7 @@ function About() {
                 <div className="ag-courses-item_date-box">
                   Districts can build unlimited chatbots, from district-wide to
                   school site or topic specific. <br />
-                  <button className="btn info mt-4 font-black">
+                  <button className="btn info mt-4 font-black" aria-label="Learn More about Use Multiple Chatbots">
                     Learn More&rarr;
                   </button>
                 </div>

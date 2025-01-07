@@ -30,6 +30,7 @@ function Nav() {
             />
           </NavLink>
           <button
+            aria-label="Toggle Menu"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="text-black text-3xl focus:outline-none"
           >
@@ -48,6 +49,7 @@ function Nav() {
                     )
                   }
                   className="w-full text-left flex items-center justify-between"
+                  aria-label="Toggle Platform Submenu"
                 >
                   Platform <span>{isPlatformSubmenuOpen ? "▼" : "▶"}</span>
                 </button>
@@ -106,6 +108,7 @@ function Nav() {
                     toggleSubmenu(setIsAboutSubmenuOpen, isAboutSubmenuOpen)
                   }
                   className="w-full text-left flex items-center justify-between"
+                  aria-label="Toggle About Submenu"
                 >
                   About <span>{isAboutSubmenuOpen ? "▼" : "▶"}</span>
                 </button>
@@ -167,6 +170,7 @@ function Nav() {
                       "_blank"
                     )
                   }
+                  aria-label="Schedule a demo"
                 >
                   Schedule a demo
                 </button>
@@ -236,6 +240,7 @@ function Nav() {
                 "_blank"
               )
             }
+            aria-label="Schedule a demo"
           >
             <span>Schedule a demo</span>
           </button>

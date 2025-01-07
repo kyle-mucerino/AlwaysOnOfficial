@@ -12,7 +12,10 @@ export function VortexDemo() {
           Explore the power of AlwaysOn
         </h2>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6 free-trial">
-          <button className="border-2 border-white bg-white text-black rounded-lg p-4 freeman-regular uppercase mx-4">
+          <button
+            className="border-2 border-white bg-white text-black rounded-lg p-4 freeman-regular uppercase mx-4"
+            aria-label="Get started today"
+          >
             <span>Get started today</span>
           </button>
         </div>

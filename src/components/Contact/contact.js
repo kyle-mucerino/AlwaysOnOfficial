@@ -91,6 +91,7 @@ function Contact() {
                   "_blank"
                 )
               }
+              aria-label="Schedule a demo"
             >
               <span>Schedule a demo</span>
             </button>

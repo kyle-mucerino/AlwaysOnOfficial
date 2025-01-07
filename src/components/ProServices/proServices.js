@@ -96,6 +96,7 @@ function ProServices() {
                   "_blank"
                 )
               }
+              aria-label="Link to calendly to book an appointment"
             >
               <span>Schedule a demo</span>
             </button>
