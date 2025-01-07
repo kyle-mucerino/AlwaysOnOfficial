@@ -30,7 +30,7 @@ function Media() {
         <div className="flex flex-col-reverse sm:flex-row pdf-section section-mm-2 p-8">
           <img
             src={onePagerImg}
-            alt="PDF Preview"
+            alt="PDF Preview detailing all the features of AlwaysOn Chatbot"
             className="pdf-thumbnail cursor-pointer transform transition hover:scale-105 duration-300"
             onClick={toggleModal}
           />

@@ -31,7 +31,7 @@ function Contact() {
         </div>
         <div className="relative sm:hidden flex justify-center items-center w-full bg-transparent">
           <div className="flex-grow h-0 border-t border-white"></div>
-          <img className="h-16 mx-4 my-4" src={logo2} alt="Logo" />
+          <img className="h-16 mx-4 my-4" src={logo2} alt="AlwaysOn logo" />
           <div className="flex-grow h-0 border-t border-white"></div>
         </div>
       </div>
@@ -40,7 +40,7 @@ function Contact() {
         <img
           className="h-36 mx-4 fading my-10"
           src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
-          alt="Logo"
+          alt="AlwaysOn logo"
         />
         <div className="flex-grow h-0 border-t border-gray-400"></div>
       </div>
@@ -58,7 +58,11 @@ function Contact() {
         </div>
         <div className="flex flex-row-reverse p-4">
           <div className="flex justify-center items-center">
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+            <img
+              src={chatBot}
+              alt="AlwaysOn Chatbot"
+              className="w-1/2 rounded-lg mx-auto"
+            />
           </div>
           <div className="flex flex-row justify-center items-center">
             <h1 className="text-xl sm:text-5xl poppins-bold mb-4 leading-normal">
@@ -69,7 +73,11 @@ function Contact() {
         </div>
         <div className="flex flex-row p-4">
           <div className="flex justify-center items-center">
-            <img src={chatBot} alt="gif" className="w-1/2 rounded-lg mx-auto" />
+            <img
+              src={chatBot}
+              alt="AlwaysOn Chatbot"
+              className="w-1/2 rounded-lg mx-auto"
+            />
           </div>
           <div className="flex flex-row justify-center items-center">
             <div className="text-xl sm:text-7xl sm:mr-2">&#x2190;</div>

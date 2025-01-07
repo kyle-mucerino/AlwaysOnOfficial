@@ -35,7 +35,7 @@ function ProServices() {
         </div>
         <div className="relative flex sm:hidden justify-center items-center w-full bg-transparent">
           <div className="flex-grow h-0 border-t border-white"></div>
-          <img className="h-16 mx-4 my-4" src={logo2} alt="Logo" />
+          <img className="h-16 mx-4 my-4" src={logo2} alt="AlwaysOn logo" />
           <div className="flex-grow h-0 border-t border-white"></div>
         </div>
       </div>
@@ -44,7 +44,7 @@ function ProServices() {
         <img
           className="h-36 mx-4 fading my-10"
           src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
-          alt="Logo"
+          alt="AlwaysOn logo"
         />
         <div className="flex-grow h-0 border-t border-gray-400"></div>
       </div>
@@ -53,7 +53,7 @@ function ProServices() {
           <div className="flex justify-center items-center">
             <img
               src={performance}
-              alt="gif"
+              alt="icon of data being inspected with magifying glass"
               className="w-3/5 rounded-lg mx-auto"
             />
           </div>
@@ -65,7 +65,7 @@ function ProServices() {
         </div>
         <div className="flex flex-row-reverse p-4">
           <div className="flex justify-center items-center">
-            <img src={ai} alt="gif" className="w-3/5 rounded-lg mx-auto" />
+            <img src={ai} alt="icon of AI powered brain" className="w-3/5 rounded-lg mx-auto" />
           </div>
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-xl sm:text-7xl poppins-bold mb-4">
@@ -75,7 +75,7 @@ function ProServices() {
         </div>
         <div className="flex flex-row p-4">
           <div className="flex justify-center items-center">
-            <img src={service} alt="gif" className="w-3/5 rounded-lg mx-auto" />
+            <img src={service} alt="icon with tools and settings, support and people around it" className="w-3/5 rounded-lg mx-auto" />
           </div>
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-xl sm:text-7xl poppins-bold mb-4">

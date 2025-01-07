@@ -34,7 +34,7 @@ function SurveyTool() {
         </div>
         <div className="relative sm:hidden flex justify-center items-center w-full bg-transparent">
           <div className="flex-grow h-0 border-t border-white"></div>
-          <img className="h-16 mx-4 my-4" src={logo2} alt="Logo" />
+          <img className="h-16 mx-4 my-4" src={logo2} alt="AlwaysOn logo" />
           <div className="flex-grow h-0 border-t border-white"></div>
         </div>
       </div>
@@ -43,13 +43,13 @@ function SurveyTool() {
         <img
           className="h-36 mx-4 fading my-10"
           src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
-          alt="Logo"
+          alt="AlwaysOn logo"
         />
         <div className="flex-grow h-0 border-t border-gray-400"></div>
       </div>
       <div className="section-st-3 space-y-16">
         <div className="flex flex-row justify-center items-center">
-          <img src={surveygif1} alt="gif" className="w-1/2 rounded-lg p-4" />
+          <img src={surveygif1} alt="gif showing survery within the platform" className="w-1/2 rounded-lg p-4" />
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-xl sm:text-6xl poppins-bold mb-4">
               &#x2190;Build Survey
@@ -58,7 +58,7 @@ function SurveyTool() {
         </div>
         <div className="flex-grow h-0 border-t border-grey"></div>
         <div className="flex flex-row-reverse justify-center items-center">
-          <img src={surveygif2} alt="gif" className="w-1/2 rounded-lg p-4" />
+          <img src={surveygif2} alt="gif showing chatbot deployment within the platform" className="w-1/2 rounded-lg p-4" />
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-xl sm:text-6xl poppins-bold mb-4">
               Deploy it&#x2192;
@@ -67,7 +67,7 @@ function SurveyTool() {
         </div>
         <div className="flex-grow h-0 border-t border-grey"></div>
         <div className="flex flex-row justify-center items-center">
-          <img src={surveygif3} alt="gif" className="w-1/2 rounded-lg p-4" />
+          <img src={surveygif3} alt="gif showing analytics reports within the platform" className="w-1/2 rounded-lg p-4" />
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-xl sm:text-6xl poppins-bold mb-4">
               &#x2190;View Analytics

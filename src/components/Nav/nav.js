@@ -26,7 +26,7 @@ function Nav() {
             <img
               className="h-20 py-2"
               src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
-              alt="Logo"
+              alt="AlwaysOn logo"
             />
           </NavLink>
           <button
@@ -187,7 +187,7 @@ function Nav() {
             <img
               className="h-24 py-2"
               src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
-              alt="Logo"
+              alt="AlwaysOn logo"
             />
           </NavLink>
           <ul className="flex items-center space-x-4 lg:space-x-6 xl:space-x-8 mx-auto uppercase">

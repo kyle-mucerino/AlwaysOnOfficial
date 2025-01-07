@@ -30,7 +30,9 @@ function Chatbot() {
                 Intelligent, multilingual, insightful chatbot trained on your
                 organization's website.
               </p>
-              <button aria-label="Learn more about the Website Bot">Learn More</button>
+              <button aria-label="Learn more about the Website Bot">
+                Learn More
+              </button>
             </div>
           </div>
           <div
@@ -44,7 +46,9 @@ function Chatbot() {
                 Intelligent, multilingual, insightful chatbot trained on your
                 organization's documents.
               </p>
-              <button aria-label="Learn more about the Document Bot">Learn More</button>
+              <button aria-label="Learn more about the Document Bot">
+                Learn More
+              </button>
             </div>
           </div>
         </div>
@@ -92,7 +96,7 @@ function Chatbot() {
         </h1>
         <div className="relative flex justify-center items-center w-full bg-transparent">
           <div className="flex-grow h-0 border-t border-white"></div>
-          <img className="h-16 mx-4 my-4" src={logo2} alt="Logo" />
+          <img className="h-16 mx-4 my-4" src={logo2} alt="AlwaysOn logo" />
           <div className="flex-grow h-0 border-t border-white"></div>
         </div>
         <div className="website text-2xl sm:text-4xl alata-regular mt-2">
@@ -182,7 +186,7 @@ function Chatbot() {
               <div className="flex flex-row justify-center items-center text-left">
                 <img
                   src={analytics2}
-                  alt="gif"
+                  alt="Various analytics and charts detailing data insights such as questions asked, engagement, and more"
                   className="rounded-lg cursor-pointer p-4"
                 />
               </div>
@@ -253,7 +257,7 @@ function Chatbot() {
               <div className="flex flex-row justify-center items-center text-left">
                 <img
                   src={analytics2}
-                  alt="gif"
+                  alt="Various analytics and charts detailing data insights such as questions asked, engagement, and more"
                   className="rounded-lg cursor-pointer p-4"
                 />
               </div>

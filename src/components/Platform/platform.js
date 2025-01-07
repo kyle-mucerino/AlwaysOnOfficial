@@ -40,14 +40,14 @@ function Platform() {
 
         <div className="flex-grow relative feature-container hidden sm:flex">
           <div className="center-logo z-10">
-            <img className="h-84" src={chatBot2} alt="Logo" />
+            <img className="h-84" src={chatBot2} alt="Chabot robotic face" />
           </div>
 
           {/* Feature 3 */}
           <div className="feature feature-3 w-1/3 flex flex-col justify-center items-center z-20">
             <div className="text-center">
               <div className="w-1/2 p-5 bg-white rounded-full inline-block">
-                <img src={gif4} alt="Feature 3" className="rounded-lg" />
+                <img src={gif4} alt="gif showing a survey" className="rounded-lg" />
               </div>
               <h3 className="font-bold text-2xl">
                 <span className="rounded-lg text-black p-2">Survey Tool</span>
@@ -59,7 +59,7 @@ function Platform() {
           <div className="feature feature-4 w-1/3 flex flex-col justify-center items-center z-20">
             <div className="text-center">
               <div className="w-1/2 p-5 bg-white rounded-full inline-block">
-                <img src={gif5} alt="Feature 4" className="rounded-lg" />
+                <img src={gif5} alt="gif of person communicating" className="rounded-lg" />
               </div>
               <h3 className="font-bold text-2xl">
                 <span className="rounded-lg text-black p-2">
@@ -78,7 +78,7 @@ function Platform() {
                 </span>
               </h3>
               <div className="w-1/2 p-5 bg-white rounded-full inline-block">
-                <img src={gif6} alt="Feature 5" className="rounded-lg" />
+                <img src={gif6} alt="gif of info & person" className="rounded-lg" />
               </div>
             </div>
           </div>
