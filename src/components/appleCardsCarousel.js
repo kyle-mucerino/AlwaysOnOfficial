@@ -114,6 +114,7 @@ export const Carousel = ({ items, initialScroll = 0 }) => {
             className="relative z-40 h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center disabled:opacity-50"
             onClick={scrollLeft}
             disabled={!canScrollLeft}
+            aria-label="Scroll left"
           >
             <IconArrowNarrowLeft className="h-6 w-6 text-gray-500" />
           </button>
@@ -121,6 +122,7 @@ export const Carousel = ({ items, initialScroll = 0 }) => {
             className="relative z-40 h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center disabled:opacity-50"
             onClick={scrollRight}
             disabled={!canScrollRight}
+            aria-label="Scroll right"
           >
             <IconArrowNarrowRight className="h-6 w-6 text-gray-500" />
           </button>
@@ -185,6 +187,7 @@ export const Card = ({ card, index, layout = false }) => {
               <button
                 className="sticky top-4 h-8 w-8 right-0 ml-auto bg-black dark:bg-white rounded-full flex items-center justify-center"
                 onClick={handleClose}
+                aria-label="Close card"
               >
                 <IconX className="h-6 w-6 text-neutral-100 dark:text-neutral-900" />
               </button>
@@ -209,6 +212,7 @@ export const Card = ({ card, index, layout = false }) => {
         layoutId={layout ? `card-${card.title}` : undefined}
         onClick={handleOpen}
         className="rounded-3xl bg-gray-100 dark:bg-neutral-900 h-80 w-56 md:h-[30rem] md:w-96 overflow-hidden flex flex-col items-center justify-end relative z-10 border-orange-500 border-8 transition duration-500 hover:border-yellow-400"
+        aria-label={`Open ${card.title}`}
       >
         <div className="absolute h-full top-0 inset-x-0 bg-gradient-to-b from-black/50 via-transparent to-transparent z-30 pointer-events-none" />
         <div className="relative z-40 p-8">

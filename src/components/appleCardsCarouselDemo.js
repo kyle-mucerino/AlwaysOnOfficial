@@ -54,6 +54,7 @@ const SurveyToolCard = () => {
               <a
                 href="/survey-tool"
                 className=" text-white p-2 bg-blue-600 rounded-lg text-xl font-semibold"
+                aria-label="Learn more about Survey Tool"
               >
                 Learn more about Survey Tool
               </a>
@@ -91,6 +92,7 @@ const ContactUsRoutingCard = () => {
               <a
                 href="/contact-us-routing"
                 className=" text-white p-2 bg-blue-600 rounded-lg text-xl font-semibold"
+                aria-label="Learn more about Contact Us Routing"
               >
                 Learn more about Contact Us Routing
               </a>
@@ -127,6 +129,7 @@ const ProServicesCard = () => {
               <a
                 href="/professional-services"
                 className=" text-white p-2 bg-blue-600 rounded-lg text-xl font-semibold"
+                aria-label="Learn more about Professional Services"
               >
                 Learn more about Professional Services
               </a>

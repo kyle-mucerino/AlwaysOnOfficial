@@ -17,7 +17,7 @@ export function CanvasRevealEffectDemo() {
             colors={([153, 51, 255], [0, 255, 85])}
           />
         </Card>
-        <button class="text-8xl font-bold text-black">&#43;</button>
+        <button class="text-8xl font-bold text-black" aria-label="learn more about the chatbot">&#43;</button>
         <Card
           title="ANALYTICS"
           info="Usage Metrics: Track the number of unique engagements and overall volume of questions) Question-Level Data: See the exact questions and specific information your community requests) Predictive Insights: Identify information gaps, trends, and anticipate needs to improve the website"
