@@ -1,23 +1,4 @@
-body {
-  background-color: white;
-}
 
-.section-mm-1 {
-  min-height: 40vh;
-  background: linear-gradient(to bottom, #FF6600, #fc4a1a);
-  @media (max-width: 640px) {
-    min-height: 25vh;
-  }
-}
-
-.section-mm-2 {
-  min-height: 30vh;
-  background-color: white;
-}
-
-.section-mm-3 {
-  background-color: white;
-}
 
 /* Modal Styles */
 .pdf-modal {

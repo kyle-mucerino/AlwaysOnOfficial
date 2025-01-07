@@ -118,7 +118,7 @@ const FAQ = () => {
                   className="accordion-header"
                   onClick={() => toggleAccordion1(index)}
                 >
-                  <h3>{faq.question}</h3>
+                  <h1>{faq.question}</h1>
                   <span>{openIndex1 === index ? "-" : "+"}</span>
                 </div>
                 {openIndex1 === index && (
@@ -145,7 +145,7 @@ const FAQ = () => {
                   className="accordion-header"
                   onClick={() => toggleAccordion2(index)}
                 >
-                  <h3>{faq.question}</h3>
+                  <h1>{faq.question}</h1>
                   <span>{openIndex2 === index ? "-" : "+"}</span>
                 </div>
                 {openIndex2 === index && (
@@ -172,7 +172,7 @@ const FAQ = () => {
                   className="accordion-header"
                   onClick={() => toggleAccordion3(index)}
                 >
-                  <h3>{faq.question}</h3>
+                  <h1>{faq.question}</h1>
                   <span>{openIndex3 === index ? "-" : "+"}</span>
                 </div>
                 {openIndex3 === index && (

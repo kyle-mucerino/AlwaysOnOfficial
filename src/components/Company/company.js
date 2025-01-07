@@ -25,17 +25,19 @@ function Company() {
             Beach, California, we currently work with over 100 organizations
             nationwide.
           </p>
-          <p className="text-md sm:text-4xl open-sans-light mt-4">
-            We are proud sponsor of:
-          </p>
-          <ll className="text-md sm:text-4xl open-sans-light mt-2">
-            <li>NSPRA</li>
-            <li>CalSPRA</li>
-            <li>COSPRA</li>
-            <li>KanSPRA</li>
-            <li>NebSPRA</li>
-            <li>TSPRA</li>
-          </ll>
+          <div className="flex flex-col sm:flex-row sm:justify-center sm:items-center sm:space-x-8 mt-6 sm:mt-12">
+            <p className="text-md sm:text-3xl open-sans-light font-extrabold text-center">
+              We are proud sponsor of:
+            </p>
+            <ul className="text-md sm:text-3xl open-sans-light flex flex-col sm:flex-row list-disc sm:space-x-12 mx-auto sm:p-4">
+              <li>NSPRA</li>
+              <li>CalSPRA</li>
+              <li>COSPRA</li>
+              <li>KanSPRA</li>
+              <li>NebSPRA</li>
+              <li>TSPRA</li>
+            </ul>
+          </div>
         </div>
       </div>
     </>
