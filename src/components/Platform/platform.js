@@ -116,7 +116,7 @@ function Platform() {
               </div>
             </div>
           </div>
-          <div class="text-8xl font-bold">&#43;</div>
+          <div class="flex text-8xl font-bold justify-center items-center">&#43;</div>
           <div class="mx-auto w-full sm:w-[35rem]">
             <div class="relative group">
               <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
