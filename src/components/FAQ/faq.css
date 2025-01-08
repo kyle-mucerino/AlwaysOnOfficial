@@ -40,3 +40,7 @@
   margin: 0;
   font-size: x-large;
 }
+
+.faq-header span {
+  color: #ddd;
+}

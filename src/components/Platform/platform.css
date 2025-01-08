@@ -62,7 +62,7 @@ body {
 /* Center logo */
 .center-logo {
   position: absolute;
-  top: 55%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
@@ -80,13 +80,13 @@ body {
 
 /* Adjust layout-specific positions */
 .feature-4 {
-  top: 80%;
+  top: 90%;
   left: 80%;
   transform: translate(-50%, -50%);
 }
 
 .feature-3 {
-  top: 80%;
+  top: 90%;
   right: 80%;
   transform: translate(50%, -50%);
 }

@@ -161,8 +161,8 @@ const FAQ = () => {
         <div className="flex-grow h-0 border-t border-gray-400"></div>
 
         <div className="flex flex-col sm:flex-row justify-evenly sm:mb-12">
-          <h1 className="text-2xl sm:text-5xl poppins-bold justify-center mb-2 sm:mb-0">
-            Product:
+          <h1 className="text-2xl sm:text-5xl poppins-bold justify-center mb-2 sm:mb-0 faq-header">
+            <span>Information</span> Product:
           </h1>
           {/* Third FAQ Accordion */}
           <div className="accordion w-full sm:w-1/2 open-sans-light">
