@@ -38,7 +38,7 @@ function Platform() {
           </div>
         </div>
 
-        <div className="flex-grow relative feature-container hidden sm:flex">
+        <div className="flex-grow relative feature-container hidden sm:flex wide:hidden">
           <div className="center-logo z-10">
             <img className="h-84" src={chatBot2} alt="Chabot robotic face" />
           </div>
