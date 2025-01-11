@@ -47,7 +47,11 @@ function Platform() {
           <div className="feature feature-3 w-1/3 flex flex-col justify-center items-center z-20">
             <div className="text-center">
               <div className="w-1/2 p-5 bg-white rounded-full inline-block">
-                <img src={gif4} alt="gif showing a survey" className="rounded-lg" />
+                <img
+                  src={gif4}
+                  alt="gif showing a survey"
+                  className="rounded-lg"
+                />
               </div>
               <h1 className="font-bold text-xl">
                 <span className="rounded-lg text-black p-2">Survey Tool</span>
@@ -59,7 +63,11 @@ function Platform() {
           <div className="feature feature-4 w-1/3 flex flex-col justify-center items-center z-20">
             <div className="text-center">
               <div className="w-1/2 p-5 bg-white rounded-full inline-block">
-                <img src={gif5} alt="gif of person communicating" className="rounded-lg" />
+                <img
+                  src={gif5}
+                  alt="gif of person communicating"
+                  className="rounded-lg"
+                />
               </div>
               <h1 className="font-bold text-xl">
                 <span className="rounded-lg text-black p-2">
@@ -78,77 +86,74 @@ function Platform() {
                 </span>
               </h1>
               <div className="w-1/2 p-5 bg-white rounded-full inline-block">
-                <img src={gif6} alt="gif of info & person" className="rounded-lg" />
+                <img
+                  src={gif6}
+                  alt="gif of info & person"
+                  className="rounded-lg"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="section-2 border-b-2 border-black">
+      <div className="section-2 border-b-2 border-black flex flex-col">
         <div class="flex flex-col sm:flex-row justify-center relative overflow-hidden p-4 sm:py-12">
           <div class="mx-auto w-full sm:w-[35rem]">
             <div class="relative group">
               <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <div class="relative px-7 py-6 ring-1 ring-gray-900/5 rounded-lg leading-none flex justify-start items-start space-x-61 chatbot">
-                <div class="space-y-8">
-                  <p class="text-5xl poppins-bold">Chatbot</p>
-                  <ol className="text-left space-y-10">
-                    <li className="text-2xl open-sans-light">
+              <div class="relative px-7 py-6 ring-1 ring-gray-900/5 rounded-lg leading-none flex justify-center items-center space-x-6 chatbot">
+                <div class="space-y-4 sm:space-y-8">
+                  <p class="text-3xl sm:text-5xl poppins-bold">Chatbot</p>
+                  <ol className="text-left space-y-4 sm:space-y-10">
+                    <li className="text-lg sm:text-2xl open-sans-light">
                       <b>1.</b> Make website information easier to find
                     </li>
-                    <li className="text-2xl open-sans-light">
+                    <li className="text-lg sm:text-2xl open-sans-light">
                       <b>2.</b> Provide instant 24/7 self service support
                     </li>
-                    <li className="text-2xl open-sans-light">
+                    <li className="text-lg sm:text-2xl open-sans-light">
                       <b>3.</b> Increase staff capacity by reducing inquries
                     </li>
                   </ol>
-                  <a
-                    href="/chatbot"
-                    class="block text-indigo-500 group-hover:text-slate-800 transition duration-200"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Learn More →
-                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="flex text-8xl font-bold justify-center items-center">&#43;</div>
+          <div class="flex text-8xl font-bold justify-center items-center">
+            &#43;
+          </div>
           <div class="mx-auto w-full sm:w-[35rem]">
             <div class="relative group">
               <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <div class="relative px-7 py-6 ring-1 ring-gray-900/5 rounded-lg leading-none flex justify-start space-x-6 analytics">
-                <div class="space-y-4">
-                  <p class="text-5xl poppins-bold">Analytics</p>
-                  <ul className="text-left space-y-4">
-                    <li className="text-2xl open-sans-light">
-                      <b>1.</b> Identify merging topics and question trends in
-                      real time
+              <div class="relative px-7 py-6 ring-1 ring-gray-900/5 rounded-lg leading-none flex justify-center items-center space-x-6 analytics">
+                <div class="space-y-4 sm:space-y-8">
+                  <p class="text-3xl sm:text-5xl poppins-bold">Analytics</p>
+                  <ul className="text-left space-y-4 sm:space-y-10">
+                    <li className="text-lg sm:text-2xl open-sans-light">
+                      <b>1.</b> Spot trends and topics in real time
                     </li>
-                    <li className="text-2xl open-sans-light">
-                      <b>2.</b> Surface information gaps and outdated
-                      information
+                    <li className="text-lg sm:text-2xl open-sans-light">
+                      <b>2.</b> Find gaps and outdated info
                     </li>
-                    <li className="text-2xl open-sans-light">
-                      <b>3.</b> Update chatbot responses, website information,
-                      and plan content schedules
+                    <li className="text-lg sm:text-2xl open-sans-light">
+                      <b>3.</b> Refresh chatbot, site, and content
                     </li>
                   </ul>
-                  <a
-                    href="/chatbot"
-                    class="block text-indigo-500 group-hover:text-slate-800 transition duration-200"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Learn More →
-                  </a>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex items justify-center text-center mb-4">
+          <button
+            href="/chatbot"
+            class="block text-indigo-500 hover:bg-indigo-500 transition duration-200 border-indigo-500 sm:p-4 p-2 text-xl sm:text-3xl border-4 rounded-lg bg-white hover:text-white hover:border-white"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Learn More →
+          </button>
         </div>
       </div>
 
@@ -156,7 +161,7 @@ function Platform() {
         <AppleCardsCarouselDemo />
       </div>
 
-      <div className="section section-4 flex flex-col">
+      <div className="section section-4 flex flex-col p-4 sm:p-0">
         <div className="text-center">
           <h1 className="text-3xl sm:text-7xl font-extrabold poppins-bold">
             Our Partners

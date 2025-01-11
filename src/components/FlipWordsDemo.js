@@ -9,12 +9,12 @@ export function FlipWordsDemo() {
       <div className="hidden sm:block text-4xl saira-regular leading-normal">
         A customer service platform for 
         <FlipWords words={words} className="font-bold text-white" /> 
-        <br></br>featuring AI chatbots + analytics
+        <br></br>featuring AI chatbot + analytics
       </div>
       <div className="block sm:hidden text-2xl saira-regular leading-normal">
-        A powerful customer service platform for 
+        A customer service platform for 
         <FlipWords words={words} className="font-bold text-white" /> 
-        featuring AI chatbots + analytics
+        featuring AI chatbot + analytics
       </div>
     </>
   );

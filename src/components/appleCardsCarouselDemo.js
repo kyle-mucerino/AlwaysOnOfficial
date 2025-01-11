@@ -15,7 +15,7 @@ export function AppleCardsCarouselDemo() {
   ));
 
   return (
-    <div className="w-full h-full py-20">
+    <div className="w-full h-full pt-8 sm:space-y-4">
       <h2 className="max-w-7xl mx-auto text-xl md:text-5xl font-bold text-neutral-800 poppins-bold uppercase">
         additional features of the AlwaysOn platform
       </h2>
