@@ -4,6 +4,7 @@ import chatBot from "../../assets/AOChatBot.png";
 import { TextGenerateEffect } from "../TextGenerateEffect";
 import ContactUsVideo from "../../assets/Contact Us.mp4";
 import logo2 from "../../assets/logo2.png";
+import contactPoster from "../../assets/contactPoster.png";
 
 function Contact() {
   return (
@@ -23,9 +24,10 @@ function Contact() {
           <div>
             <video
               src={ContactUsVideo}
-              alt="gif"
+              alt="Video describing functionality of AlwaysOn's Contact Us Routing"
               className="w-4/5 rounded-lg mx-auto p-2"
               controls
+              poster={contactPoster}
             />
           </div>
         </div>
@@ -95,7 +97,7 @@ function Contact() {
               className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
               onClick={() =>
                 window.open(
-                  "https://calendly.com/alwaysonai/intro-meeting",
+                  "/contact-us",
                   "_blank"
                 )
               }

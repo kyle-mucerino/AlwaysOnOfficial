@@ -7,12 +7,13 @@ import service from "../../assets/service.png";
 import ai from "../../assets/artificial-intelligence (1).png";
 import performance from "../../assets/performance-review.png";
 import logo2 from "../../assets/logo2.png";
+import proServicesPoster from "../../assets/proServicesPoster.png";
 
 
 function ProServices() {
   return (
     <>
-      <div className="section-ps-1 flex flex-col sm:flex-row justify-evenly items-center border-b-2 border-black">
+      <div className="section-ps-1 flex flex-col sm:flex-row justify-evenly items-center border-b-2 border-t-2 border-black">
         <div className="flex flex-col justify-evenly text-center sm:text-left mx-2 sm:mx-0 sm:ml-12 mt-2 sm:mt-0">
           <h1 className="text-2xl sm:text-7xl poppins-bold mb-2 sm:mb-4">
             Professional Services
@@ -30,6 +31,7 @@ function ProServices() {
               alt="gif"
               className="w-4/5 rounded-lg mx-auto"
               controls
+              poster={proServicesPoster}
             />
           </div>
         </div>
@@ -65,7 +67,11 @@ function ProServices() {
         </div>
         <div className="flex flex-row-reverse p-4">
           <div className="flex justify-center items-center">
-            <img src={ai} alt="icon of AI powered brain" className="w-3/5 rounded-lg mx-auto" />
+            <img
+              src={ai}
+              alt="icon of AI powered brain"
+              className="w-3/5 rounded-lg mx-auto"
+            />
           </div>
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-xl sm:text-7xl poppins-bold mb-4">
@@ -75,7 +81,11 @@ function ProServices() {
         </div>
         <div className="flex flex-row p-4">
           <div className="flex justify-center items-center">
-            <img src={service} alt="icon with tools and settings, support and people around it" className="w-3/5 rounded-lg mx-auto" />
+            <img
+              src={service}
+              alt="icon with tools and settings, support and people around it"
+              className="w-3/5 rounded-lg mx-auto"
+            />
           </div>
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-xl sm:text-7xl poppins-bold mb-4">
@@ -92,7 +102,7 @@ function ProServices() {
               className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
               onClick={() =>
                 window.open(
-                  "https://calendly.com/alwaysonai/intro-meeting",
+                  "/contact-us",
                   "_blank"
                 )
               }

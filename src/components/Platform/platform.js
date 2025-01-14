@@ -27,7 +27,7 @@ function Platform() {
               className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
               onClick={() =>
                 window.open(
-                  "https://calendly.com/alwaysonai/intro-meeting",
+                  "/contact-us",
                   "_blank"
                 )
               }
@@ -91,6 +91,60 @@ function Platform() {
                   alt="gif of info & person"
                   className="rounded-lg"
                 />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Wide screen Homepage Hero */}
+        <div className="flex-col hidden sm:hidden wide:flex items-center justify-center">
+          <div className="z-10 items-center justify-center">
+            <img className="h-80" src={chatBot2} alt="Chabot robotic face" />
+          </div>
+          <div className="hidden sm:hidden wide:flex flex-row justify-center items-center mt-4">
+            <div className="w-1/3 flex flex-col justify-center items-center z-20">
+              <div className="text-center">
+                <div className="w-1/3 p-5 bg-white rounded-full inline-block">
+                  <img
+                    src={gif4}
+                    alt="gif showing a survey"
+                    className="rounded-lg"
+                  />
+                </div>
+                <h1 className="font-bold text-xl">
+                  <span className="rounded-lg text-black p-2">Survey Tool</span>
+                </h1>
+              </div>
+            </div>
+            <div className="w-1/3 flex flex-col justify-center items-center z-20">
+              <div className="text-center">
+                <div className="w-1/3 p-5 bg-white rounded-full inline-block">
+                  <img
+                    src={gif5}
+                    alt="gif of person communicating"
+                    className="rounded-lg"
+                  />
+                </div>
+                <h1 className="font-bold text-xl">
+                  <span className="rounded-lg text-black p-2">
+                    Contact Us Routing
+                  </span>
+                </h1>
+              </div>
+            </div>
+            <div className="w-1/3 flex flex-col justify-center items-center z-20">
+              <div className="text-center">
+                <div className="w-1/3 p-5 bg-white rounded-full inline-block">
+                  <img
+                    src={gif6}
+                    alt="gif of info & person"
+                    className="rounded-lg"
+                  />
+                </div>
+                <h1 className="font-bold text-xl">
+                  <span className="rounded-lg text-black p-2">
+                    Professional Services
+                  </span>
+                </h1>
               </div>
             </div>
           </div>
@@ -239,7 +293,7 @@ function Platform() {
               className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
               onClick={() =>
                 window.open(
-                  "https://calendly.com/alwaysonai/intro-meeting",
+                  "/contact-us",
                   "_blank"
                 )
               }

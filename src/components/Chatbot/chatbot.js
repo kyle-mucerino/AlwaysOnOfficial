@@ -6,6 +6,8 @@ import { FlipWordsDemo } from "../FlipWordsDemo2";
 import analytics2 from "../../assets/Analytics (2).png";
 import chatBot from "../../assets/AOChatBot.png";
 import logo2 from "../../assets/logo2.png";
+import webBotPoster from "../../assets/webBotPoster.png";
+import docBotPoster from "../../assets/docBotPoster.png";
 
 function Chatbot() {
   const [selectedBot, setSelectedBot] = useState("website");
@@ -107,6 +109,7 @@ function Chatbot() {
             src={webBotVideo}
             className="video w-full sm:w-4/5 mx-auto rounded-lg"
             controls
+            poster={webBotPoster}
           ></video>
         </div>
         <div className="document text-2xl sm:text-4xl alata-regular mt-2">
@@ -117,6 +120,7 @@ function Chatbot() {
             src={docBotVideo}
             className="video w-full sm:w-4/5 mx-auto rounded-lg"
             controls
+            poster={docBotPoster}
           ></video>
         </div>
       </div>
@@ -273,7 +277,7 @@ function Chatbot() {
               className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
               onClick={() =>
                 window.open(
-                  "https://calendly.com/alwaysonai/intro-meeting",
+                  "/contact-us",
                   "_blank"
                 )
               }

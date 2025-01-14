@@ -7,6 +7,7 @@ import surveygif1 from "../../assets/Survey Step 1.gif";
 import surveygif2 from "../../assets/Survey Step 2.gif";
 import surveygif3 from "../../assets/Survey Step 3.gif";
 import logo2 from "../../assets/logo2.png";
+import surveyToolPoster from "../../assets/surveyToolPoster.png";
 
 function SurveyTool() {
   return (
@@ -26,9 +27,11 @@ function SurveyTool() {
           <div>
             <video
               src={SurveyToolVideo}
-              alt="gif"
+              alt="Video desrcibing functionality of AlwaysOn's Survey Tool"
               className="w-4/5 mx-auto rounded-lg"
               controls
+              playsInline
+              poster={surveyToolPoster}
             />
           </div>
         </div>
@@ -48,29 +51,56 @@ function SurveyTool() {
         <div className="flex-grow h-0 border-t border-gray-400"></div>
       </div>
       <div className="section-st-3 space-y-16">
-        <div className="flex flex-row justify-center items-center">
-          <img src={surveygif1} alt="gif showing survery within the platform" className="w-1/2 rounded-lg p-4" />
-          <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col-reverse sm:flex-row justify-center items-center">
+          <img
+            src={surveygif1}
+            alt="gif showing survery within the platform"
+            className="w-full sm:w-1/2 rounded-lg p-4"
+          />
+          <div className="hidden sm:flex justify-center items-center">
             <h1 className="text-xl sm:text-6xl poppins-bold mb-4">
               &#x2190;Build Survey
             </h1>
           </div>
-        </div>
-        <div className="flex-grow h-0 border-t border-grey"></div>
-        <div className="flex flex-row-reverse justify-center items-center">
-          <img src={surveygif2} alt="gif showing chatbot deployment within the platform" className="w-1/2 rounded-lg p-4" />
-          <div className="flex flex-col justify-center items-center">
+          <div className="sm:hidden flex justify-center items-center mt-4">
             <h1 className="text-xl sm:text-6xl poppins-bold mb-4">
-              Deploy it&#x2192;
+              Build Survey
             </h1>
           </div>
         </div>
         <div className="flex-grow h-0 border-t border-grey"></div>
-        <div className="flex flex-row justify-center items-center">
-          <img src={surveygif3} alt="gif showing analytics reports within the platform" className="w-1/2 rounded-lg p-4" />
-          <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col-reverse sm:flex-row-reverse justify-center items-center">
+          <img
+            src={surveygif2}
+            alt="gif showing chatbot deployment within the platform"
+            className="w-full sm:w-1/2 rounded-lg p-4"
+          />
+          <div className="hidden sm:flex justify-center items-center">
+            <h1 className="text-xl sm:text-6xl poppins-bold mb-4">
+              Deploy it&#x2192;
+            </h1>
+          </div>
+          <div className="sm:hidden flex justify-center items-center">
+            <h1 className="text-xl sm:text-6xl poppins-bold mb-4">
+              Deploy it
+            </h1>
+          </div>
+        </div>
+        <div className="flex-grow h-0 border-t border-grey"></div>
+        <div className="flex flex-col-reverse sm:flex-row justify-center items-center">
+          <img
+            src={surveygif3}
+            alt="gif showing analytics reports within the platform"
+            className="w-full sm:w-1/2 rounded-lg p-4"
+          />
+          <div className="hidden sm:flex justify-center items-center">
             <h1 className="text-xl sm:text-6xl poppins-bold mb-4">
               &#x2190;View Analytics
+            </h1>
+          </div>
+          <div className="sm:hidden flex justify-center items-center">
+            <h1 className="text-xl sm:text-6xl poppins-bold mb-4">
+              View Analytics
             </h1>
           </div>
         </div>
@@ -81,12 +111,7 @@ function SurveyTool() {
           <div className="free-trial flex-row">
             <button
               className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
-              onClick={() =>
-                window.open(
-                  "https://calendly.com/alwaysonai/intro-meeting",
-                  "_blank"
-                )
-              }
+              onClick={() => window.open("/contact-us", "_blank")}
               aria-label="Link to calendly to book an appointment"
             >
               <span>Schedule a demo</span>

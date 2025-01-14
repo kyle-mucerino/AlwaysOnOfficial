@@ -18,7 +18,7 @@ function Nav() {
 
       {/* Mobile Navigation */}
       <header className="h-24 flex md:hidden relative z-20">
-        <nav className="w-full px-4 flex items-center justify-between">
+        <nav className="w-full flex items-center justify-between">
           <NavLink
             to="/"
             className={`fading ${isMobileMenuOpen ? "hidden" : ""}`}
@@ -39,7 +39,7 @@ function Nav() {
         </nav>
         {isMobileMenuOpen && (
           <div className="mobile-menu">
-            <ul className="space-y-4 p-4 uppercase font-semibold w-[13rem]">
+            <ul className="space-y-4 p-4 uppercase font-semibold w-[17rem]">
               <li>
                 <button
                   onClick={() =>
@@ -236,7 +236,7 @@ function Nav() {
             className="w-1/5 uppercase button ml-auto rounded-lg font-bold px-4 xl:px-6 py-2 xl:py-3 text-black text-xl"
             onClick={() =>
               window.open(
-                "https://calendly.com/alwaysonai/intro-meeting",
+                "/contact-us",
                 "_blank"
               )
             }
