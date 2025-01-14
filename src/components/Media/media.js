@@ -9,7 +9,7 @@ function Media() {
         <section className="documents border-t-2 border-black p-4">
           <div className="flex flex-col space-y-4 mt-4">
             <h1 className="text-2xl sm:text-5xl poppins-bold">Documents</h1>
-            <ul className="text-sm sm:text-2xl open-sans-light list-none space-y-4">
+            <ul className="text-lg sm:text-2xl open-sans-light list-none space-y-4">
               <li>
                 <a
                   href="https://drive.google.com/uc?export=download&id=1hibn-C-CKZyNMoVd8tVoU2iJ021519QZ"
@@ -38,7 +38,7 @@ function Media() {
         <section className="videos p-4">
           <div className="flex flex-col space-y-4 mt-4">
             <h1 className="text-2xl sm:text-5xl poppins-bold">Videos</h1>
-            <ul className="text-sm sm:text-2xl open-sans-light list-none space-y-4">
+            <ul className="text-lg sm:text-2xl open-sans-light list-none space-y-4">
               <li>
                 <a
                   href="https://www.loom.com/share/ad49b8627f174d23a59a8449dec2120b?sid=0a334d1b-2722-4e7f-bd16-b9dc61711e6e"
@@ -106,7 +106,7 @@ function Media() {
         <section className="podcasts p-4">
           <div className="flex flex-col space-y-4 mt-4">
             <h1 className="text-2xl sm:text-5xl poppins-bold">Podcasts</h1>
-            <ul className="text-sm sm:text-2xl open-sans-light list-none space-y-4">
+            <ul className="text-lg sm:text-2xl open-sans-light list-none space-y-4">
               <li>
                 <a
                   href="https://podcasts.apple.com/us/podcast/mastering-social-media-for-schools/id1509779834?i=1000655391023"
@@ -125,7 +125,7 @@ function Media() {
         <section className="Webinars p-4">
           <div className="flex flex-col space-y-4 mt-4">
             <h1 className="text-2xl sm:text-5xl poppins-bold">Webinars</h1>
-            <ul className="text-sm sm:text-2xl open-sans-light list-none space-y-4">
+            <ul className="text-lg sm:text-2xl open-sans-light list-none space-y-4">
               <li>
                 <a
                   href="https://apptegy.wistia.com/medias/qrkk5sjpco"
@@ -143,7 +143,7 @@ function Media() {
         <section className="Articles p-4">
           <div className="flex flex-col space-y-4 my-4">
             <h1 className="text-2xl sm:text-5xl poppins-bold">Articles</h1>
-            <ul className="text-sm sm:text-2xl open-sans-light list-none space-y-12">
+            <ul className="text-lg sm:text-2xl open-sans-light list-none space-y-12">
               <li>
                 <a
                   href="https://www.greenwichtime.com/news/education/article/greenwich-sleuthhound-chatbot-schools-19988778.php"
