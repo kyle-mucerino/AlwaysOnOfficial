@@ -11,6 +11,9 @@ import docBotPoster from "../../assets/docBotPoster.png";
 
 function Chatbot() {
   const [selectedBot, setSelectedBot] = useState("website");
+
+  const [selectedVideo, setSelectedVideo] = useState("website");
+
   return (
     <>
       {/* SECTION 1 */}
@@ -91,39 +94,69 @@ function Chatbot() {
       </div>
       {/* Mobile */}
       <div className="border-t border-black section-mobile flex flex-col items-center justify-center sm:hidden">
-        <h1 className="text-xl poppins-regular my-4 p-1">
+        <h1 className="text-3xl poppins-bold mt-4 mb-2 p-1">
+          Website Bot & Document Bot
+        </h1>
+        <p className="text-xl poppins-regular mb-4 p-1">
           AlwaysOn's Website Bot is trained on your organization's website while
           the Document Bot can be trained on any organizational documents. For
-          further details, see videos below!
-        </h1>
+          further details, see videos below.
+        </p>
         <div className="relative flex justify-center items-center w-full bg-transparent">
           <div className="flex-grow h-0 border-t border-white"></div>
           <img className="h-16 mx-4 my-4" src={logo2} alt="AlwaysOn logo" />
           <div className="flex-grow h-0 border-t border-white"></div>
         </div>
-        <div className="website text-2xl sm:text-4xl alata-regular mt-2">
-          <b>Website Bot&#9660;</b>
+
+        {/* Buttons to toggle videos */}
+        <div className="flex space-x-4 my-4">
+          <button
+            onClick={() => setSelectedVideo("website")}
+            className={`px-4 py-2 text-white rounded ${
+              selectedVideo === "website" ? "bg-blue-600" : "bg-gray-400"
+            }`}
+          >
+            Show Website Bot
+          </button>
+          <button
+            onClick={() => setSelectedVideo("document")}
+            className={`px-4 py-2 text-white rounded ${
+              selectedVideo === "document" ? "bg-blue-600" : "bg-gray-400"
+            }`}
+          >
+            Show Document Bot
+          </button>
         </div>
-        <div className="video-container p-1 sm:p-8 mt-2 sm:mt-0">
-          <video
-            src={webBotVideo}
-            className="video w-full sm:w-4/5 mx-auto rounded-lg"
-            controls
-            poster={webBotPoster}
-          ></video>
-        </div>
-        <div className="document text-2xl sm:text-4xl alata-regular mt-2">
-          <b>Document Bot&#9660;</b>
-        </div>
-        <div className="video-container p-1 sm:p-8 my-2 sm:mt-0">
-          <video
-            src={docBotVideo}
-            className="video w-full sm:w-4/5 mx-auto rounded-lg"
-            controls
-            poster={docBotPoster}
-          ></video>
-        </div>
+
+        {/* Conditionally render videos based on selection */}
+        {selectedVideo === "website" && (
+          <div className="website text-2xl sm:text-4xl alata-regular mt-2">
+            <b>Website Bot&#9660;</b>
+            <div className="video-container p-1 sm:p-8 mt-2 sm:mt-0">
+              <video
+                src={webBotVideo}
+                className="video w-full sm:w-4/5 mx-auto rounded-lg"
+                controls
+                poster={webBotPoster}
+              ></video>
+            </div>
+          </div>
+        )}
+        {selectedVideo === "document" && (
+          <div className="document text-2xl sm:text-4xl alata-regular mt-2">
+            <b>Document Bot&#9660;</b>
+            <div className="video-container p-1 sm:p-8 my-2 sm:mt-0">
+              <video
+                src={docBotVideo}
+                className="video w-full sm:w-4/5 mx-auto rounded-lg"
+                controls
+                poster={docBotPoster}
+              ></video>
+            </div>
+          </div>
+        )}
       </div>
+
       {/* SECTION 3 */}
       <div className="section-cb-3">
         {selectedBot === "website" && (
@@ -275,12 +308,7 @@ function Chatbot() {
           <div className="free-trial flex-row">
             <button
               className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
-              onClick={() =>
-                window.open(
-                  "/contact-us",
-                  "_blank"
-                )
-              }
+              onClick={() => window.open("/contact-us", "_blank")}
               aria-label="Link to calendly to book an appointment"
             >
               <span>Schedule a demo</span>
