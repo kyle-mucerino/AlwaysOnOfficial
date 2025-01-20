@@ -2,7 +2,7 @@ import React from "react";
 import "../SurveyTool/surveyTool.css";
 import chatBot from "../../assets/AOChatBot.png";
 import { TextGenerateEffect } from "../TextGenerateEffect";
-import SurveyToolVideo from "../../assets/Survey Tool.mp4";
+import SurveyToolVideo from "../../assets/Survey Tool (4).mp4";
 import surveygif1 from "../../assets/Survey Step 1.gif";
 import surveygif2 from "../../assets/Survey Step 2.gif";
 import surveygif3 from "../../assets/Survey Step 3.gif";
@@ -81,9 +81,7 @@ function SurveyTool() {
             </h1>
           </div>
           <div className="sm:hidden flex justify-center items-center">
-            <h1 className="text-xl sm:text-6xl poppins-bold mb-4">
-              Deploy it
-            </h1>
+            <h1 className="text-xl sm:text-6xl poppins-bold mb-4">Deploy it</h1>
           </div>
         </div>
         <div className="flex-grow h-0 border-t border-grey"></div>
@@ -111,7 +109,7 @@ function SurveyTool() {
           <div className="free-trial flex-row">
             <button
               className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
-              onClick={() => window.open("/contact-us", "_blank")}
+              onClick={() => (window.location.href = "/contact-us")}
               aria-label="Link to calendly to book an appointment"
             >
               <span>Schedule a demo</span>

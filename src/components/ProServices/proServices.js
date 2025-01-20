@@ -2,7 +2,7 @@ import React from "react";
 import "../ProServices/proServices.css";
 import chatBot from "../../assets/AOChatBot.png";
 import { TextGenerateEffect } from "../TextGenerateEffect";
-import ProfessionalServicesVideo from "../../assets/Professional Services.mp4";
+import ProfessionalServicesVideo from "../../assets/Professional Services (1).mp4";
 import service from "../../assets/service.png";
 import ai from "../../assets/artificial-intelligence (1).png";
 import performance from "../../assets/performance-review.png";
@@ -100,12 +100,7 @@ function ProServices() {
           <div className="free-trial flex-row">
             <button
               className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
-              onClick={() =>
-                window.open(
-                  "/contact-us",
-                  "_blank"
-                )
-              }
+              onClick={() => (window.location.href = "/contact-us")}
               aria-label="Link to calendly to book an appointment"
             >
               <span>Schedule a demo</span>

@@ -69,7 +69,6 @@ body {
   z-index: 10;
 }
 
-/* Ensure the features remain positioned but are centered within their containers */
 .feature {
   position: absolute;
   display: flex;
@@ -185,6 +184,9 @@ body {
   border: none;
   clip-path: ellipse(75% 100% at center top);
   min-height: 300px;
+    @media (max-width: 640px) {
+      min-height: 175px;
+    }
 }
 
 ul.states {

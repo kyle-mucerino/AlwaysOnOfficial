@@ -107,7 +107,7 @@ const FAQ = () => {
       {/* Wrapper for all accordions */}
       <div className="flex flex-col gap-14 w-full">
         <div className="flex flex-col sm:flex-row justify-evenly">
-          <h1 className="text-2xl sm:text-5xl poppins-bold text-left mb-2 sm:mb-0">
+          <h1 className="text-2xl sm:text-5xl poppins-bold text-center sm:text-left mb-2 sm:mb-0">
             Security & Accessibility:
           </h1>
           {/* First FAQ Accordion */}

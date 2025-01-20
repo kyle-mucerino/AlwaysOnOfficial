@@ -164,12 +164,7 @@ function Nav() {
               <div>
                 <button
                   className="w-full button uppercase rounded-lg px-4 py-2 text-xl"
-                  onClick={() =>
-                    window.open(
-                      "https://calendly.com/alwaysonai/intro-meeting",
-                      "_blank"
-                    )
-                  }
+                  onClick={() => (window.location.href = "/contact-us")}
                   aria-label="Schedule a demo"
                 >
                   Schedule a demo
@@ -234,12 +229,7 @@ function Nav() {
           </ul>
           <button
             className="w-1/5 uppercase button ml-auto rounded-lg font-bold px-4 xl:px-6 py-2 xl:py-3 text-black text-xl"
-            onClick={() =>
-              window.open(
-                "/contact-us",
-                "_blank"
-              )
-            }
+            onClick={() => (window.location.href = "/contact-us")}
             aria-label="Schedule a demo"
           >
             <span>Schedule a demo</span>

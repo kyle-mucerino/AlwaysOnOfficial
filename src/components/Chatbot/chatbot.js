@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./chatbot.css";
-import webBotVideo from "../../assets/webBotVideo.mp4";
-import docBotVideo from "../../assets/docBotVideo.mp4";
+import webBotVideo from "../../assets/webBotVid.mp4";
+import docBotVideo from "../../assets/docBotVid.mp4";
 import { FlipWordsDemo } from "../FlipWordsDemo2";
 import analytics2 from "../../assets/Analytics (2).png";
 import chatBot from "../../assets/AOChatBot.png";
@@ -35,7 +35,10 @@ function Chatbot() {
                 Intelligent, multilingual, insightful chatbot trained on your
                 organization's website.
               </p>
-              <button aria-label="Learn more about the Website Bot">
+              <button
+                aria-label="Learn more about the Website Bot"
+                className="transition duration-300 transform hover:scale-105"
+              >
                 Learn More
               </button>
             </div>
@@ -51,7 +54,10 @@ function Chatbot() {
                 Intelligent, multilingual, insightful chatbot trained on your
                 organization's documents.
               </p>
-              <button aria-label="Learn more about the Document Bot">
+              <button
+                aria-label="Learn more about the Document Bot"
+                className="transition duration-300 transform hover:scale-105"
+              >
                 Learn More
               </button>
             </div>
@@ -308,7 +314,7 @@ function Chatbot() {
           <div className="free-trial flex-row">
             <button
               className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
-              onClick={() => window.open("/contact-us", "_blank")}
+              onClick={() => (window.location.href = "/contact-us")}
               aria-label="Link to calendly to book an appointment"
             >
               <span>Schedule a demo</span>

@@ -2,7 +2,7 @@ import React from "react";
 import "../Contact/contact.css";
 import chatBot from "../../assets/AOChatBot.png";
 import { TextGenerateEffect } from "../TextGenerateEffect";
-import ContactUsVideo from "../../assets/Contact Us.mp4";
+import ContactUsVideo from "../../assets/Contact Us (1).mp4";
 import logo2 from "../../assets/logo2.png";
 import contactPoster from "../../assets/contactPoster.png";
 
@@ -95,12 +95,7 @@ function Contact() {
           <div className="free-trial flex-row">
             <button
               className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
-              onClick={() =>
-                window.open(
-                  "/contact-us",
-                  "_blank"
-                )
-              }
+              onClick={() => (window.location.href = "/contact-us")}
               aria-label="Schedule a demo"
             >
               <span>Schedule a demo</span>

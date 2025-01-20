@@ -25,12 +25,7 @@ function Platform() {
           <div className="free-trial mt-8 text-center sm:text-left">
             <button
               className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
-              onClick={() =>
-                window.open(
-                  "/contact-us",
-                  "_blank"
-                )
-              }
+              onClick={() => (window.location.href = "/contact-us")}
               aria-label="Link to calendly to book an appointment"
             >
               <span>Get started today</span>
@@ -38,69 +33,12 @@ function Platform() {
           </div>
         </div>
 
-        <div className="flex-grow relative feature-container hidden sm:flex wide:hidden">
-          <div className="center-logo z-10">
-            <img className="h-84" src={chatBot2} alt="Chabot robotic face" />
-          </div>
-
-          {/* Feature 3 */}
-          <div className="feature feature-3 w-1/3 flex flex-col justify-center items-center z-20">
-            <div className="text-center">
-              <div className="w-1/2 p-5 bg-white rounded-full inline-block">
-                <img
-                  src={gif4}
-                  alt="gif showing a survey"
-                  className="rounded-lg"
-                />
-              </div>
-              <h1 className="font-bold text-xl">
-                <span className="rounded-lg text-black p-2">Survey Tool</span>
-              </h1>
-            </div>
-          </div>
-
-          {/* Feature 4 */}
-          <div className="feature feature-4 w-1/3 flex flex-col justify-center items-center z-20">
-            <div className="text-center">
-              <div className="w-1/2 p-5 bg-white rounded-full inline-block">
-                <img
-                  src={gif5}
-                  alt="gif of person communicating"
-                  className="rounded-lg"
-                />
-              </div>
-              <h1 className="font-bold text-xl">
-                <span className="rounded-lg text-black p-2">
-                  Contact Us Routing
-                </span>
-              </h1>
-            </div>
-          </div>
-
-          {/* Feature 5 */}
-          <div className="feature feature-5 w-1/3 flex flex-col justify-center items-center z-20">
-            <div className="text-center">
-              <h1 className="font-bold text-xl">
-                <span className="rounded-lg text-black p-2">
-                  Professional Services
-                </span>
-              </h1>
-              <div className="w-1/2 p-5 bg-white rounded-full inline-block">
-                <img
-                  src={gif6}
-                  alt="gif of info & person"
-                  className="rounded-lg"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
         {/* Wide screen Homepage Hero */}
-        <div className="flex-col hidden sm:hidden wide:flex items-center justify-center">
+        <div className="hidden sm:flex flex-col items-center justify-center">
           <div className="z-10 items-center justify-center">
             <img className="h-80" src={chatBot2} alt="Chabot robotic face" />
           </div>
-          <div className="hidden sm:hidden wide:flex flex-row justify-center items-center mt-4">
+          <div className="hidden sm:flex flex-row justify-center items-center mt-4">
             <div className="w-1/3 flex flex-col justify-center items-center z-20">
               <div className="text-center">
                 <div className="w-1/3 p-5 bg-white rounded-full inline-block">
@@ -202,7 +140,7 @@ function Platform() {
         <div className="flex items justify-center text-center mb-4">
           <button
             href="/chatbot"
-            class="block text-indigo-500 hover:bg-indigo-500 transition duration-200 border-indigo-500 sm:p-4 p-2 text-xl sm:text-3xl border-4 rounded-lg bg-white hover:text-white hover:border-white"
+            class="block text-orange-500 hover:bg-orange-500 transition duration-200 border-orange-500 sm:p-4 p-2 text-xl sm:text-3xl border-4 rounded-lg bg-white hover:text-white hover:border-white"
             target="_blank"
             rel="noreferrer"
           >
@@ -239,7 +177,7 @@ function Platform() {
         </div>
       </div>
 
-      <div className="section section-5 hidden sm:flex flex-col">
+      <div className="section section-5 flex flex-col">
         {/* <div className="text-center p-2">
           <h1 className="text-7xl poppins-bold">Testimonials</h1>
           <p className="text-5xl open-sans-lite mb-16 text-center">
@@ -284,22 +222,17 @@ function Platform() {
             </figcaption>
           </figure>
         </div> */}
-        <div className="hidden custom:block content-container-1 text-center">
-          <h1 className="text-6xl uppercase poppins-bold p-12 text-black">
+        <div className="block content-container-1 text-center">
+          <h1 className="text-xl sm:text-6xl uppercase poppins-bold p-6 sm:p-12 text-black">
             Explore the power of AlwaysOn
           </h1>
           <div className="free-trial flex-row">
             <button
               className="border-2 border-white bg-white text-black rounded-lg p-2 sm:p-6 freeman-regular uppercase text-lg sm:text-3xl"
-              onClick={() =>
-                window.open(
-                  "/contact-us",
-                  "_blank"
-                )
-              }
+              onClick={() => (window.location.href = "/contact-us")}
               aria-label="Link to calendly to book an appointment"
             >
-              <span>Get started today</span>
+              <span>Schedule a demo</span>
             </button>
           </div>
         </div>
