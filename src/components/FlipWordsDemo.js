@@ -11,7 +11,7 @@ export function FlipWordsDemo() {
         <FlipWords words={words} className="font-bold text-white" /> 
         <br></br>featuring AI chatbot + analytics
       </div>
-      <div className="block sm:hidden text-2xl saira-regular leading-normal">
+      <div className="block sm:hidden text-2xl saira-regular leading-normal p-2">
         A customer service platform for 
         <FlipWords words={words} className="font-bold text-white" /> 
         featuring AI chatbot + analytics

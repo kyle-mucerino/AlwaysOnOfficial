@@ -100,10 +100,10 @@ function Chatbot() {
       </div>
       {/* Mobile */}
       <div className="border-t border-black section-mobile flex flex-col items-center justify-center sm:hidden">
-        <h1 className="text-3xl poppins-bold mt-4 mb-2 p-1">
+        <h1 className="text-3xl poppins-bold mt-4 mb-2 p-2">
           Website Bot & Document Bot
         </h1>
-        <p className="text-xl poppins-regular mb-4 p-1">
+        <p className="text-xl poppins-regular mb-4 p-2">
           AlwaysOn's Website Bot is trained on your organization's website while
           the Document Bot can be trained on any organizational documents. For
           further details, see videos below.
@@ -199,7 +199,7 @@ function Chatbot() {
                 <img
                   src={chatBot}
                   alt="Chat Bot top questions asked"
-                  className="w-full rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer p-4"
+                  className="w-4/5 sm:w-full rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer p-4"
                 />
               </div>
             </div>
