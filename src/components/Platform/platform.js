@@ -1,6 +1,7 @@
 import React from "react";
 import "./platform.css";
 import { ReactComponent as Map } from "../../assets/map3.svg";
+import { NavLink } from "react-router-dom";
 import gif4 from "../../assets/chat.gif";
 import gif5 from "../../assets/list.gif";
 import gif6 from "../../assets/professional.gif";
@@ -138,14 +139,13 @@ function Platform() {
           </div>
         </div>
         <div className="flex items justify-center text-center mb-4">
-          <button
-            href="/chatbot"
-            class="block text-orange-500 hover:bg-orange-500 transition duration-200 border-orange-500 sm:p-4 p-2 text-xl sm:text-3xl border-4 rounded-lg bg-white hover:text-white hover:border-white"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Learn More →
-          </button>
+          <NavLink to="/k12-ai-chatbot">
+            <button
+              class="block text-orange-500 hover:bg-orange-500 transition duration-200 border-orange-500 sm:p-4 p-2 text-xl sm:text-3xl border-4 rounded-lg bg-white hover:text-white hover:border-white"
+              >
+              Learn More →
+            </button>
+          </NavLink>
         </div>
       </div>
 
