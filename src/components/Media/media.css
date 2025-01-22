@@ -1,3 +1,21 @@
-li span {
+.documents li span {
   text-decoration: underline;
+  cursor: pointer;
 }
+
+.videos li span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.podcasts li span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.articles li span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+

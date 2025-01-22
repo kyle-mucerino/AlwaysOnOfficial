@@ -244,7 +244,7 @@ function Media() {
           </div>
         </section>
         <div className="flex-grow h-0 border-t border-black mt-4"></div>
-        <section className="Articles p-4">
+        <section className="articles p-4">
           <div className="flex flex-col space-y-4 my-4">
             <h1 className="text-2xl sm:text-5xl poppins-bold">Articles</h1>
             <ul className="text-lg sm:text-2xl open-sans-light list-none space-y-12">
