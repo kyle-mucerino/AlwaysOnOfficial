@@ -10,9 +10,9 @@ function Media() {
           <div className="flex flex-col space-y-4 mt-4">
             <h1 className="text-2xl sm:text-5xl poppins-bold">Documents</h1>
             <ul className="text-lg sm:text-2xl open-sans-light list-none space-y-4">
-              <li className="relative group">
+              <li className="sm:relative group flex flex-col">
                 <span>AlwaysOn Company & Product One Pager</span>
-                <div className="absolute hidden group-hover:flex gap-2 bg-white border p-2 top-0 left-0 shadow-lg z-10">
+                <div className="sm:absolute hidden group-hover:flex gap-2 bg-white border p-2 sm:top-0 sm:left-0 shadow-lg z-10 w-min mx-auto">
                   <a
                     href="https://drive.google.com/file/d/1hibn-C-CKZyNMoVd8tVoU2iJ021519QZ/view?usp=sharing"
                     target="_blank"
@@ -32,11 +32,11 @@ function Media() {
                 </div>
               </li>
               <li>AlwaysOn Company & Product Presentation</li>
-              <li className="relative group">
+              <li className="sm:relative group flex flex-col">
                 <span>
                   AlwaysOn Voluntary Product Accessibility Template (VPAT)
                 </span>
-                <div className="absolute hidden group-hover:flex gap-2 bg-white border p-2 top-0 left-0 shadow-lg z-10">
+                <div className="sm:absolute hidden group-hover:flex gap-2 bg-white border p-2 sm:top-0 sm:left-0 shadow-lg z-10 w-min mx-auto">
                   <a
                     href="https://docs.google.com/document/d/14Ge_HYk8Jx4wok_TReOIHD1zBkLazZBe/edit?usp=sharing&ouid=109346983324867277230&rtpof=true&sd=true"
                     target="_blank"
@@ -65,9 +65,9 @@ function Media() {
           <div className="flex flex-col space-y-4 mt-4">
             <h1 className="text-2xl sm:text-5xl poppins-bold">Videos</h1>
             <ul className="text-lg sm:text-2xl open-sans-light list-none space-y-4">
-              <li className="relative group">
+              <li className="sm:relative group flex flex-col">
                 <span>AlwaysOn Company & Product Overview</span>
-                <div className="absolute hidden group-hover:flex gap-2 bg-white border p-2 top-0 left-0 shadow-lg z-10">
+                <div className="sm:absolute hidden group-hover:flex gap-2 bg-white border p-2 sm:top-0 sm:left-0 shadow-lg z-10 w-min mx-auto">
                   <a
                     href="https://www.loom.com/share/ad49b8627f174d23a59a8449dec2120b?sid=0a334d1b-2722-4e7f-bd16-b9dc61711e6e"
                     target="_blank"
@@ -86,9 +86,9 @@ function Media() {
                   </a>
                 </div>
               </li>
-              <li className="relative group">
+              <li className="sm:relative group flex flex-col">
                 <span>Website Chatbot + Analytics</span>
-                <div className="absolute hidden group-hover:flex gap-2 bg-white border p-2 top-0 left-0 shadow-lg z-10">
+                <div className="sm:absolute hidden group-hover:flex gap-2 bg-white border p-2 sm:top-0 sm:left-0 shadow-lg z-10 w-min mx-auto">
                   <a
                     href="https://drive.google.com/uc?export=download&id=1oxgBV4jG-leG0OSpSJEDez418ejrJM8Q"
                     target="_blank"
@@ -109,9 +109,9 @@ function Media() {
                   </a>
                 </div>
               </li>
-              <li className="relative group">
+              <li className="sm:relative group flex flex-col">
                 <span>Document Chatbot + Analytics</span>
-                <div className="absolute hidden group-hover:flex gap-2 bg-white border p-2 top-0 left-0 shadow-lg z-10">
+                <div className="sm:absolute hidden group-hover:flex gap-2 bg-white border p-2 sm:top-0 sm:left-0 shadow-lg z-10 w-min mx-auto">
                   <a
                     href="https://drive.google.com/uc?export=download&id=1Hk2Q0g1xo8e0t1r0ZY1zh_p1WgXHbKiY"
                     target="_blank"
@@ -132,9 +132,9 @@ function Media() {
                   </a>
                 </div>
               </li>
-              <li className="relative group">
+              <li className="sm:relative group flex flex-col">
                 <span>Survey Tool</span>
-                <div className="absolute hidden group-hover:flex gap-2 bg-white border p-2 top-0 left-0 shadow-lg z-10">
+                <div className="sm:absolute hidden group-hover:flex gap-2 bg-white border p-2 sm:top-0 sm:left-0 shadow-lg z-10 w-min mx-auto">
                   <a
                     href="https://drive.google.com/uc?export=download&id=1zDmETSHHrRfpU-zbv0Hq4NaJFEro6BGJ"
                     target="_blank"
@@ -155,9 +155,9 @@ function Media() {
                   </a>
                 </div>
               </li>
-              <li className="relative group">
+              <li className="sm:relative group flex flex-col">
                 <span>Contact Us Routing</span>
-                <div className="absolute hidden group-hover:flex gap-2 bg-white border p-2 top-0 left-0 shadow-lg z-10">
+                <div className="sm:absolute hidden group-hover:flex gap-2 bg-white border p-2 sm:top-0 sm:left-0 shadow-lg z-10 w-min mx-auto">
                   <a
                     href="https://drive.google.com/uc?export=download&id=1oxgBV4jG-leG0OSpSJEDez418ejrJM8Q"
                     target="_blank"
@@ -178,9 +178,9 @@ function Media() {
                   </a>
                 </div>
               </li>
-              <li className="relative group">
+              <li className="sm:relative group flex flex-col">
                 <span>Professional Services</span>
-                <div className="absolute hidden group-hover:flex gap-2 bg-white border p-2 top-0 left-0 shadow-lg z-10">
+                <div className="sm:absolute hidden group-hover:flex gap-2 bg-white border p-2 sm:top-0 sm:left-0 shadow-lg z-10 w-min mx-auto">
                   <a
                     href="https://drive.google.com/uc?export=download&id=1G2LmHjtjNv7ugg_naD5oieX8Z-fO1Rlv"
                     target="_blank"
