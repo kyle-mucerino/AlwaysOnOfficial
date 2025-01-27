@@ -107,7 +107,7 @@ function Contact() {
               onClick={() => (window.location.href = "/contact-us")}
               aria-label="Schedule a demo"
             >
-              <span>Schedule a demo</span>
+              <span>Schedule demo</span>
             </button>
           </div>
         </div>

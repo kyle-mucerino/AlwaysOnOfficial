@@ -316,7 +316,7 @@ function Chatbot() {
               onClick={() => (window.location.href = "/contact-us")}
               aria-label="Link to calendly to book an appointment"
             >
-              <span>Schedule a demo</span>
+              <span>Schedule demo</span>
             </button>
           </div>
         </div>
