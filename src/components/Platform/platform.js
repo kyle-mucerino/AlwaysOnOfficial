@@ -139,13 +139,13 @@ function Platform() {
           </div>
         </div>
         <div className="flex items justify-center text-center mb-4">
-          <NavLink to="/k12-ai-chatbot">
+          <a href="/k12-ai-chatbot" aria-label="Learn more about AI Chatbot + Analytics">
             <button
               class="block text-orange-500 hover:bg-orange-500 transition duration-200 border-orange-500 sm:p-4 p-2 text-xl sm:text-3xl border-4 rounded-lg bg-white hover:text-white hover:border-white"
               >
               Learn More →
             </button>
-          </NavLink>
+          </a>
         </div>
       </div>
 
