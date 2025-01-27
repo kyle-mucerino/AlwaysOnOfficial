@@ -24,13 +24,24 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-.container .box
-{
+.container .box {
   position: relative;
   width: 320px;
   height: 400px;
   transition: 0.5s;
+  opacity: 0.5; /* Default greying out */
+  filter: grayscale(100%);
 }
+
+.container .box.active {
+  opacity: 1; /* Full opacity for selected bot */
+  filter: grayscale(0%); /* Remove greyscale for selected bot */
+}
+
+.container .box:hover {
+  opacity: 0.8; /* Slightly less grey when hovering over unselected boxes */
+}
+
 
 .container .box::before
 {
