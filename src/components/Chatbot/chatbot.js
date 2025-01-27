@@ -136,35 +136,170 @@ function Chatbot() {
 
         {/* Conditionally render videos based on selection */}
         {selectedVideo === "website" && (
-          <div className="website text-2xl sm:text-4xl alata-regular mt-2">
-            <b>Website Bot&#9660;</b>
-            <div className="video-container p-1 sm:p-8 mt-2 sm:mt-0">
-              <video
-                src={webBotVideo}
-                className="video w-full sm:w-4/5 mx-auto rounded-lg"
-                controls
-                poster={webBotPoster}
-              ></video>
+          <>
+            <div className="website text-2xl sm:text-4xl alata-regular mt-2">
+              <b>Website Bot&#9660;</b>
+              <div className="video-container p-1 sm:p-8 mt-2 sm:mt-0">
+                <video
+                  src={webBotVideo}
+                  className="video w-full sm:w-4/5 mx-auto rounded-lg"
+                  controls
+                  poster={webBotPoster}
+                ></video>
+              </div>
             </div>
-          </div>
+            <div className="flex flex-col sm:flex-row">
+              <div className="flex justify-evenly flex-col-reverse items-start p-4">
+                <ul className="text-lg sm:text-3xl open-sans-light text-left space-y-4">
+                  <li>
+                    <b>Turnkey:</b> Works instantly no setup required
+                  </li>
+                  <li>
+                    <b>Custom:</b> Trained only on your organization's info
+                  </li>
+                  <li>
+                    <b>Translation:</b> Communicates in 30+ languages
+                  </li>
+                  <li>
+                    <b>Training:</b> Improves with every interaction
+                  </li>
+                  <li>
+                    <b>Multi-Chatbot:</b> District-wide, school site,
+                    department, etc.
+                  </li>
+                </ul>
+                <p className="text-lg sm:text-3xl open-sans-light text-left">
+                  AlwaysOn website chatbot can be trained to use your
+                  organization's website information to provide accurate
+                  source-based answers that guide your community to the right
+                  information 24/7.
+                </p>
+              </div>
+              <div className="flex justify-center items-center text-left mt-2 sm:mt-0">
+                <img
+                  src={chatBot}
+                  alt="Chat Bot top questions asked"
+                  className="w-4/5 sm:w-full rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer p-4"
+                />
+              </div>
+            </div>
+            <div className="flex-grow h-0 border-t border-gray-400"></div>
+            <div className="flex flex-col sm:flex-row-reverse">
+              <div className="flex flex-col-reverse justify-evenly items-start w-full sm:w-3/5 p-4">
+                <ul className="text-lg sm:text-2xl open-sans-light text-left space-y-2">
+                  <li>
+                    <b>Usage Metrics:</b> Track unique engagements and total
+                    questions
+                  </li>
+                  <li>
+                    <b>Question-Level Data:</b> See exact questions and areas of
+                    need in real time
+                  </li>
+                  <li>
+                    <b>Predictive Insights:</b> Proactively plan content based
+                    on historical trends
+                  </li>
+                </ul>
+                <p className="text-lg sm:text-3xl open-sans-light text-left">
+                  Analytics offer valuable insights into your community's needs,
+                  helping you keep your website updated and relevant.
+                </p>
+              </div>
+              <div className="flex flex-row justify-center items-center text-left">
+                <img
+                  src={analytics2}
+                  alt="Various analytics and charts detailing data insights such as questions asked, engagement, and more"
+                  className="rounded-lg cursor-pointer p-4"
+                />
+              </div>
+            </div>
+          </>
         )}
         {selectedVideo === "document" && (
-          <div className="document text-2xl sm:text-4xl alata-regular mt-2">
-            <b>Document Bot&#9660;</b>
-            <div className="video-container p-1 sm:p-8 my-2 sm:mt-0">
-              <video
-                src={docBotVideo}
-                className="video w-full sm:w-4/5 mx-auto rounded-lg"
-                controls
-                poster={docBotPoster}
-              ></video>
+          <>
+            <div className="document text-2xl sm:text-4xl alata-regular mt-2">
+              <b>Document Bot&#9660;</b>
+              <div className="video-container p-1 sm:p-8 my-2 sm:mt-0">
+                <video
+                  src={docBotVideo}
+                  className="video w-full sm:w-4/5 mx-auto rounded-lg"
+                  controls
+                  poster={docBotPoster}
+                ></video>
+              </div>
             </div>
-          </div>
+            <div className="flex flex-col sm:flex-row">
+              <div className="flex justify-evenly flex-col-reverse items-start p-4">
+                <ul className="text-lg sm:text-3xl open-sans-light text-left space-y-4">
+                  <li>
+                    <b>Turnkey:</b> Works instantly no setup required
+                  </li>
+                  <li>
+                    <b>Custom:</b> Trained only on your organization's info
+                  </li>
+                  <li>
+                    <b>Translation:</b> Communicates in 30+ languages
+                  </li>
+                  <li>
+                    <b>Training:</b> Improves with every interaction
+                  </li>
+                  <li>
+                    <b>Multi-Chatbot:</b> Board documents, department processes
+                    and procedures, etc.
+                  </li>
+                </ul>
+                <p className="text-lg sm:text-3xl open-sans-light text-left">
+                  AlwaysOn document chatbot can be trained to use your
+                  organization's internal files and documents to provide
+                  accurate source-based answers that guide your staff to the
+                  right information 24/7.
+                </p>
+              </div>
+              <div className="flex justify-center items-center text-left mt-2 sm:mt-0">
+                <img
+                  src={chatBot}
+                  alt="Chat Bot top questions asked"
+                  className="w-4/5 sm:w-full rounded-lg mx-auto transform transition hover:scale-105 duration-300 cursor-pointer p-4"
+                />
+              </div>
+            </div>
+            <div className="flex-grow h-0 border-t border-gray-400"></div>
+            <div className="flex flex-col sm:flex-row-reverse">
+              <div className="flex flex-col-reverse justify-evenly items-start p-4">
+                <ul className="text-lg sm:text-2xl open-sans-light text-left space-y-2">
+                  <li>
+                    <b>Usage Metrics:</b> Track unique engagements and total
+                    questions
+                  </li>
+                  <li>
+                    <b>Question-Level Data:</b> See exact questions and areas of
+                    need in real time
+                  </li>
+                  <li>
+                    <b>Predictive Insights:</b> Proactively plan content based
+                    on historical trends
+                  </li>
+                </ul>
+                <p className="text-lg sm:text-3xl open-sans-light text-left">
+                  Analytics offer valuable insights into your staff's questions,
+                  helping you keep all your procedural, policy, and process
+                  documents updated and relevant.
+                </p>
+              </div>
+              <div className="flex flex-row justify-center items-center text-left">
+                <img
+                  src={analytics2}
+                  alt="Various analytics and charts detailing data insights such as questions asked, engagement, and more"
+                  className="rounded-lg cursor-pointer p-4"
+                />
+              </div>
+            </div>
+          </>
         )}
       </div>
 
       {/* SECTION 3 */}
-      <div className="section-cb-3">
+      <div className="section-cb-3 hidden sm:block">
         {selectedBot === "website" && (
           <>
             <div className="flex-grow h-0 border-t border-gray-400"></div>
@@ -216,8 +351,8 @@ function Chatbot() {
                     need in real time
                   </li>
                   <li>
-                    <b>Predictive Insights:</b> Proactively plan content based on
-                    historical trends
+                    <b>Predictive Insights:</b> Proactively plan content based
+                    on historical trends
                   </li>
                 </ul>
                 <p className="text-lg sm:text-3xl open-sans-light text-left">
@@ -286,8 +421,8 @@ function Chatbot() {
                     need in real time
                   </li>
                   <li>
-                    <b>Predictive Insights:</b> Proactively plan content based on
-                    historical trends
+                    <b>Predictive Insights:</b> Proactively plan content based
+                    on historical trends
                   </li>
                 </ul>
                 <p className="text-lg sm:text-3xl open-sans-light text-left">
