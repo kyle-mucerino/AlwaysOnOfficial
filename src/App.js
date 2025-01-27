@@ -24,7 +24,7 @@ function App() {
           {/* <Route path="" element={<About />} /> */}
           <Route path="/login" element={<Login />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/k12-ai-chatbot" element={<Chatbot />} />
+          <Route path="/ai-chatbot-analytics" element={<Chatbot />} />
           <Route path="/survey-tool" element={<SurveyTool />} />
           <Route path="/contact-us-routing" element={<Contact />} />
           <Route path="/professional-services" element={<ProServices />} />

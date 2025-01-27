@@ -57,7 +57,7 @@ function Nav() {
                   <ul className="ml-4 text-sm space-y-2">
                     <li className="mt-8">
                       <NavLink
-                        to="/k12-ai-chatbot"
+                        to="/ai-chatbot-analytics"
                         onClick={() => {
                           setIsMobileMenuOpen(false);
                           setIsPlatformSubmenuOpen(false);
@@ -203,7 +203,9 @@ function Nav() {
               </NavLink>
               <ul className="submenu rounded-lg">
                 <li>
-                  <NavLink to="/k12-ai-chatbot">AI Chatbot + Analytics</NavLink>
+                  <NavLink to="/ai-chatbot-analytics">
+                    AI Chatbot + Analytics
+                  </NavLink>
                 </li>
                 <li>
                   <NavLink to="/survey-tool">Survey Tool</NavLink>
