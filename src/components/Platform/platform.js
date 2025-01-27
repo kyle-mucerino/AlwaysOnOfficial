@@ -91,6 +91,7 @@ function Platform() {
       </div>
 
       <div className="section-2 border-b-2 border-black flex flex-col">
+        <h1 className="flex text-2xl sm:text-5xl font-bold justify-center items-center p-6 mt-0 sm:mt-6 poppins-bold">Elevate your Customer Service & Operational Efficiency</h1>
         <div class="flex flex-col sm:flex-row justify-center relative overflow-hidden p-4 sm:py-12">
           <div class="mx-auto w-full sm:w-[35rem]">
             <div class="relative group">
@@ -139,10 +140,11 @@ function Platform() {
           </div>
         </div>
         <div className="flex items justify-center text-center mb-4">
-          <a href="/k12-ai-chatbot" aria-label="Learn more about AI Chatbot + Analytics">
-            <button
-              class="block text-orange-500 hover:bg-orange-500 transition duration-200 border-orange-500 sm:p-4 p-2 text-xl sm:text-3xl border-4 rounded-lg bg-white hover:text-white hover:border-white"
-              >
+          <a
+            href="/k12-ai-chatbot"
+            aria-label="Learn more about AI Chatbot + Analytics"
+          >
+            <button class="block text-orange-500 hover:bg-orange-500 transition duration-200 border-orange-500 sm:p-4 p-2 text-xl sm:text-3xl border-4 rounded-lg bg-white hover:text-white hover:border-white">
               Learn More →
             </button>
           </a>
