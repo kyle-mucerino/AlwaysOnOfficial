@@ -158,6 +158,17 @@ function Nav() {
                         FAQ
                       </NavLink>
                     </li>
+                    <li>
+                      <NavLink
+                        to="/login"
+                        onClick={() => {
+                          setIsMobileMenuOpen(false);
+                          setIsAboutSubmenuOpen(false);
+                        }}
+                      >
+                        Login
+                      </NavLink>
+                    </li>
                   </ul>
                 )}
               </li>
@@ -167,7 +178,7 @@ function Nav() {
                   onClick={() => (window.location.href = "/contact-us")}
                   aria-label="Schedule a demo"
                 >
-                  Schedule a demo
+                  Schedule demo
                 </button>
               </div>
             </ul>
@@ -224,6 +235,10 @@ function Nav() {
                 <li>
                   <NavLink to="/faq">FAQ</NavLink>
                 </li>
+                <br></br>
+                <li>
+                  <NavLink to="/login">Login</NavLink>
+                </li>
               </ul>
             </li>
           </ul>
@@ -232,7 +247,7 @@ function Nav() {
             onClick={() => (window.location.href = "/contact-us")}
             aria-label="Schedule a demo"
           >
-            <span>Schedule a demo</span>
+            <span>Schedule demo</span>
           </button>
         </nav>
       </header>

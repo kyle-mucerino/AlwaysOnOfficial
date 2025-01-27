@@ -29,7 +29,7 @@ function Platform() {
               onClick={() => (window.location.href = "/contact-us")}
               aria-label="Link to calendly to book an appointment"
             >
-              <span>Get started today</span>
+              <span>Start free trial</span>
             </button>
           </div>
         </div>
@@ -100,13 +100,13 @@ function Platform() {
                   <p class="text-3xl sm:text-5xl poppins-bold">Chatbot</p>
                   <ol className="text-left space-y-4 sm:space-y-10">
                     <li className="text-lg sm:text-2xl open-sans-light">
-                      <b>1.</b> Make website information easier to find
+                      <b>1.</b> Find the right information faster
                     </li>
                     <li className="text-lg sm:text-2xl open-sans-light">
-                      <b>2.</b> Provide instant 24/7 self service support
+                      <b>2.</b> Instant 24/7 self-service support
                     </li>
                     <li className="text-lg sm:text-2xl open-sans-light">
-                      <b>3.</b> Increase staff capacity by reducing inquries
+                      <b>3.</b> Increase capacity by reducing inquiries
                     </li>
                   </ol>
                 </div>
@@ -232,7 +232,7 @@ function Platform() {
               onClick={() => (window.location.href = "/contact-us")}
               aria-label="Link to calendly to book an appointment"
             >
-              <span>Schedule a demo</span>
+              <span>Schedule demo</span>
             </button>
           </div>
         </div>

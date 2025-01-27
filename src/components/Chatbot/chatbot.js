@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./chatbot.css";
-import webBotVideo from "../../assets/webBotVid.mp4";
-import docBotVideo from "../../assets/docBotVid.mp4";
+import webBotVideo from "../../assets/webBotVid3.mp4";
+import docBotVideo from "../../assets/docBotVid3.mp4";
 import { FlipWordsDemo } from "../FlipWordsDemo2";
 import analytics2 from "../../assets/Analytics (2).png";
 import chatBot from "../../assets/AOChatBot.png";
@@ -32,8 +32,8 @@ function Chatbot() {
             <div className="content">
               <h2>Website Bot</h2>
               <p>
-                Intelligent, multilingual, insightful chatbot trained on your
-                organization's website.
+                Chatbot trained to use your organization's website information
+                to answer questions.
               </p>
               <button
                 aria-label="Learn more about the Website Bot"
@@ -51,8 +51,8 @@ function Chatbot() {
             <div className="content">
               <h2>Document Bot</h2>
               <p>
-                Intelligent, multilingual, insightful chatbot trained on your
-                organization's documents.
+                Chatbot trained to used your organization's internal files &
+                documents to answer questions.
               </p>
               <button
                 aria-label="Learn more about the Document Bot"
@@ -178,14 +178,14 @@ function Chatbot() {
                     <b>Custom:</b> Trained only on your organization's info
                   </li>
                   <li>
-                    <b>Translation:</b> Communicates in multiple languages
+                    <b>Translation:</b> Communicates in 30+ languages
                   </li>
                   <li>
                     <b>Training:</b> Improves with every interaction
                   </li>
                   <li>
-                    <b>Multi-Chatbot:</b> Build different chatbots for each use
-                    case
+                    <b>Multi-Chatbot:</b> District-wide, school site,
+                    department, etc.
                   </li>
                 </ul>
                 <p className="text-lg sm:text-3xl open-sans-light text-left">
@@ -208,22 +208,21 @@ function Chatbot() {
               <div className="flex flex-col-reverse justify-evenly items-start w-full sm:w-3/5 p-4">
                 <ul className="text-lg sm:text-2xl open-sans-light text-left space-y-2">
                   <li>
-                    <b>Usage Metrics:</b> Track total engagement and question
-                    volume
+                    <b>Usage Metrics:</b> Track unique engagements and total
+                    questions
                   </li>
                   <li>
-                    <b>Question-Level Data:</b> See exact questions organized
-                    into categories & topics
+                    <b>Question-Level Data:</b> See exact questions and areas of
+                    need in real time
                   </li>
                   <li>
-                    <b>Community Insights:</b> Identify the how and why behind
-                    your community engagement
+                    <b>Predictive Insights:</b> Proactively plan content based on
+                    historical trends
                   </li>
                 </ul>
                 <p className="text-lg sm:text-3xl open-sans-light text-left">
-                  AlwaysOn chatbot analytics offer valuable insights into your
-                  community's needs, helping you keep your website updated and
-                  relevant.
+                  Analytics offer valuable insights into your community's needs,
+                  helping you keep your website updated and relevant.
                 </p>
               </div>
               <div className="flex flex-row justify-center items-center text-left">
@@ -249,14 +248,14 @@ function Chatbot() {
                     <b>Custom:</b> Trained only on your organization's info
                   </li>
                   <li>
-                    <b>Translation:</b> Communicates in multiple languages
+                    <b>Translation:</b> Communicates in 30+ languages
                   </li>
                   <li>
                     <b>Training:</b> Improves with every interaction
                   </li>
                   <li>
-                    <b>Multi-Chatbot:</b> Build different chatbots for each use
-                    case
+                    <b>Multi-Chatbot:</b> Board documents, department processes
+                    and procedures, etc.
                   </li>
                 </ul>
                 <p className="text-lg sm:text-3xl open-sans-light text-left">
@@ -279,22 +278,22 @@ function Chatbot() {
               <div className="flex flex-col-reverse justify-evenly items-start w-3/5 p-4">
                 <ul className="text-lg sm:text-2xl open-sans-light text-left space-y-2">
                   <li>
-                    <b>Usage Metrics:</b> Track total engagement and question
-                    volume
+                    <b>Usage Metrics:</b> Track unique engagements and total
+                    questions
                   </li>
                   <li>
-                    <b>Question-Level Data:</b> See exact questions organized
-                    into categories & topics
+                    <b>Question-Level Data:</b> See exact questions and areas of
+                    need in real time
                   </li>
                   <li>
-                    <b>Community Insights:</b> Identify the how and why behind
-                    your community engagement
+                    <b>Predictive Insights:</b> Proactively plan content based on
+                    historical trends
                   </li>
                 </ul>
                 <p className="text-lg sm:text-3xl open-sans-light text-left">
-                  AlwaysOn chatbot analytics offer valuable insights into your
-                  community's needs, helping you keep your website updated and
-                  relevant.
+                  Analytics offer valuable insights into your staff's questions,
+                  helping you keep all your procedural, policy, and process
+                  documents updated and relevant.
                 </p>
               </div>
               <div className="flex flex-row justify-center items-center text-left">
