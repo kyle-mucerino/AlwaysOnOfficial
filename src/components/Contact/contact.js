@@ -5,9 +5,9 @@ import cbpg1 from "../../assets/cbpg1.png";
 import cbpg2 from "../../assets/cbpg2.png";
 import cbpg3 from "../../assets/cbpg3.png";
 import { TextGenerateEffect } from "../TextGenerateEffect";
-import ContactUsVideo from "../../assets/Contact Us (1).mp4";
+import ContactUsVideo from "../../assets/Contact Us Routing.mp4";
 import logo2 from "../../assets/logo2.png";
-import contactPoster from "../../assets/contactPoster.png";
+import contactPoster from "../../assets/contactUsPoster.png";
 
 function Contact() {
   return (
@@ -54,10 +54,7 @@ function Contact() {
           <div className="flex justify-center items-center">
             <img src={cbpg1} alt="gif" className="w-1/2 rounded-lg mx-auto" />
           </div>
-          <div className="flex flex-row justify-center items-center text-left">
-            <div className="hidden sm:block text-xl sm:text-7xl sm:mr-2">
-              &#x2190;
-            </div>
+          <div className="flex flex-row justify-center items-center">
             <h1 className="text-xl sm:text-5xl poppins-bold mb-4 leading-normal">
               Build topic & recipient list
             </h1>
@@ -75,9 +72,6 @@ function Contact() {
             <h1 className="text-xl sm:text-5xl poppins-bold mb-4 leading-normal">
               Questions submitted to staff by topic
             </h1>
-            <div className="hidden sm:block text-xl sm:text-7xl sm:mr-2">
-              &#x2192;
-            </div>
           </div>
         </div>
         <div className="flex flex-col-reverse sm:flex-row p-4">
@@ -89,9 +83,6 @@ function Contact() {
             />
           </div>
           <div className="flex flex-row justify-center items-center">
-            <div className="hidden sm:block text-xl sm:text-7xl sm:mr-2">
-              &#x2190;
-            </div>
             <h1 className="text-xl sm:text-5xl poppins-bold mb-4 leading-normal">
               Track interactions & collect feedback
             </h1>

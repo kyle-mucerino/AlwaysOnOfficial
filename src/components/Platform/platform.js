@@ -127,13 +127,13 @@ function Platform() {
                   <p class="text-3xl sm:text-5xl poppins-bold">Analytics</p>
                   <ul className="text-left space-y-4 sm:space-y-10">
                     <li className="text-lg sm:text-2xl open-sans-light">
-                      <b>1.</b> Spot trends and topics in real time
+                      <b>1.</b> See real-time trends & insights
                     </li>
                     <li className="text-lg sm:text-2xl open-sans-light">
-                      <b>2.</b> Find gaps and outdated info
+                      <b>2.</b> Find gaps and outdated information
                     </li>
                     <li className="text-lg sm:text-2xl open-sans-light">
-                      <b>3.</b> Refresh chatbot, site, and content
+                      <b>3.</b> Update chatbot & website content 
                     </li>
                   </ul>
                 </div>

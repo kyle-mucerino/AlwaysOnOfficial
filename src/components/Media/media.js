@@ -52,7 +52,7 @@ function Media() {
               </li>
               <li className="sm:relative group flex flex-col">
                 <a
-                  href="https://drive.google.com/file/d/1FSVmN6tk7qlSlBRWmcQqzAeBcB9pPsSV/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1U-FDfrlBzzH4lX0q7IHPtCbYWL-ur8Da/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="preview Website Chatbot + Analytics informational video"
@@ -63,7 +63,7 @@ function Media() {
               </li>
               <li className="sm:relative group flex flex-col">
                 <a
-                  href="https://drive.google.com/file/d/1H1K_xUSJ-wHWOuCA3iuWcDuuoW7CjxdQ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1hPrIF1vuGs1GVjsElvSFN0mRPti5kfcZ/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="preview Document Chatbot + Analytics informational video"
@@ -74,7 +74,7 @@ function Media() {
               </li>
               <li className="sm:relative group flex flex-col">
                 <a
-                  href="https://drive.google.com/file/d/1nuDN9CrgGX45WJ05qYIGYkHd5AKjdnnw/view?usp=sharing"
+                  href="https://drive.google.com/file/d/10VFMDj1ezhnKduWebAARIG-pA_v4vHMN/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="preview Survey Tool informational video"
@@ -85,7 +85,7 @@ function Media() {
               </li>
               <li className="sm:relative group flex flex-col">
                 <a
-                  href="https://drive.google.com/file/d/1jyEPsdcf6F1gi9peNfswguzcXqZYw_pv/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1IHtwoPwamkKC6ARNIM-aNLJWKneScLfD/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="preview Conact Us Routing informational video"
@@ -96,7 +96,7 @@ function Media() {
               </li>
               <li className="sm:relative group flex flex-col">
                 <a
-                  href="https://drive.google.com/file/d/1X0e-rInf8lv-qRsMfiuknXSdOW5MKXST/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1u7uGj_LIL3sKuu_9AAe5Ky0kmv37uRLM/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="preview Prefessional Services informational video"

@@ -2,7 +2,7 @@ import React from "react";
 import "../SurveyTool/surveyTool.css";
 import chatBot from "../../assets/AOChatBot.png";
 import { TextGenerateEffect } from "../TextGenerateEffect";
-import SurveyToolVideo from "../../assets/Survey Tool (4).mp4";
+import SurveyToolVideo from "../../assets/Survey Tool (5).mp4";
 import surveygif1 from "../../assets/Survey Step 1.gif";
 import surveygif2 from "../../assets/Survey Step 2.gif";
 import surveygif3 from "../../assets/Survey Step 3.gif";
@@ -59,7 +59,7 @@ function SurveyTool() {
           />
           <div className="hidden sm:flex justify-center items-center">
             <h1 className="text-xl sm:text-6xl poppins-bold mb-4">
-              &#x2190;Build Survey
+              Build Survey
             </h1>
           </div>
           <div className="sm:hidden flex justify-center items-center mt-4">
@@ -77,7 +77,7 @@ function SurveyTool() {
           />
           <div className="hidden sm:flex justify-center items-center">
             <h1 className="text-xl sm:text-6xl poppins-bold mb-4">
-              Deploy it&#x2192;
+              Deploy it
             </h1>
           </div>
           <div className="sm:hidden flex justify-center items-center">
@@ -93,7 +93,7 @@ function SurveyTool() {
           />
           <div className="hidden sm:flex justify-center items-center">
             <h1 className="text-xl sm:text-6xl poppins-bold mb-4">
-              &#x2190;View Analytics
+              View Analytics
             </h1>
           </div>
           <div className="sm:hidden flex justify-center items-center">

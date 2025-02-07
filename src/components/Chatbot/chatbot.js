@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./chatbot.css";
-import webBotVideo from "../../assets/webBotVid3.mp4";
-import docBotVideo from "../../assets/docBotVid3.mp4";
+import webBotVideo from "../../assets/webBotVid4.mp4";
+import docBotVideo from "../../assets/docBotVid4.mp4";
 import { FlipWordsDemo } from "../FlipWordsDemo2";
 import analytics2 from "../../assets/Analytics (2).png";
 import chatBot from "../../assets/AOChatBot.png";
@@ -30,7 +30,7 @@ function Chatbot() {
           >
             <span></span>
             <div className="content">
-              <h2>Website Bot</h2>
+              <h2>WebBot</h2>
               <p>
                 Chatbot trained to use your organization's website information
                 to answer questions.
@@ -49,9 +49,9 @@ function Chatbot() {
           >
             <span></span>
             <div className="content">
-              <h2>Document Bot</h2>
+              <h2>DocBot</h2>
               <p>
-                Chatbot trained to used your organization's internal files &
+                Chatbot trained to use your organization's internal files &
                 documents to answer questions.
               </p>
               <button

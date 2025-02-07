@@ -2,7 +2,7 @@ import React from "react";
 import "../ProServices/proServices.css";
 import chatBot from "../../assets/AOChatBot.png";
 import { TextGenerateEffect } from "../TextGenerateEffect";
-import ProfessionalServicesVideo from "../../assets/Professional Services (1).mp4";
+import ProfessionalServicesVideo from "../../assets/Professional Services (3).mp4";
 import service from "../../assets/service.png";
 import ai from "../../assets/artificial-intelligence (1).png";
 import performance from "../../assets/performance-review.png";
@@ -61,7 +61,7 @@ function ProServices() {
           </div>
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-xl sm:text-7xl poppins-bold mb-4">
-              &#x2190;Data Reviews
+              Data Reviews
             </h1>
           </div>
         </div>
@@ -75,7 +75,7 @@ function ProServices() {
           </div>
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-xl sm:text-7xl poppins-bold mb-4">
-              ChatBot Training&#x2192;
+              ChatBot Training
             </h1>
           </div>
         </div>
@@ -89,7 +89,7 @@ function ProServices() {
           </div>
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-xl sm:text-7xl poppins-bold mb-4">
-              &#x2190;Unlimited Support
+              Unlimited Support
             </h1>
           </div>
         </div>
