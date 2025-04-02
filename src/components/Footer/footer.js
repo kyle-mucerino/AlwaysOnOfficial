@@ -13,7 +13,7 @@ function Footer() {
       <p className="text-xl">Based in Newport Beach, CA</p>
       <div className="flex justify-center mt-4 text-xl">
         <a
-          href={policy1}
+          href={policy3}
           target="_blank"
           rel="noopener noreferrer"
           className="mr-4"
@@ -21,17 +21,17 @@ function Footer() {
           Privacy Policy
         </a>
         <a
-          href={policy2}
+          href={policy4}
           target="_blank"
           rel="noopener noreferrer"
           className="mr-4"
         >
           Terms of Service
         </a>
-        <a href={policy3} target="_blank" rel="noopener noreferrer" className="mr-4">
+        <a href={policy2} target="_blank" rel="noopener noreferrer" className="mr-4">
           Cookie Policy
         </a>
-        <a href={policy4} target="_blank" rel="noopener noreferrer">Acceptable Use Policy</a>
+        <a href={policy1} target="_blank" rel="noopener noreferrer">Acceptable Use Policy</a>
       </div>
     </footer>
   );
