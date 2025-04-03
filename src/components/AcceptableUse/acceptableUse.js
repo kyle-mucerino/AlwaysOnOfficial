@@ -4,6 +4,7 @@ import policyPDF from "../../assets/AlwaysOn Acceptable Use Policy.pdf";
 function AcceptableUse() {
   return (
     <div className="pdf-container">
+      <a id="top"></a>
       <iframe
         src={policyPDF}
         width="100%"

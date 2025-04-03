@@ -4,6 +4,7 @@ import policyPDF from "../../assets/AlwaysOn Terms of Service.pdf";
 function Terms() {
   return (
     <div className="pdf-container">
+      <a id="top"></a>
       <iframe
         src={policyPDF}
         width="100%"
