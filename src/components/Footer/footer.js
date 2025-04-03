@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./footer.css";
 
 function Footer() {
@@ -8,16 +7,27 @@ function Footer() {
       <p className="text-2xl">AlwaysOn, Inc. 2025</p>
       <p className="text-xl">Based in Newport Beach, CA</p>
       <div className="flex justify-center mt-4 text-xl">
-        <Link to="/privacy-policy#top" className="mr-4">
+        <button
+          onClick={() => (window.location.href = "/privacy-policy")}
+          className="mr-4"
+        >
           Privacy Policy
-        </Link>
-        <Link to="/terms#top" className="mr-4">
+        </button>
+        <button
+          onClick={() => (window.location.href = "/terms")}
+          className="mr-4"
+        >
           Terms of Service
-        </Link>
-        <Link to="/cookie-policy#top" className="mr-4">
+        </button>
+        <button
+          onClick={() => (window.location.href = "/cookie-policy")}
+          className="mr-4"
+        >
           Cookie Policy
-        </Link>
-        <Link to="/acceptable-use#top">Acceptable Use Policy</Link>
+        </button>
+        <button onClick={() => (window.location.href = "/acceptable-use")}>
+          Acceptable Use Policy
+        </button>
       </div>
     </footer>
   );

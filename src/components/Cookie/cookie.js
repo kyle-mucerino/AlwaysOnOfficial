@@ -4,7 +4,6 @@ import policyPDF from "../../assets/AlwaysOn Cookie Policy.pdf";
 function Cookie() {
   return (
     <div className="pdf-container">
-      <a id="top"></a>
       <iframe
         src={policyPDF}
         width="100%"
