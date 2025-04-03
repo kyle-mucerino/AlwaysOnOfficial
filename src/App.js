@@ -15,6 +15,8 @@ import FAQ from "./components/FAQ/faq.js";
 import ContactUs from "./components/ContactUs/contactUs.js";
 import AcceptableUse from "./components/AcceptableUse/acceptableUse";
 import PrivacyPolicy from "./components/Privacy/privacyPolicy";
+import Cookie from "./components/Cookie/cookie";
+import Terms from "./components/Terms/terms";
 
 function App() {
   return (
