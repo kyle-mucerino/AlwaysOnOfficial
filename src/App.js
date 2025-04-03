@@ -13,6 +13,8 @@ import Company from "./components/Company/company.js";
 import Media from "./components/Media/media.js";
 import FAQ from "./components/FAQ/faq.js";
 import ContactUs from "./components/ContactUs/contactUs.js";
+import AcceptableUse from "./components/AcceptableUse/acceptableUse";
+import PrivacyPolicy from "./components/Privacy/privacyPolicy";
 
 function App() {
   return (
@@ -32,6 +34,10 @@ function App() {
           <Route path="/media" element={<Media />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/cookie-policy" element={<Cookie />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/acceptable-use" element={<AcceptableUse />} />
         </Routes>
         <Footer />
       </div>
