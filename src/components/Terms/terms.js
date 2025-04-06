@@ -1,5 +1,5 @@
 import React from "react";
-import policyPDF from "../../assets/AlwaysOn Terms of Service.pdf";
+import policyPDF from "../../assets/AlwaysOn Terms of Service Updated.pdf";
 
 function Terms() {
   return (

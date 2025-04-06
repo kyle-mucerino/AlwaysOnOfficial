@@ -1,5 +1,5 @@
 import React from "react";
-import policyPDF from "../../assets/AlwaysOn Cookie Policy.pdf";
+import policyPDF from "../../assets/AlwaysOn Cookie Policy Updated.pdf";
 
 function Cookie() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import policyPDF from "../../assets/AlwaysOn Privacy Policy.pdf";
+import policyPDF from "../../assets/AlwaysOn Privacy Policy Updated.pdf";
 
 function PrivacyPolicy() {
   return (

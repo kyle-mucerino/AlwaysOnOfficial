@@ -1,5 +1,5 @@
 import React from "react";
-import policyPDF from "../../assets/AlwaysOn Acceptable Use Policy.pdf";
+import policyPDF from "../../assets/AlwaysOn Acceptable Use Policy Updated.pdf";
 
 function AcceptableUse() {
   return (
