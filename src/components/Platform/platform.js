@@ -42,7 +42,7 @@ function Platform() {
           <div className="hidden sm:flex flex-row justify-center items-center mt-4">
             <div className="w-1/3 flex flex-col justify-center items-center z-20">
               <div className="text-center">
-                <div className="w-1/3 p-5 bg-white rounded-full inline-block">
+                <div className="w-2/5 p-5 bg-white rounded-full inline-block">
                   <img
                     src={gif4}
                     alt="gif showing a survey"
@@ -56,7 +56,7 @@ function Platform() {
             </div>
             <div className="w-1/3 flex flex-col justify-center items-center z-20">
               <div className="text-center">
-                <div className="w-1/3 p-5 bg-white rounded-full inline-block">
+                <div className="w-2/5 p-5 bg-white rounded-full inline-block">
                   <img
                     src={gif5}
                     alt="gif of person communicating"
@@ -72,7 +72,7 @@ function Platform() {
             </div>
             <div className="w-1/3 flex flex-col justify-center items-center z-20">
               <div className="text-center">
-                <div className="w-1/3 p-5 bg-white rounded-full inline-block">
+                <div className="w-2/5 p-5 bg-white rounded-full inline-block">
                   <img
                     src={gif6}
                     alt="gif of info & person"
