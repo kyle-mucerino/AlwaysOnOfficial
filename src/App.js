@@ -29,9 +29,9 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/ai-chatbot-analytics" element={<Chatbot />} />
-          <Route path="/survey-tool" element={<SurveyTool />} />
+          {/* <Route path="/survey-tool" element={<SurveyTool />} /> */}
           <Route path="/contact-us-routing" element={<Contact />} />
-          <Route path="/professional-services" element={<ProServices />} />
+          {/* <Route path="/professional-services" element={<ProServices />} /> */}
           <Route path="/company" element={<Company />} />
           <Route path="/media" element={<Media />} />
           <Route path="/faq" element={<FAQ />} />

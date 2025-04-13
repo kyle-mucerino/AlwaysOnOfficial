@@ -66,7 +66,7 @@ function Nav() {
                         AI Chatbot + Analytics
                       </NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                       <NavLink
                         to="/survey-tool"
                         onClick={() => {
@@ -76,7 +76,7 @@ function Nav() {
                       >
                         Survey Tool
                       </NavLink>
-                    </li>
+                    </li> */}
                     <li>
                       <NavLink
                         to="/contact-us-routing"
@@ -88,7 +88,7 @@ function Nav() {
                         Contact Us Routing
                       </NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                       <NavLink
                         to="/professional-services"
                         onClick={() => {
@@ -98,7 +98,7 @@ function Nav() {
                       >
                         Professional Services
                       </NavLink>
-                    </li>
+                    </li> */}
                   </ul>
                 )}
               </li>
@@ -207,17 +207,17 @@ function Nav() {
                     AI Chatbot + Analytics
                   </NavLink>
                 </li>
-                <li>
+                {/* <li>
                   <NavLink to="/survey-tool">Survey Tool</NavLink>
-                </li>
+                </li> */}
                 <li>
                   <NavLink to="/contact-us-routing">Contact Us Routing</NavLink>
                 </li>
-                <li>
+                {/* <li>
                   <NavLink to="/professional-services">
                     Professional Services
                   </NavLink>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li className="p-3 xl:p-6 relative">

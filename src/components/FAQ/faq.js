@@ -36,26 +36,26 @@ const FAQ = () => {
   ];
 
   const faqs2 = [
-    {
-      question: "Do you offer free trials?",
-      answer:
-        "Yes, we offer 1-month free trials. We want to provide the opportunity to see the value and collect value data to help determine if AlwaysOn is a long term fit for your organization."
-    },
-    {
-      question: "How does your pricing work?",
-      answer:
-        "Our pricing is based on your population and the license type you choose. Pricing is fixed on an annual basis. Contracts can be prorated in Year 1."
-    },
+    // {
+    //   question: "Do you offer free trials?",
+    //   answer:
+    //     "Yes, we offer 1-month free trials. We want to provide the opportunity to see the value and collect value data to help determine if AlwaysOn is a long term fit for your organization."
+    // },
+    // {
+    //   question: "How does your pricing work?",
+    //   answer:
+    //     "Our pricing is based on your population and the license type you choose. Pricing is fixed on an annual basis. Contracts can be prorated in Year 1."
+    // },
     {
       question: "How long are your agreements?",
       answer:
         "Contracts are a minimum of one-year and multi-year contracts are available."
     },
-    {
-      question: "Do you offer discounts?",
-      answer:
-        "Yes, we offer discounts and can be flexible on pricing to make it work with your budget."
-    }
+    // {
+    //   question: "Do you offer discounts?",
+    //   answer:
+    //     "Yes, we offer discounts and can be flexible on pricing to make it work with your budget."
+    // }
   ];
 
   const faqs3 = [

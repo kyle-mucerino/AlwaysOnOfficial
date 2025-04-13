@@ -2,9 +2,9 @@ import React from "react";
 import "./platform.css";
 import { ReactComponent as Map } from "../../assets/map3.svg";
 import { NavLink } from "react-router-dom";
-import gif4 from "../../assets/chat.gif";
+import gif4 from "../../assets/chatbot (5).png";
 import gif5 from "../../assets/list.gif";
-import gif6 from "../../assets/professional.gif";
+import gif6 from "../../assets/dashboard (2).png";
 import chatBot2 from "../../assets/bot (1).png";
 import { FlipWordsDemo } from "../FlipWordsDemo";
 import { AppleCardsCarouselDemo } from "../appleCardsCarouselDemo";
@@ -153,9 +153,9 @@ function Platform() {
         </div>
       </div>
 
-      <div className="section-3" id="survey">
+      {/* <div className="section-3" id="survey">
         <AppleCardsCarouselDemo />
-      </div>
+      </div> */}
 
       <div className="section section-4 flex flex-col p-4 sm:p-0">
         <div className="text-center">

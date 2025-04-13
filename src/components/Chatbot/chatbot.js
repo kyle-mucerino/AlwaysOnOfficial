@@ -43,7 +43,7 @@ function Chatbot() {
               </button>
             </div>
           </div>
-          <div
+          {/* <div
             className={`box ${selectedBot === "document" ? "active" : ""}`}
             onClick={() => setSelectedBot("document")}
           >
@@ -61,7 +61,7 @@ function Chatbot() {
                 Learn More
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

@@ -20,8 +20,8 @@ function Media() {
                   AlwaysOn Company & Product One Pager
                 </a>
               </li>
-              <li>AlwaysOn Company & Product Presentation</li>
-              <li className="sm:relative group flex flex-col">
+              {/* <li>AlwaysOn Company & Product Presentation</li> */}
+              {/* <li className="sm:relative group flex flex-col">
                 <a
                   href="https://docs.google.com/document/d/1QVoSMoqmykyT3tgJ8EDfDfDxcEJ4OvoZ/edit?usp=sharing&ouid=109346983324867277230&rtpof=true&sd=true"
                   target="_blank"
@@ -31,7 +31,7 @@ function Media() {
                 >
                   AlwaysOn Voluntary Product Accessibility Template (VPAT)
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </section>
@@ -61,7 +61,7 @@ function Media() {
                   Website Chatbot + Analytics
                 </a>
               </li>
-              <li className="sm:relative group flex flex-col">
+              {/* <li className="sm:relative group flex flex-col">
                 <a
                   href="https://drive.google.com/file/d/1hPrIF1vuGs1GVjsElvSFN0mRPti5kfcZ/view?usp=sharing"
                   target="_blank"
@@ -71,8 +71,8 @@ function Media() {
                 >
                   Document Chatbot + Analytics
                 </a>
-              </li>
-              <li className="sm:relative group flex flex-col">
+              </li> */}
+              {/* <li className="sm:relative group flex flex-col">
                 <a
                   href="https://drive.google.com/file/d/10VFMDj1ezhnKduWebAARIG-pA_v4vHMN/view?usp=sharing"
                   target="_blank"
@@ -82,7 +82,7 @@ function Media() {
                 >
                   Survey Tool
                 </a>
-              </li>
+              </li> */}
               <li className="sm:relative group flex flex-col">
                 <a
                   href="https://drive.google.com/file/d/1IHtwoPwamkKC6ARNIM-aNLJWKneScLfD/view?usp=sharing"
@@ -94,7 +94,7 @@ function Media() {
                   Contact Us Routing
                 </a>
               </li>
-              <li className="sm:relative group flex flex-col">
+              {/* <li className="sm:relative group flex flex-col">
                 <a
                   href="https://drive.google.com/file/d/1u7uGj_LIL3sKuu_9AAe5Ky0kmv37uRLM/view?usp=sharing"
                   target="_blank"
@@ -104,7 +104,7 @@ function Media() {
                 >
                   Professional Services
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </section>
@@ -128,7 +128,7 @@ function Media() {
             </ul>
           </div>
         </section>
-        <div className="flex-grow h-0 border-t border-black mt-4"></div>
+        {/* <div className="flex-grow h-0 border-t border-black mt-4"></div>
         <section className="Webinars p-4">
           <div className="flex flex-col space-y-4 mt-4">
             <h1 className="text-2xl sm:text-5xl poppins-bold">Webinars</h1>
@@ -146,7 +146,7 @@ function Media() {
               </li>
             </ul>
           </div>
-        </section>
+        </section> */}
         <div className="flex-grow h-0 border-t border-black mt-4"></div>
         <section className="articles p-4">
           <div className="flex flex-col space-y-4 my-4">
