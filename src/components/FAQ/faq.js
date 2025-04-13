@@ -36,26 +36,26 @@ const FAQ = () => {
   ];
 
   const faqs2 = [
-    // {
-    //   question: "Do you offer free trials?",
-    //   answer:
-    //     "Yes, we offer 1-month free trials. We want to provide the opportunity to see the value and collect value data to help determine if AlwaysOn is a long term fit for your organization."
-    // },
-    // {
-    //   question: "How does your pricing work?",
-    //   answer:
-    //     "Our pricing is based on your population and the license type you choose. Pricing is fixed on an annual basis. Contracts can be prorated in Year 1."
-    // },
+    {
+      question: "Do you offer free trials?",
+      answer:
+        "Yes, we offer 1-month free trials. We want to provide the opportunity to see the value and collect value data to help determine if AlwaysOn is a long term fit for your organization."
+    },
+    {
+      question: "How does your pricing work?",
+      answer:
+        "Our pricing is based on your population and the license type you choose. Pricing is fixed on an annual basis. Contracts can be prorated in Year 1."
+    },
     {
       question: "How long are your agreements?",
       answer:
         "Contracts are a minimum of one-year and multi-year contracts are available."
     },
-    // {
-    //   question: "Do you offer discounts?",
-    //   answer:
-    //     "Yes, we offer discounts and can be flexible on pricing to make it work with your budget."
-    // }
+    {
+      question: "Do you offer discounts?",
+      answer:
+        "Yes, we offer discounts and can be flexible on pricing to make it work with your budget."
+    }
   ];
 
   const faqs3 = [
@@ -133,11 +133,11 @@ const FAQ = () => {
 
         <div className="flex-grow h-0 border-t border-gray-400"></div>
 
-        <div className="flex flex-col sm:flex-row justify-evenly sm:mb-12">
+        {/* <div className="flex flex-col sm:flex-row justify-evenly sm:mb-12">
           <h1 className="text-2xl sm:text-5xl poppins-bold justify-center mb-2 sm:mb-0">
             Partnerships & Pricing:
           </h1>
-          {/* Second FAQ Accordion */}
+         
           <div className="accordion w-full sm:w-1/2 open-sans-light text-lg sm:text-xl">
             {faqs2.map((faq, index) => (
               <div key={index} className="accordion-item">
@@ -156,9 +156,9 @@ const FAQ = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
-        <div className="flex-grow h-0 border-t border-gray-400"></div>
+        {/* <div className="flex-grow h-0 border-t border-gray-400"></div> */}
 
         <div className="flex flex-col sm:flex-row justify-evenly sm:mb-12 text-left">
           <h1 className="text-2xl sm:text-5xl poppins-bold justify-center mb-2 sm:mb-0 faq-header">

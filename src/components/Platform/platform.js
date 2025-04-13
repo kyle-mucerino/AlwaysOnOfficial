@@ -3,9 +3,9 @@ import "./platform.css";
 import { ReactComponent as Map } from "../../assets/map3.svg";
 import { NavLink } from "react-router-dom";
 import gif4 from "../../assets/chatbot (5).png";
-import gif5 from "../../assets/list.gif";
+import gif5 from "../../assets/registered-document.png";
 import gif6 from "../../assets/dashboard (2).png";
-import chatBot2 from "../../assets/bot (1).png";
+import chatBot2 from "../../assets/generative.png";
 import { FlipWordsDemo } from "../FlipWordsDemo";
 import { AppleCardsCarouselDemo } from "../appleCardsCarouselDemo";
 
@@ -29,7 +29,7 @@ function Platform() {
               onClick={() => (window.location.href = "/contact-us")}
               aria-label="Link to calendly to book an appointment"
             >
-              <span>Start free trial</span>
+              <span>Schedule Demo</span>
             </button>
           </div>
         </div>
@@ -50,7 +50,7 @@ function Platform() {
                   />
                 </div>
                 <h1 className="font-bold text-xl">
-                  <span className="rounded-lg text-black p-2">Survey Tool</span>
+                  <span className="rounded-lg text-black p-2">Chatbot</span>
                 </h1>
               </div>
             </div>
@@ -81,7 +81,7 @@ function Platform() {
                 </div>
                 <h1 className="font-bold text-xl">
                   <span className="rounded-lg text-black p-2">
-                    Professional Services
+                    Analytics
                   </span>
                 </h1>
               </div>
