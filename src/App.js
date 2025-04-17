@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Nav from "./components/Nav/nav.js";
@@ -19,6 +20,18 @@ import Cookie from "./components/Cookie/cookie";
 import Terms from "./components/Terms/terms";
 
 function App() {
+  const [utmParams, setUtmParams] = useState({});
+
+  useEffect(() => {
+    const searchParams = new URLSearchParams(window.location.search);
+    const params = {};
+    for (const [key, value] of searchParams.entries()) {
+      params[key] = value;
+    }
+    setUtmParams(params);
+    console.log("UTM Params on App Mount:", params); // Log the UTM params
+  }, []);
+  
   return (
     <Router>
       <div className="App">
