@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# AlwaysOn AI Educational Chatbot Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+AlwaysOn is an educational platform featuring an AI-powered chatbot designed to assist users with their learning needs. This is a front-end only React application deployed on Heroku.
 
-In the project directory, you can run:
+## Key Features
 
-### `npm start`
+* **AI Chatbot:** An intelligent chatbot to answer questions and provide educational support.
+* **Informational Pages:** Dedicated pages for platform details, company information, media, FAQs, contact options, and legal information (cookie policy, privacy policy, terms of service, acceptable use policy).
+* **User Interface:** A clean and intuitive user interface built with React.
+* **Client-Side Routing:** Utilizes `react-router-dom` for smooth navigation without full page reloads.
+* **Analytics Integration:** Includes Google Tag Manager, Google Analytics, and Simple Analytics for tracking website usage and user behavior.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **React:** A JavaScript library for building user interfaces.
+* **React Router DOM:** For handling client-side routing.
+* **CSS:** For styling the application.
+* **Font Awesome:** For icons.
+* **Google Fonts:** For custom typography.
+* **Google Tag Manager:** For managing website tracking and analytics tags.
+* **Google Analytics:** For website traffic analysis.
+* **Simple Analytics:** A privacy-focused analytics tool.
 
-### `npm test`
+## Deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This application is deployed as a front-end only app on Heroku.
 
-### `npm run build`
+## Known Issues
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **UTM Code Tracking:** There is a current issue where UTM parameters present in the initial URL are lost during a redirect from the root domain (`alwayson.ai`) to the `www` subdomain (`www.alwayson.ai`). This prevents accurate tracking of marketing campaign performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Troubleshooting - UTM Code Loss
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The loss of UTM parameters is likely due to a redirect configured at the domain registrar level for `alwayson.ai` to `www.alwayson.ai`. To resolve this, the following steps need to be taken:
 
-### `npm run eject`
+1. **Check Domain Registrar Settings:** Log in to the control panel of your domain registrar (e.g., GoDaddy, Namecheap, Google Domains).
+2. **Locate URL Forwarding/Redirect Rules:** Find the section managing URL forwarding or redirects.
+3. **Examine the Redirect for `alwayson.ai`:** Look for a rule that redirects the root domain to `www.alwayson.ai`.
+4. **Ensure Query String Preservation:** Verify that the redirect rule has an option enabled to "Pass query string," "Preserve parameters," or similar. **This setting must be enabled to retain the UTM codes.**
+5. **Update Redirect Settings:** If the query string preservation is not enabled, update the redirect rule accordingly.
+6. **Test Thoroughly:** After making changes, test the ad link (`https://alwayson.ai/?utm_source=...`) to ensure it redirects to `https://www.alwayson.ai/?utm_source=...` with the UTM parameters intact.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started (For Developers)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository:**
+    bash
+    git clone <repository_url>
+    cd <repository_name>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Install dependencies:**
+    bash
+    npm install
+3. **Start the development server:**
+    bash
+    npm start
+    This will run the app in development mode on `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Build for Production
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+bash
+`npm run build`
