@@ -12,7 +12,7 @@ const CalendlyWidget = () => {
   return (
     <div
       className="calendly-inline-widget"
-      data-url="https://calendly.com/alwaysonai/intro-meeting"
+      data-url="https://calendly.com/sales-external/apptegy-intro-4?text_color=503462&primary_color=f5897f"
       style={{ minWidth: "320px", height: "700px" }}
     ></div>
   );
