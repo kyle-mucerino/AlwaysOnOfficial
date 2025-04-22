@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./faq.css";
-import logo2 from "../../assets/Apptegy AlwaysOn.png.png";
+import logo2 from "../../assets/Apptegy AlwaysOn.png";
 
 const FAQ = () => {
   const [openIndex1, setOpenIndex1] = useState(null);
