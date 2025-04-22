@@ -101,12 +101,10 @@ function Chatbot() {
       {/* Mobile */}
       <div className="border-t border-black section-mobile flex flex-col items-center justify-center sm:hidden">
         <h1 className="text-3xl poppins-bold mt-4 mb-2 p-2">
-          Website Bot & Document Bot
+          Website Bot
         </h1>
         <p className="text-xl poppins-regular mb-4 p-2">
-          AlwaysOn's Website Bot is trained on your organization's website while
-          the Document Bot can be trained on any organizational documents. For
-          further details, see videos below.
+          Chatbot trained to use your organization's website information to answer questions. 
         </p>
         <div className="relative flex justify-center items-center w-full bg-transparent">
           <div className="flex-grow h-0 border-t border-white"></div>
@@ -122,16 +120,16 @@ function Chatbot() {
               selectedVideo === "website" ? "bg-blue-600" : "bg-gray-400"
             }`}
           >
-            Show Website Bot
+            Website Bot
           </button>
-          <button
+          {/* <button
             onClick={() => setSelectedVideo("document")}
             className={`px-4 py-2 text-white rounded ${
               selectedVideo === "document" ? "bg-blue-600" : "bg-gray-400"
             }`}
           >
             Show Document Bot
-          </button>
+          </button> */}
         </div>
 
         {/* Conditionally render videos based on selection */}

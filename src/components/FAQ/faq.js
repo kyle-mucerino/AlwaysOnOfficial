@@ -85,8 +85,8 @@ const FAQ = () => {
 
   return (
     <div className="faq alata-regular flex flex-col justify-evenly items-center border-t-2 border-black">
-      <h1 className="text-3xl sm:text-6xl poppins-bold">
-        Frequently Asked Questions
+      <h1 className="text-5xl sm:text-7xl poppins-bold bg-orange-500 rounded-lg p-2 sm:p-4 border-black border-[1px]">
+        FAQs
       </h1>
       <div className="relative sm:hidden flex justify-center items-center w-full bg-transparent">
         <div className="flex-grow h-0 border-t border-white"></div>
@@ -97,7 +97,7 @@ const FAQ = () => {
       <div className="relative hidden sm:flex justify-center items-center w-full mt-6 mb-10">
         <div className="flex-grow h-0 border-t border-gray-400"></div>
         <img
-          className="h-36 mx-4 fading"
+          className="h-36 mx-4 my-4"
           src={logo2}
           alt="ALwaysOn logo"
         />

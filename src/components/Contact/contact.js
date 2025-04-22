@@ -43,8 +43,8 @@ function Contact() {
       <div className="relative hidden sm:flex justify-center items-center bg-white w-full">
         <div className="flex-grow h-0 border-t border-gray-400"></div>
         <img
-          className="h-36 mx-4 fading my-10"
-          src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
+          className="h-36 mx-4 my-10"
+          src={logo2}
           alt="AlwaysOn logo"
         />
         <div className="flex-grow h-0 border-t border-gray-400"></div>

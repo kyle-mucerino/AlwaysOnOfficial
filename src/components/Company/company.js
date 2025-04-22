@@ -6,11 +6,11 @@ function Company() {
   return (
     <>
       <div className="section-cy-1 flex flex-row items-center border-y-2 border-black">
-        <div className="flex flex-col text-left p-4 sm:p-12 my-4 sm:my-0">
-          <img className="h-36 mx-4" src={logo2} alt="ALwaysOn logo" />
-          <p className="text-xl sm:text-5xl open-sans-light">
+        <div className="flex flex-col text-left p-1 sm:p-12 my-4 sm:my-0">
+          <img className="h-24 sm:h-36 mx-4" src={logo2} alt="ALwaysOn logo" />
+          {/* <p className="p-2 text-3xl sm:text-5xl open-sans-light">
             About the company
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="section-cy-2 flex justify-center items-center">

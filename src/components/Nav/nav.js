@@ -22,13 +22,9 @@ function Nav() {
         <nav className="w-full flex items-center justify-between">
           <NavLink
             to="/"
-            className={`fading ${isMobileMenuOpen ? "hidden" : ""}`}
+            className={` ${isMobileMenuOpen ? "hidden" : ""}`}
           >
-            <img
-              className="h-20 py-2"
-              src={ApptegyLogo}
-              alt="AlwaysOn logo"
-            />
+            <img className="h-20 py-2" src={ApptegyLogo} alt="AlwaysOn logo" />
           </NavLink>
           <button
             aria-label="Toggle Menu"
@@ -190,12 +186,8 @@ function Nav() {
       {/* Desktop Navigation */}
       <header className="shadow-lg h-24 hidden md:flex">
         <nav className="header-links font-semibold text-base lg:text-lg flex items-center w-full px-4 lg:px-6 xl:px-8">
-          <NavLink to="/" className="mr-auto px-4 lg:px-6 xl:px-8 fading">
-            <img
-              className="h-24 py-2"
-              src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
-              alt="AlwaysOn logo"
-            />
+          <NavLink to="/" className="mr-auto px-4 lg:px-6 xl:px-8">
+            <img className="h-24 py-2" src={ApptegyLogo} alt="AlwaysOn logo" />
           </NavLink>
           <ul className="flex items-center space-x-4 lg:space-x-6 xl:space-x-8 mx-auto uppercase">
             <li className="p-3 xl:p-6 relative">
