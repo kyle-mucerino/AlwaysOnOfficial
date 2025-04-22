@@ -21,7 +21,7 @@ function Nav() {
       <header className="h-24 flex md:hidden relative z-20">
         <nav className="w-full flex items-center justify-between">
           <NavLink
-            to="/"
+            to="/home"
             className={` ${isMobileMenuOpen ? "hidden" : ""}`}
           >
             <img className="h-20 py-2" src={ApptegyLogo} alt="AlwaysOn logo" />
@@ -186,12 +186,12 @@ function Nav() {
       {/* Desktop Navigation */}
       <header className="shadow-lg h-24 hidden md:flex">
         <nav className="header-links font-semibold text-base lg:text-lg flex items-center w-full px-4 lg:px-6 xl:px-8">
-          <NavLink to="/" className="mr-auto px-4 lg:px-6 xl:px-8">
+          <NavLink to="/home" className="mr-auto px-4 lg:px-6 xl:px-8">
             <img className="h-24 py-2" src={ApptegyLogo} alt="AlwaysOn logo" />
           </NavLink>
           <ul className="flex items-center space-x-4 lg:space-x-6 xl:space-x-8 mx-auto uppercase">
             <li className="p-3 xl:p-6 relative">
-              <NavLink exact to="/" activeClassName="active">
+              <NavLink exact to="/home" activeClassName="active">
                 <span>Platform</span> <i className="fa-solid fa-caret-down"></i>
               </NavLink>
               <ul className="submenu rounded-lg">

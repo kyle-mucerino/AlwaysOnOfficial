@@ -31,13 +31,13 @@ function App() {
     setUtmParams(params);
     console.log("UTM Params on App Mount:", params); // Log the UTM params
   }, []);
-  
+
   return (
     <Router>
       <div className="App">
         <Nav />
         <Routes>
-          <Route path="/" element={<Platform />} />
+          <Route path="/home" element={<Platform />} />
           {/* <Route path="" element={<About />} /> */}
           <Route path="/login" element={<Login />} />
           <Route path="/contact" element={<Contact />} />
