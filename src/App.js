@@ -37,6 +37,7 @@ function App() {
       <div className="App">
         <Nav />
         <Routes>
+          <Route path="/" element={<Platform />} />
           <Route path="/home" element={<Platform />} />
           {/* <Route path="" element={<About />} /> */}
           <Route path="/login" element={<Login />} />
