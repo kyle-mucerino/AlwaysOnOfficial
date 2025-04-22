@@ -15,29 +15,35 @@ function Company() {
       </div>
       <div className="section-cy-2 flex justify-center items-center">
         <div className="flex flex-col justify-center text-left p-4 sm:p-12">
-          <p className="text-md sm:text-4xl open-sans-light">
+          <p className="text-md sm:text-2xl open-sans-light mb-4">
             In April 2025, Apptegy announced the acquisition of AlwaysOn. In
             less than 10 years, Apptegy has become a dominant communications
             platform for K-12 education, serving 5,000 districts nationwide with
             comprehensive brand and communications solutions. With the
             acquisition of AlwaysOn, Apptegy is furthering its ability to enable
             districts of all sizes to gather insights into how community members
-            are interacting with their school and district websites. About
-            AlwaysOn AlwaysOn was founded in 2021 with the mission to help
-            schools provide better customer service to their communities. Since
-            then, AlwaysOn has also expanded to support other types of local
+            are interacting with their school and district websites.
+          </p>
+          <p className="text-lg sm:text-3xl open-sans-light mb-2 font-extrabold ">About AlwaysOn:</p>
+          <p className="text-md sm:text-2xl open-sans-light">
+            AlwaysOn was founded in 2021 with the mission to help schools
+            provide better customer service to their communities. Since then,
+            AlwaysOn has also expanded to support other types of local
             government organizations, including educational service agencies,
             cities, and state government agencies. Based in Newport Beach,
-            California, serves over 100 organizations. About Apptegy Trusted by
-            5,000 districts nationwide, Apptegy empowers school districts to
-            elevate their brands while simplifying their communications
-            strategies. The company's platform integrates district websites,
-            mobile apps, notifications, and teacher-family communication tools
-            into one cohesive system. With exceptional client support and
-            intuitive solutions, Apptegy allows educators to focus on what
-            matters most: educating, engaging, and growing their communities.
-            Apptegy transforms how schools connect with their entire school
-            community. Learn more at apptegy.com.
+            California, serves over 100 organizations.
+          </p>
+          <p className="text-lg sm:text-3xl open-sans-light mt-4 mb-2 font-extrabold">About Apptegy:</p>
+          <p className="text-md sm:text-2xl open-sans-light">
+            Trusted by 5,000 districts nationwide, Apptegy empowers school
+            districts to elevate their brands while simplifying their
+            communications strategies. The company's platform integrates
+            district websites, mobile apps, notifications, and teacher-family
+            communication tools into one cohesive system. With exceptional
+            client support and intuitive solutions, Apptegy allows educators to
+            focus on what matters most: educating, engaging, and growing their
+            communities. Apptegy transforms how schools connect with their
+            entire school community. Learn more at apptegy.com.
           </p>
           {/* <div className="flex flex-col sm:flex-row sm:justify-center sm:items-center sm:space-x-8 mt-6 sm:mt-12">
             <p className="text-md sm:text-3xl open-sans-light font-extrabold text-center">
