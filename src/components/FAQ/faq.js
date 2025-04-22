@@ -86,7 +86,7 @@ const FAQ = () => {
   return (
     <div className="faq alata-regular flex flex-col justify-evenly items-center border-t-2 border-black">
       <h1 className="text-5xl sm:text-7xl poppins-bold bg-orange-500 rounded-lg p-2 sm:p-4 border-black border-[1px]">
-        FAQs
+        FAQ
       </h1>
       <div className="relative sm:hidden flex justify-center items-center w-full bg-transparent">
         <div className="flex-grow h-0 border-t border-white"></div>
