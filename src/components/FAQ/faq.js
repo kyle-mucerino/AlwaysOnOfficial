@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./faq.css";
-import logo2 from "../../assets/logo2.png";
+import logo2 from "../../assets/Apptegy AlwaysOn.png.png";
 
 const FAQ = () => {
   const [openIndex1, setOpenIndex1] = useState(null);
@@ -98,7 +98,7 @@ const FAQ = () => {
         <div className="flex-grow h-0 border-t border-gray-400"></div>
         <img
           className="h-36 mx-4 fading"
-          src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
+          src={logo2}
           alt="ALwaysOn logo"
         />
         <div className="flex-grow h-0 border-t border-gray-400"></div>

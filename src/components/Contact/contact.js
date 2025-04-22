@@ -6,7 +6,7 @@ import cbpg2 from "../../assets/cbpg2.png";
 import cbpg3 from "../../assets/cbpg3.png";
 import { TextGenerateEffect } from "../TextGenerateEffect";
 import ContactUsVideo from "../../assets/Contact Us Routing.mp4";
-import logo2 from "../../assets/logo2.png";
+import logo2 from "../../assets/Apptegy AlwaysOn.png";
 import contactPoster from "../../assets/contactUsPoster.png";
 
 function Contact() {

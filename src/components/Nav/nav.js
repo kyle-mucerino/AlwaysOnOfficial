@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./nav.css";
+import ApptegyLogo from "../../assets/Apptegy AlwaysOn.png"
 
 function Nav() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -25,7 +26,7 @@ function Nav() {
           >
             <img
               className="h-20 py-2"
-              src="https://images.squarespace-cdn.com/content/v1/629ac7043144d551060fb16e/f1596228-5d17-4394-9577-a60d9424e097/logo_b%402x.png?format=1500w"
+              src={ApptegyLogo}
               alt="AlwaysOn logo"
             />
           </NavLink>
